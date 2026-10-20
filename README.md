@@ -35,7 +35,8 @@ Each entry records which source each field came from, so that every page can be 
 
 ```
 SOURCES.md          versions, dates and checksums of all imported sources
-docs/FORMAT.md      the entry format (to be written)
+docs/FORMAT.md      the entry format
+docs/METHOD.md      how the data is made, including AI curation runs
 curation/           Dorothea's own layer: corrections, unified glosses, CEFR levels, topics
 ```
 
