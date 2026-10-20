@@ -1,0 +1,213 @@
+# Topic catalogue of Dorothea (CC BY 4.0). Own wording; no third-party list.
+# Columns: id, label_de, label_en, langs (headword languages that use the topic). Hierarchy with ".".
+id	label_de	label_en	langs
+academic	Bildungssprache und Fachsprache allgemein	Academic language	de|en
+actions	Grundverben und Tätigkeiten	Basic verbs and activities	de|en
+actions.change	Werden, Verändern, Geschehen	Becoming, changing, happening	de|en
+actions.handling	Hantieren, Herstellen	Handling and making	de|en
+actions.motion	Bewegung	Movement	de|en
+actions.perception	Wahrnehmung	Perception	de|en
+actions.speaking	Sprechen und Mitteilen	Speaking and telling	de|en
+actions.thinking	Denken, Wissen, Wollen	Thinking, knowing, wanting	de|en
+anglophone	Englischsprachige Welt	The English-speaking world	en
+anglophone.commonwealth	Commonwealth, Australien, Kanada, Indien, Afrika	Commonwealth, Australia, Canada, India, Africa	en
+anglophone.uk	Großbritannien und Irland	Britain and Ireland	en
+anglophone.us	USA	The USA	en
+animals	Tiere	Animals	de|en
+art	Kunst	Art	de
+art.analysis	Bildbetrachtung und Kunstgeschichte	Looking at art and art history	de
+art.architecture	Architektur und Design	Architecture and design	de
+art.techniques	Gestalten und Techniken	Making and techniques	de
+authorities	Ämter und Behörden	Authorities and public offices	de
+banking	Bank und Versicherung	Bank and insurance	de
+bio	Biologie	Biology	de
+bio.animals	Tiere	Animals	de
+bio.cells	Zellen und Stoffwechsel	Cells and metabolism	de
+bio.ecology	Ökologie	Ecology	de
+bio.evolution	Evolution	Evolution	de
+bio.genetics	Genetik	Genetics	de
+bio.human	Mensch und Körper	Human body	de
+bio.neuro	Nerven, Sinne, Hormone	Nerves, senses, hormones	de
+bio.plants	Pflanzen	Plants	de
+body	Körper	Body	de|en
+celebrations	Feste und Bräuche	Festivals and customs	de|en
+chem	Chemie	Chemistry	de
+chem.acids	Säuren, Basen, Salze	Acids, bases, salts	de
+chem.atoms	Atombau und Periodensystem	Atoms and the periodic table	de
+chem.organic	Organische Chemie	Organic chemistry	de
+chem.reactions	Chemische Reaktionen	Chemical reactions	de
+chem.substances	Stoffe und Stoffeigenschaften	Substances and properties	de
+childcare	Kinderbetreuung und Schule der Kinder	Childcare and the children's school	de
+classroom	Sprache im Klassenzimmer	Classroom language	en
+clothes	Kleidung	Clothes	en
+clothing	Kleidung	Clothing	de
+communication	Gesprächsführung und Höflichkeit	Conversation and politeness	en
+computing	Informatik und digitale Welt	Computing and the digital world	de
+computing.data	Daten und Information	Data and information	de
+computing.devices	Geräte und Bedienung	Devices and operation	de
+computing.internet	Internet und Kommunikation	Internet and communication	de
+computing.programming	Algorithmen und Programmieren	Algorithms and programming	de
+computing.safety	Datenschutz und Sicherheit	Privacy and security	de
+computing.society	Informatik und Gesellschaft, KI	Computing, society and AI	de
+consumer	Verbraucherrechte, Verträge, Reklamation	Consumer rights, contracts, complaints	de
+countries	Länder, Sprachen, Nationalitäten	Countries, languages, nationalities	en
+doctor	Arzt, Apotheke, Krankenhaus	Doctor, pharmacy, hospital	de
+drama	Theater und darstellendes Spiel	Theatre and drama	de
+economy	Wirtschaft	Economy	de|en
+economy.business	Unternehmen	Business	de
+economy.consumer	Konsum und Verbraucher	Consumption and consumers	de
+economy.market	Markt und Wirtschaftsordnung	Markets and economic order	de
+economy.money	Geld, Banken, Finanzen	Money, banks, finance	de
+economy.public	Staatshaushalt und Steuern	Public finance and taxes	de
+economy.work	Arbeit und Beruf	Work and occupation	de
+emergency	Notfall	Emergencies	de
+environment	Umwelt	Environment	de|en
+ethics	Ethik und Philosophie	Ethics and philosophy	de
+ethics.philosophy	Philosophische Grundbegriffe	Basic philosophical concepts	de
+ethics.values	Werte und Normen	Values and norms	de
+family	Familie	Family	de|en
+fantasy	Märchen, Geschichten, Fantasie	Fairy tales, stories, fantasy	en
+feelings	Gefühle	Feelings	de|en
+food	Essen und Trinken	Food and drink	de|en
+free_time	Freizeit und Hobbys	Free time and hobbies	en
+friends	Freundschaft und Beziehungen	Friendship and relationships	en
+function	Funktionswörter	Function words	de|en
+function.adverb	Adverbien (Ort, Zeit, Art, Grad)	Adverbs (place, time, manner, degree)	de|en
+function.article	Artikel	Articles	de|en
+function.auxiliary	Hilfs- und Modalverben	Auxiliary and modal verbs	de|en
+function.conjunction	Konjunktionen	Conjunctions	de|en
+function.particle	Partikeln	Particles	de
+function.preposition	Präpositionen	Prepositions	de|en
+function.pronoun	Pronomen	Pronouns	de|en
+function.question	Fragewörter	Question words	de|en
+geo	Geografie	Geography	de
+geo.agriculture	Landwirtschaft	Agriculture	de
+geo.climate	Klima und Klimazonen	Climate and climate zones	de
+geo.development	Entwicklung und globale Disparitäten	Development and global disparities	de
+geo.earth	Aufbau der Erde, Vulkane, Erdbeben	Structure of the earth, volcanoes, earthquakes	de
+geo.globalisation	Globalisierung	Globalisation	de
+geo.industry	Industrie, Rohstoffe, Energie	Industry, raw materials, energy	de
+geo.landscapes	Landschaften und Naturräume	Landscapes and natural regions	de
+geo.maps	Karten und Orientierung	Maps and orientation	de
+geo.population	Bevölkerung und Migration	Population and migration	de
+geo.settlement	Siedlung und Stadt	Settlement and towns	de
+geo.water	Gewässer und Meere	Waters and oceans	de
+global	Globale Fragen (Migration, Gerechtigkeit, Konflikte)	Global issues (migration, justice, conflict)	en
+health	Gesundheit und Krankheit	Health and illness	de|en
+history	Geschichte	History	de|en
+history.antiquity	Antike	Antiquity	de
+history.cold_war	Kalter Krieg, Teilung und Einheit	Cold War, division and unification	de
+history.early_modern	Frühe Neuzeit	Early modern period	de
+history.imperialism	Imperialismus und Kolonialismus	Imperialism and colonialism	de
+history.industrial	Industrialisierung und soziale Frage	Industrialisation and the social question	de
+history.method	Quellen und Zeitbegriffe	Sources and historical time	de
+history.middle_ages	Mittelalter	Middle Ages	de
+history.nazi	Nationalsozialismus und Holocaust	National Socialism and the Holocaust	de
+history.prehistory	Ur- und Frühgeschichte	Prehistory	de
+history.present	Zeitgeschichte	Contemporary history	de
+history.revolutions	Revolutionen und Nationalstaaten	Revolutions and nation states	de
+history.weimar	Weimarer Republik	Weimar Republic	de
+history.world_wars	Weltkriege	World wars	de
+home	Wohnen und Haushalt	Home and household	de|en
+housing	Wohnungssuche und Mietverhältnis	Finding and renting a flat	de
+identity	Jugend, Identität, Lebensentwürfe	Youth, identity, life plans	en
+integration	Ankommen, Herkunft, Migration	Arriving, origin, migration	de
+job_search	Arbeitssuche und Bewerbung	Job search and applications	de
+jobs	Berufe und Arbeit	Jobs and work	de|en
+language	Sprache und Literatur (Deutschunterricht)	Language and literature (German lessons)	de|en
+language.drama	Drama	Drama	de
+language.grammar	Grammatik	Grammar	de
+language.letters	Laute, Buchstaben, Silben	Sounds, letters, syllables	de
+language.literature	Literatur und Epik	Literature and narrative texts	de
+language.media	Medien und Sachtexte	Media and non-fiction texts	de
+language.poetry	Lyrik	Poetry	de
+language.reading	Lesen und Textverständnis	Reading and comprehension	de
+language.reflection	Sprachreflexion, Sprachgeschichte, Varietäten	Reflecting on language, its history and varieties	de
+language.rhetoric	Rhetorik und Stilmittel	Rhetoric and stylistic devices	de
+language.speaking	Sprechen, Zuhören, Präsentieren	Speaking, listening, presenting	de
+language.spelling	Rechtschreibung und Zeichensetzung	Spelling and punctuation	de
+language.writing	Schreiben und Textsorten	Writing and text types	de
+law	Recht und Kriminalität	Law and crime	en
+literature	Literatur und Textanalyse	Literature and text analysis	en
+math	Mathematik	Mathematics	de
+math.algebra	Terme und Gleichungen	Terms and equations	de
+math.analysis	Analysis	Calculus	de
+math.arithmetic	Rechnen	Arithmetic	de
+math.data	Daten, Zufall, Wahrscheinlichkeit	Data, chance and probability	de
+math.fractions	Brüche, Dezimalzahlen, Prozent	Fractions, decimals, percentages	de
+math.functions	Funktionen	Functions	de
+math.geometry	Geometrie, Formen und Körper	Geometry, shapes and solids	de
+math.measures	Größen und Einheiten	Quantities and units	de
+math.numbers	Zahlen und Stellenwert	Numbers and place value	de
+math.reasoning	Mathematisches Argumentieren	Mathematical reasoning	de
+math.vectors	Vektoren und analytische Geometrie	Vectors and analytic geometry	de
+media	Medien und Kommunikation	Media and communication	de|en
+money	Geld	Money	de
+music	Musik	Music	de
+music.history	Musikgeschichte und Gattungen	Music history and genres	de
+music.instruments	Instrumente	Instruments	de
+music.practice	Singen, Musizieren, Hören	Singing, playing, listening	de
+music.theory	Musiklehre	Music theory	de
+music_arts	Musik, Kunst, Film	Music, art and film	en
+nature	Natur und Landschaft	Nature and landscape	de|en
+numbers	Zahlen und Mengen	Numbers and quantities	de|en
+people	Menschen und Beziehungen	People and relationships	de
+phys	Physik	Physics	de
+phys.acoustics	Akustik	Acoustics	de
+phys.astronomy	Erde und Weltall	Earth and space	de
+phys.electricity	Elektrizität und Magnetismus	Electricity and magnetism	de
+phys.energy	Energie	Energy	de
+phys.heat	Wärme	Heat	de
+phys.mechanics	Mechanik	Mechanics	de
+phys.modern	Atom- und Quantenphysik	Atomic and quantum physics	de
+phys.optics	Optik	Optics	de
+plants	Pflanzen	Plants	de|en
+play	Spielen und Freizeit	Play and free time	de
+politics	Politik	Politics	de|en
+politics.democracy	Demokratie und Mitbestimmung	Democracy and participation	de
+politics.elections	Wahlen und Parteien	Elections and parties	de
+politics.europe	Europäische Union	European Union	de
+politics.international	Internationale Politik, Frieden, Konflikte	International politics, peace and conflict	de
+politics.law	Recht und Rechtsprechung	Law and courts	de
+politics.rights	Grund- und Menschenrechte	Fundamental and human rights	de
+politics.social	Sozialstaat und soziale Sicherung	Welfare state and social security	de
+politics.state	Staat und Verfassungsorgane	State and constitutional bodies	de
+qualities	Eigenschaften	Qualities	de|en
+qualities.character	Charakter und Verhalten	Character and behaviour	de|en
+qualities.colour	Farben	Colours	de|en
+qualities.judgement	Bewertung	Judgement	de|en
+qualities.senses	Sinneseindrücke	Sense impressions	de|en
+qualities.size	Größe, Form, Menge	Size, shape, amount	de|en
+religion	Religion	Religion	de
+religion.christianity	Christentum	Christianity	de
+religion.islam	Islam	Islam	de
+religion.judaism	Judentum	Judaism	de
+religion.world	Weitere Religionen und Weltanschauungen	Other religions and world views	de
+school	Schule und Lernen	School and learning	de|en
+science	Naturwissenschaften und Sachunterricht	Science and general studies	de|en
+science.method	Beobachten, Experimentieren	Observing and experimenting	de
+self	Ich und meine Person	Me and my person	de|en
+shopping	Einkaufen	Shopping	de|en
+society	Gesellschaft und Zusammenleben	Society and living together	de|en
+space	Raum, Ort und Richtung	Space, place and direction	de|en
+sports	Sport	Sports	de|en
+sports.athletics	Leichtathletik	Athletics	de
+sports.fairness	Regeln und Fairness	Rules and fair play	de
+sports.fitness	Fitness und Training	Fitness and training	de
+sports.games	Ballspiele und Mannschaftsspiele	Ball and team games	de
+sports.gymnastics	Turnen und Bewegungskünste	Gymnastics and movement arts	de
+sports.water	Schwimmen und Wassersport	Swimming and water sports	de
+tech	Technik	Technology	de
+technology	Technik und digitale Welt	Technology and the digital world	en
+thinking	Denken, Argumentieren, Bewerten	Thinking, arguing, evaluating	de|en
+time	Zeit	Time	de|en
+time.calendar	Tage, Monate, Jahreszeiten	Days, months, seasons	de|en
+time.clock	Uhrzeit und Tagesablauf	Clock and daily routine	de|en
+time.relations	Zeitverhältnisse	Time relations	de|en
+town	Ort, Stadt und Gebäude	Village, town and buildings	de|en
+toys	Spielsachen und Spiele	Toys and games	en
+traffic	Verkehr und Mobilität	Traffic and mobility	de
+transport	Verkehr und Verkehrsmittel	Transport	en
+travel	Reisen und Urlaub	Travel and holidays	de|en
+weather	Wetter	Weather	de|en
+workplace	Am Arbeitsplatz	At the workplace	de
