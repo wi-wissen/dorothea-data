@@ -81,15 +81,21 @@ curation/edits/<lang>/<x>.jsonl  edits per entry, sharded by the first letter of
 
 ### Levels (`curation/levels/<lang>.tsv`)
 
-Tab-separated, header row, sorted:
+Tab-separated, `#` comment lines, header row, sorted by lemma:
 
 ```
-lemma	pos	sense	cefr	topics
+lemma	pos	hint	cefr	topics
 Bank	noun		A2	furniture
-Bank	noun	en-Bank-de-noun-XyZ98765	B1	money
+Bank	noun	money	B1	money
 ```
 
-An empty `sense` sets the level of the whole entry.
+`hint` is empty for the whole entry; otherwise a short own sense label or a source sense id. The
+build attaches a hinted level to the sense whose gloss matches the label; unmatched hints are
+reported. Topic ids come from `curation/topics.tsv`.
+
+The level and topic files and the topic catalogue are Dorothea's own work and licensed under
+**CC BY 4.0** (they are not derived from Wiktionary). Levels attached to a Wiktionary sense in the
+built entries are part of the CC BY-SA data.
 
 ### Edits (`curation/edits/<lang>/<x>.jsonl`)
 
