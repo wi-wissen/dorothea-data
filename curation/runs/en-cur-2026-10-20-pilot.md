@@ -7,7 +7,7 @@
 | Input | English entries (English Wiktionary extract of 2026-10-03, merged and reverse-filled build) of 600 lemmas: frequency ranks 100–399 and 3,000–3,299 (Heinrich English frequency list, forms counted as written); 442 lemmas found, 1,076 entries (lemma + part of speech), 5,513 senses; 22 batches of about 250 senses |
 | Bulk agents | 5 agents (smaller model), 4–5 batches each |
 | Check | 1 independent agent (larger model), 80 random entries |
-| Output | `curation/edits/en/en-cur-2026-10-20-pilot/out-NN.jsonl` (pilot format, see instruction; to be converted to the overlay format of `docs/FORMAT.md` once the format is extended with `show`, `order` and a learner definition) |
+| Output | `curation/edits/en/en-cur-2026-10-20-pilot/out-NN.jsonl` (run file format of `docs/FORMAT.md`, "Curation runs"; read by the build as is) |
 
 ## Instruction (verbatim)
 

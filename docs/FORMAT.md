@@ -74,9 +74,12 @@ built from.
 ## Curation layer (`curation/`)
 
 ```
-curation/topics.tsv              topic catalogue: id, German label, English label
-curation/levels/<lang>.tsv       CEFR level and topics per entry or sense
-curation/edits/<lang>/<x>.jsonl  edits per entry, sharded by the first letter of the lemma
+curation/topics.tsv                       topic catalogue: id, German label, English label
+curation/levels/<lang>.tsv                CEFR level and topics per entry or sense
+curation/edits/<lang>/<run-id>/*.jsonl    output of one curation run (sense visibility, order,
+                                          learner explanations, translation fixes), read as is
+curation/edits/<lang>/<x>.jsonl           single edits per entry (reserved for hand edits)
+curation/runs/<run-id>.md                 instruction and log of each run
 ```
 
 ### Levels (`curation/levels/<lang>.tsv`)
@@ -97,6 +100,77 @@ The level and topic files and the topic catalogue are Dorothea's own work and li
 **CC BY 4.0** (they are not derived from Wiktionary). Levels attached to a Wiktionary sense in the
 built entries are part of the CC BY-SA data.
 
+### Curation runs (`curation/edits/<lang>/<run-id>/*.jsonl`)
+
+The output of a curation run (instruction and log in `curation/runs/<run-id>.md`) is stored as the
+agents wrote it, one file per batch (`out-NN.jsonl`), in a directory named after the run. The build
+reads these files directly (`dorothea-import direction --curation <run dir>`); there is no
+conversion step. `<lang>` is the headword language; the run id is the directory name. Runs are
+applied in run-id order; a later run's edit of the same sense wins.
+
+One line per entry:
+
+```json
+{"key": "de:Zug:noun:1",
+ "senses": [
+   {"id": "en-Zug-de-noun-9xdFfRLl", "show": "main", "order": 1,
+    "learner_de": "Fahrzeug auf Schienen mit mehreren Wagen",
+    "en_keep": [], "en_drop": ["train (multiple vehicles …)"], "en_add": ["train"]},
+   {"id": "dewikt-Zug-noun-3", "show": "hide"}],
+ "missing": null,
+ "see": null}
+```
+
+| Field | Meaning |
+|---|---|
+| `key` | target entry (`lang:lemma:pos:n`) |
+| `senses[].id` | source sense id (the anchor; see below) |
+| `senses[].show` | `main` (on the card), `more` (under "more meanings"), `hide` (kept in the data, not shown: obsolete, rare, duplicate, cross-reference) |
+| `senses[].order` | position among the `main` and `more` senses, 1 = first; `hide` senses have none |
+| `senses[].learner_<lang>` | short explanation for learners in the headword language: `learner_de` for German headwords, `learner_en` for English ones (the English pilot writes it as `learner`). Stored as `learner.<lang>` |
+| `senses[].<t>_keep`, `<t>_drop`, `<t>_add` | translations into language `t` (`en` for German headwords, `de` for English ones): source glosses that are correct, source glosses that are wrong, new ones. German nouns may be added with their article (`das Haus`); the build writes them like the source (`Haus n`) |
+| `senses[].note` | optional remark of the curator; not used by the build |
+| `missing` | optional entry-level sense the source lacks: `{"learner_<lang>": "…", "<t>": ["…"]}` |
+| `see` | optional base word of an entry that only refers to it (an inflected form or a pure cross-reference); the lookup follows it like a `form_of` reference |
+
+How the build applies a run (all four directions):
+
+- **Entry.** By `key`; if the key is missing, among the entries with the same lemma and part of
+  speech the one holding most of the edit's sense ids (homograph numbers differ between sources).
+- **Sense.** By `id`. If a new dump changed the id, the edit is re-attached by its **anchor**: the
+  kept and dropped glosses of the edit are verbatim source glosses, and the unclaimed sense sharing
+  most of them wins. Edits that attach nowhere are reported (`curation-unattached.tsv` next to the
+  pack, count in `manifest.json`) and reviewed by hand.
+- **Translations** of language `t`: kept glosses first (in the edit's order), then added ones, then
+  source glosses the edit neither kept nor dropped; dropped ones go. A gloss string that holds
+  several translations (`to bring, to lead`) is replaced as a whole when the edit drops it and adds
+  clean ones.
+- **Order.** `main` senses by `order`, then `more` senses by `order`, then senses without an edit,
+  then `hide` senses.
+- **`missing`** adds a `main` sense with `src: cur` after the other `main` senses (id
+  `cur-missing-<n>`). **`see`** sets the entry's `see` field.
+- **Directions whose input lacks curated senses** (`de → de` is built from the German Wiktionary
+  alone): a `main` or `more` sense of the other Wiktionary is carried over with its learner
+  explanation as its gloss (`src: cur`); a lemma the input lacks gets an entry (`src.entry: cur`)
+  when it has such senses.
+- Entries without an edit are unchanged.
+
+Entry fields written by the build:
+
+| Field | Meaning |
+|---|---|
+| `senses[].show` | `main`, `more` or `hide`; absent for uncurated senses |
+| `senses[].learner` | `{"de": "…"}` or `{"en": "…"}` |
+| `see` | base word of a reference entry |
+| `src.cur` | id of the run that curated the entry |
+
+Provenance: `show` and `learner` exist only through curation, so their source is always `cur`.
+Glosses a run adds are marked in `prov` (`{"gloss.en[1..]": "cur"}`), senses and entries it adds
+have `src: cur`, and `src.cur` names the run.
+
+The run files are synthetic data written by AI agents and are published here under CC BY-SA 4.0
+like the rest of the repository (they edit Wiktionary data).
+
 ### Edits (`curation/edits/<lang>/<x>.jsonl`)
 
 One edit per line:
@@ -114,4 +188,5 @@ One edit per line:
 | `run` | the curation run that made the edit (documented in `curation/RUNS.md`) |
 
 On every import, the build reports edits whose key or sense no longer exists and could not be
-re-attached through the anchor; those are reviewed by hand.
+re-attached through the anchor; those are reviewed by hand. The single-edit format is reserved
+for hand edits; the build does not read it yet (curation runs use the run files above).
