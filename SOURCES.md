@@ -8,3 +8,29 @@ Downloads are kept outside the repository.
 | English Wiktionary, German entries, via kaikki.org (`kaikki.org-dictionary-German.jsonl`) | extract of 2026-10-03 (Last-Modified) | 2026-10-20 | `kaikki.org-dictionary-German.jsonl` (1,085,014,820 bytes) | `d7ae58be5479ebf607bb9f714e74d796f4df3e8b558478d8e9c7710c55510394` |
 | English Wiktionary, English entries, via kaikki.org (`kaikki.org-dictionary-English.jsonl`) | extract of 2026-10-03 (Last-Modified) | 2026-10-20 | `kaikki.org-dictionary-English.jsonl` (3,335,546,346 bytes) | `9978ce34256e4143c3498387564d293a9a2971ef376c1e038d369a2021c02195` |
 | German Wiktionary, all entries, via kaikki.org (`de-extract.jsonl.gz`) | extract of 2026-10-03 (Last-Modified) | 2026-10-20 | `de-extract.jsonl.gz` (308,579,949 bytes) | `2e66f18a093e94b29b04733d0222625695a3d5ed199e700059193895490dfb19` |
+
+## Real-text development set (`testing/realtext/`)
+
+Passages of human-written text for measuring coverage; not imported into the dictionary. The
+revision, URL, licence and attribution of every passage are in `testing/realtext/passages.tsv`.
+
+| Source | Version / dump date | Downloaded | File | SHA-256 |
+|---|---|---|---|---|
+| German and English Wikipedia, Simple English Wikipedia, Klexikon, MiniKlexikon (CC BY-SA 4.0) | page revision per passage (`oldid` in `passages.tsv`) | 2026-10-21 | MediaWiki API `action=parse`, one page per passage | – (the revision id fixes the version) |
+| German Wikinews (CC BY 2.5), English Wikinews (CC BY 2.5 / CC BY 4.0 by publication date) | page revision per passage (`oldid` in `passages.tsv`) | 2026-10-21 | MediaWiki API `action=parse`, one page per passage | – (the revision id fixes the version) |
+| Tatoeba, German sentences (`deu_sentences_detailed.tsv.bz2`) | weekly export | 2026-10-20 | `deu_sentences_detailed.tsv.bz2` (17,679,592 bytes) | `224edaef9c1fd23587bcaaf77d8c79d8a33b32deba90062b9c8e026706ea4934` |
+| Tatoeba, English sentences (`eng_sentences_detailed.tsv.bz2`) | weekly export | 2026-10-20 | `eng_sentences_detailed.tsv.bz2` (34,943,159 bytes) | `24f742143d9079308d8c6b9c8cb4f6efb54e908a37d27fd5e40f22ab841b3d0d` |
+| Tatoeba, user language skills (`user_languages.tar.bz2`) | weekly export | 2026-10-20 | `user_languages.tar.bz2` (833,908 bytes) | `4ab949dde556d74f6bcc50ae50d91e786d21da83c695f55f3a4f0446968da3d3` |
+| Tatoeba, list of CC0 sentences (`sentences_CC0.tar.bz2`) | weekly export | 2026-10-20 | `sentences_CC0.tar.bz2` (7,962,216 bytes) | `371638b7658899418ebd64d183f11a118edbe63e57fc60358036f2cec120d4d7` |
+| Project Gutenberg eBook #77905 (public domain) | plain-text edition | 2026-10-21 | `pg77905.txt` (562,382 bytes) | `3cc443c1f71bc23a6a33f566b8de3dca7c49604d81be1696d1aef5137c579e3f` |
+| Project Gutenberg eBook #6638 (public domain) | plain-text edition | 2026-10-20 | `pg6638.txt` (283,592 bytes) | `0d585c02732f1efcf4fac238e647ec95ab7efd59438e0bbefae04eed5fbbcdb4` |
+| Project Gutenberg eBook #5323 (public domain) | plain-text edition | 2026-10-20 | `pg5323.txt` (633,751 bytes) | `15a93db448403b07093042b6aa251ab22474ad9c05918e69f7ead5c62c0b2e8e` |
+| Project Gutenberg eBook #74008 (public domain) | plain-text edition | 2026-10-21 | `pg74008.txt` (265,480 bytes) | `464e776735b91a336d40fa2b96e6b9f88d20e20bbdadc59e3290cfc127e97907` |
+| Project Gutenberg eBook #22367 (public domain) | plain-text edition | 2026-10-20 | `pg22367.txt` (145,983 bytes) | `359d3f5983c812393f4bd7ee49a350ffffc7d476015e58d6b84b6c848dd2b0e9` |
+| Project Gutenberg eBook #35312 (public domain) | plain-text edition | 2026-10-21 | `pg35312.txt` (217,691 bytes) | `de657654648ca6f8dcda1ce2a289b5f9376e7f67c3f6a30eb241c2fcd51fbd25` |
+| Project Gutenberg eBook #2591 (public domain) | plain-text edition | 2026-10-20 | `pg2591.txt` (560,164 bytes) | `377ebb8ca06cd8bc0b1015ddb54766c44f50dece731c53bb030f1cc00f54092a` |
+| Project Gutenberg eBook #902 (public domain) | plain-text edition | 2026-10-20 | `pg902.txt` (112,604 bytes) | `77ae1b3c7be77aea82b1f935e531e53f4df43db572cbc14af39d6cd0d5ba50da` |
+| Project Gutenberg eBook #1342 (public domain) | plain-text edition | 2026-10-20 | `pg1342.txt` (772,386 bytes) | `3f6bb9d6f78e0293b56acd4714dd68cb7d6d1d293402031ce9d5a216bcaf9d75` |
+| Project Gutenberg eBook #1661 (public domain) | plain-text edition | 2026-10-20 | `pg1661.txt` (607,606 bytes) | `922e2a12ccb43a4c9544c260b2166c6ad2097aeb5957faeee113f173bb857cd0` |
+| Project Gutenberg eBook #74 (public domain) | plain-text edition | 2026-10-20 | `pg74.txt` (434,357 bytes) | `74d77384b123a6360db9ab58463cff8b38df8525fbdc6000c81ee388e1f3cf10` |
+| Project Gutenberg eBook #215 (public domain) | plain-text edition | 2026-10-20 | `pg215.txt` (199,757 bytes) | `30f569c5671bba7bbc4a92ab6d8ee01a0d3be00f994819c77da62c28041eb8a2` |
