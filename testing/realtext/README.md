@@ -18,7 +18,8 @@ numbers will drift upward over time; confirm real progress on the held-out sets.
 | `passages/<id>.txt` | the passage, UTF-8, paragraphs separated by a blank line (Tatoeba: one sentence per line) |
 | `attribution/<id>.tsv` | Tatoeba only: sentence id, author (username), licence and URL of every sentence |
 | `check.py` | validator (Python 3, standard library only) |
-| `measure.py` | runs `dorothea analyze --json` over every passage and reports coverage |
+| `measure.py` | runs `dorothea analyze --json` over every passage and reports coverage and name recognition |
+| `names.tsv` | the names in each passage (gold annotation for the name metric, see below) |
 
 ## Composition
 
@@ -119,6 +120,27 @@ The output folder (default `/home/user/dorothea-build/realtext-out/`, keep it ou
 `per-passage.tsv`, `not-found-<lang>.tsv`, `no-level-<lang>.tsv`, `base-gloss-<lang>.tsv` and
 `empty-<lang>.tsv` with counts.
 
+### Names
+
+`names.tsv` lists, per passage, the word tokens that are names: `id`, `kind`, `tokens`
+(space-separated, as the analyser tokenises them; every occurrence of the token in that passage
+counts). Kinds: `person`, `place`, `org` (organisations, companies, bands), `other` (works,
+ships, games, religions named like a name) and `part`. `part` marks ordinary words inside a name
+(`Federal` and `List` in a list's title, `University`, `River`, `Street`, the `SPD`), title-case
+words and abbreviations of organisations: they count neither as a name nor as a false alarm.
+Not names: demonyms and language names (*Indian*, *Japanese*, *Latein*), months, weekdays,
+feasts, titles (*Mr*, *Herr*, *Rev.*), and nouns used as nouns (*der Bauer*). A token whose
+analysis has `name: true` is marked; `measure.py` reports per language:
+
+- **recall**: marked tokens among the tokens of kind person, place, org or other;
+- **false alarms**: marked tokens that `names.tsv` does not list at all;
+- **precision**: recall hits / (hits + false alarms).
+
+A possessive or genitive ending (`Tom's`, `Huangs` is listed itself) and a final full stop
+are stripped before the lookup in `names.tsv`. `names-missed-<lang>.tsv` and
+`names-false-<lang>.tsv` in the output folder list the errors. The annotation was made by one
+annotator reading every passage; doubtful cases went to `part`.
+
 ## Baseline
 
 Dorothea at `main` abad93d, packs `packs-v9`, 2026-10-21. Shares of word tokens:
@@ -160,6 +182,13 @@ What stands out (described with our own examples, not as a to-do list):
 - Old spellings in 19th-century prose (*muß*) are handled: literature and fairy
   tales have the best German coverage.
 
+Names (added 2026-10-21; Dorothea `main` 9013317, packs `packs-v11`): German 308 of 380 name
+tokens marked (recall 81.1 %), 42 false alarms (precision 88.0 %); English 281 of 413 (68.0 %),
+52 false alarms (84.4 %).
+
 ## Changes
 
 - 2026-10-21: first version, 60 passages.
+- 2026-10-21: `names.tsv` (names in every passage) and the name metric in `measure.py` (recall,
+  false alarms, precision); `measure.py` passes the name list packs (`names-*.pack`) of the pack
+  directory to the CLI.
