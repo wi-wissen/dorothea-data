@@ -59,6 +59,7 @@ etymology where a source distinguishes homographs).
 | `senses[].def` | optional longer definition per language |
 | `senses[].tags` | register and usage labels (`colloquial`, `regional`, `dated`, `figurative`, …) |
 | `src` | source of each field: `enwikt`, `dewikt`, `wikidata`, `oewn`, `odenet`, or `cur` (curation layer) |
+| `senses[].prov` | source of values added to a sense by another step, per field path: `{"gloss.en[2..]": "dewikt"}` (items from index 2 on), `{"gloss.de": "reverse"}` (German translations found by looking the English word up in the German entries' glosses), `"derived"` (rules from a related word: an adverb from its adjective, a comparative, a plural, a spelling variant or synonym from the word it names), `"odenet"` (OdeNet linked to Open English WordNet through the Interlingual Index, confirmed by the German entries' glosses), `"wikidata"` (Wikidata lexemes), `"cur"` (curation). `reverse`, `derived`, `odenet` and `wikidata` translations are shown as "less certain". |
 
 Source codes and their versions are listed in `SOURCES.md`; every release names the versions it was
 built from.

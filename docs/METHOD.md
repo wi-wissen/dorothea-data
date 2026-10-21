@@ -12,9 +12,15 @@ the same language on both sides.
 | Direction | Headwords from | Explanations from |
 |---|---|---|
 | de → en | English Wiktionary, German entries | English glosses of those entries |
-| en → de | English Wiktionary, English entries | German Wiktionary translation tables, Wikidata lexeme senses, reversed de → en glosses |
+| en → de | English Wiktionary, English entries | English Wiktionary translation tables, reversed de → en glosses, rules from related words (adverbs, comparatives, plurals, spelling variants and synonyms), OdeNet linked to Open English WordNet |
 | de → de | German Wiktionary | German definitions |
 | en → en | English Wiktionary | English definitions; Open English WordNet for synonyms |
+
+Explanations that do not come from the headword's own Wiktionary entry (reversed glosses, rules
+from related words, other open sources) keep their origin in `prov` and are measured before use:
+a random sample of the added pairs is judged by an independent agent that sees only the pairs. A
+new source or rule is used at 90 % precision or more; below 97 % its translations are shown as
+"less certain" (the older reverse lookup, measured at about two in three, is shown that way too).
 
 For a new language X the same table is filled in: headwords from the Wiktionary edition that covers
 X best, explanations from the target-language glosses, translation tables and Wikidata lexemes.
