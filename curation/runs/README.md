@@ -12,3 +12,5 @@ like `de-en-gloss-2026-11-a`. See `docs/METHOD.md`, section 3.
 | [de-cur-2026-10-20-a](de-cur-2026-10-20-a.md) | gloss + check | 2026-10-20 |
 | [en-level-2026-10-21-a](en-level-2026-10-21-a.md) | level + doubt + rules | 2026-10-21 |
 | [en-cur-2026-10-21-a](en-cur-2026-10-21-a.md) | gloss + check | 2026-10-21 |
+| [de-level-2026-10-22-a](de-level-2026-10-22-a.md) | level + doubt (gap run) | 2026-10-22 |
+| [en-level-2026-10-22-a](en-level-2026-10-22-a.md) | level + doubt (gap run) | 2026-10-22 |
