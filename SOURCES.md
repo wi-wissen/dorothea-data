@@ -8,6 +8,23 @@ Downloads are kept outside the repository.
 | English Wiktionary, German entries, via kaikki.org (`kaikki.org-dictionary-German.jsonl`) | extract of 2026-10-03 (Last-Modified) | 2026-10-20 | `kaikki.org-dictionary-German.jsonl` (1,085,014,820 bytes) | `d7ae58be5479ebf607bb9f714e74d796f4df3e8b558478d8e9c7710c55510394` |
 | English Wiktionary, English entries, via kaikki.org (`kaikki.org-dictionary-English.jsonl`) | extract of 2026-10-03 (Last-Modified) | 2026-10-20 | `kaikki.org-dictionary-English.jsonl` (3,335,546,346 bytes) | `9978ce34256e4143c3498387564d293a9a2971ef376c1e038d369a2021c02195` |
 | German Wiktionary, all entries, via kaikki.org (`de-extract.jsonl.gz`) | extract of 2026-10-03 (Last-Modified) | 2026-10-20 | `de-extract.jsonl.gz` (308,579,949 bytes) | `2e66f18a093e94b29b04733d0222625695a3d5ed199e700059193895490dfb19` |
+| OdeNet (Open German WordNet), `odenet_oneline.xml` of https://github.com/hdaSprachtechnologie/odenet, CC BY-SA 4.0 | version 1.3, commit `8ba741223048c28f67d4c38560ea4c0ee89568bb` (2026-01-07) | 2026-10-21 | `odenet_oneline.xml` (24,404,316 bytes) | `ff2bd92b8758c36e80477393e220675edf4062d13e6c8f8e3eb84b9df569df83` |
+| Open English WordNet, https://github.com/globalwordnet/english-wordnet, CC BY 4.0 | 2025 edition (release `2025-edition`) | 2026-10-21 | `english-wordnet-2025.xml.gz` (11,363,503 bytes) | `9ca6d1dcb75f822fdd66617f7d9da48142ace38dd544d6ad5e2feca1674ad3fe` |
+| Wikidata lexemes, https://dumps.wikimedia.org/wikidatawiki/entities/, CC0 1.0 (evaluated, not used by the default build) | `latest-lexemes.json.gz`, Last-Modified 2026-10-21 03:55 UTC | 2026-10-21 | `latest-lexemes.json.gz` (655,273,999 bytes) | `85ebe293f2357f69776fd06edc4fb4c23f26403f3489b8ff9e1014322dc3f4c2` |
+
+## Licence notes
+
+- **OdeNet** (CC BY-SA 4.0, stated in the repository's `LICENSE`, `README.md` and the lexicon's
+  `license` attribute; the Python code is MIT and not used) and **Open English WordNet**
+  (CC BY 4.0, the lexicon's `license` attribute) allow commercial use. Only English–German pairs
+  derived from them go into the en → de data, which is CC BY-SA 4.0 like the rest; the packs and
+  the website name both. Credit: "OdeNet, Melanie Siegel and Francis Bond (2021), CC BY-SA 4.0;
+  Open English WordNet, CC BY 4.0".
+- **Wikidata** lexemes are CC0 1.0 (no conditions). Their English–German pairs reached 88 %
+  precision in two independent samples, below the 90 % aim, so the build does not use them
+  (`WIKIDATA=<dump>` adds them).
+- Nothing from these sources, and nothing derived from them, goes into Heinrich or
+  heinrich-data.
 
 ## Real-text development set (`testing/realtext/`)
 
