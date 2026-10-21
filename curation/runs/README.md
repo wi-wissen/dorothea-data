@@ -14,3 +14,4 @@ like `de-en-gloss-2026-11-a`. See `docs/METHOD.md`, section 3.
 | [en-cur-2026-10-21-a](en-cur-2026-10-21-a.md) | gloss + check | 2026-10-21 |
 | [de-level-2026-10-22-a](de-level-2026-10-22-a.md) | level + doubt (gap run) | 2026-10-22 |
 | [en-level-2026-10-22-a](en-level-2026-10-22-a.md) | level + doubt (gap run) | 2026-10-22 |
+| [en-level-2026-10-23-a](en-level-2026-10-23-a.md) | level + doubt (phrasal verbs) | 2026-10-23 |
