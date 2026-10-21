@@ -146,6 +146,7 @@ accordingly	adv		B2	function.adverb
 accordion	noun		B2	music_arts
 account	noun		A2	technology
 account	verb		A2	
+account for	verb		B2	
 accountability	noun		C1	politics
 accountable	adj		C1	politics
 accountant	adj		B1	
@@ -204,6 +205,10 @@ acrylic	noun		C1	music_arts
 ACT	noun		A2	
 act	noun		B1	literature
 act	verb		A2	actions
+act on	verb		C1	
+act out	verb		B2	
+act up	verb		B2	
+act upon	verb		C1	
 action	adj		A2	
 action	intj		A2	
 action	noun		A2	music_arts
@@ -237,6 +242,9 @@ adapter	noun		B2	technology
 adaptive	adj		B2	thinking
 add	noun		A1	
 add	verb		A1	actions.speaking
+add on	verb		B1	
+add up	verb		B2	
+add up to	verb		B2	
 add-on	noun		C1	
 addicted	adj		B1	health
 addiction	noun		B1	health
@@ -288,6 +296,7 @@ adolescence	noun		B2	self
 adolescent	adj		B2	identity
 adolescent	noun		C1	identity
 adopt	verb		B1	family
+adopt out	verb		C2	
 adopted	adj		B2	family
 adoption	noun		B2	family
 adore	verb		B1	actions.thinking
@@ -407,6 +416,7 @@ against	conj		A2
 against	prep		A2	function.preposition
 age	noun		A1	time
 age	verb		C1	actions.change
+age out	verb		C2	
 agency	noun		B2	
 agenda	noun		B2	politics
 agenda	verb		B2	
@@ -431,6 +441,7 @@ ago	adv		A1	function.adverb
 ago	prep		A1	
 agony	noun		C1	feelings
 agree	verb		A2	actions.speaking
+agree with	verb		A2	
 agreeable	adj		C1	thinking
 agreeable	noun		C1	
 agreement	noun		B1	communication
@@ -451,9 +462,12 @@ aid	verb		B2	global
 aide	noun		C1	
 aim	noun		B1	identity
 aim	verb		B1	actions.thinking
+aim at	verb		B2	
 ain't	verb		B2	
 air	noun		A2	nature
 air	verb		C1	media
+air out	verb		C1	
+air up	verb		C2	
 airborne	adj		C1	
 airborne	noun		C2	
 Airbus	noun		B2	
@@ -555,6 +569,7 @@ allocation	noun		B2	economy
 allot	verb		C2	
 allotment	noun		C1	
 allow	verb		A2	actions
+allow for	verb		B2	
 allowable	adj		C2	
 allowable	noun		C1	
 allowance	noun		B1	family
@@ -771,6 +786,10 @@ another	det		A1	function.article
 another	pron		A2	function.pronoun
 answer	noun		A1	classroom
 answer	verb		A1	actions.speaking
+answer back	verb		B2	
+answer for	verb		C1	
+answer to	verb		B2	
+answer up	verb		C2	
 ant	noun		A2	animals
 antagonist	noun		B2	literature
 Antarctic	adj		B2	
@@ -966,6 +985,7 @@ arithmetic	noun		B2	numbers
 arm	adj		A1	
 arm	noun		A1	body
 arm	verb		A1	
+arm up	verb		C2	
 armament	noun		C1	
 armchair	noun		A1	home
 armed	adj		B2	law
@@ -997,6 +1017,7 @@ arrest	noun		B1	law
 arrest	verb		B1	law
 arrival	noun		A2	transport
 arrive	verb		A1	actions.motion
+arrive at	verb		B1	
 arrogant	adj		B1	qualities.character
 arrow	noun		A2	toys
 arrow	verb		A2	
@@ -1041,6 +1062,14 @@ aside	adv		B2	function.adverb
 aside	noun		C1	literature
 ask	noun		A1	
 ask	verb		A1	actions.speaking
+ask after	verb		B2	
+ask around	verb		B1	
+ask back	verb		C2	
+ask for	verb		B1	
+ask in	verb		C1	
+ask out	verb		B2	
+ask over	verb		C1	
+ask round	verb		B2	
 asleep	adj		A2	feelings
 asp	noun		C2	
 asparagus	noun		B1	food
@@ -1145,6 +1174,7 @@ attainment	noun		B2	school
 attempt	noun		B1	thinking
 attempt	verb		B1	actions
 attend	verb		B1	school
+attend to	verb		B2	
 attendance	noun		B1	school
 attendant	adj		B2	
 attendant	noun		B2	transport
@@ -1252,6 +1282,8 @@ avenue	noun		B1	town
 average	adj		A2	qualities
 average	noun		A2	numbers
 average	verb		A2	
+average down	verb		C2	
+average out	verb		C1	
 aversion	noun		B2	thinking
 avert	verb		C1	actions.change
 aviation	noun		B2	transport
@@ -1314,6 +1346,14 @@ back	adj		A2	space
 back	adv		A1	function.adverb
 back	noun		A1	space
 back	verb		B2	thinking
+back away	verb		B2	
+back down	verb		C1	
+back in	verb		C2	
+back into	verb		C1	
+back off	verb		B2	
+back onto	verb		C2	
+back out	verb		B2	
+back up	verb		B2	
 backache	noun		A2	health
 backbone	noun		C1	
 backdrop	noun		B2	literature
@@ -1380,6 +1420,8 @@ bakery	noun		A2	food
 baking	noun		A2	free_time
 balance	noun		B1	thinking
 balance	verb		B1	thinking
+balance out	verb		C1	
+balance up	verb		C2	
 balanced	adj		B1	thinking
 balcony	noun		A2	home
 bald	adj		B1	body
@@ -1390,6 +1432,7 @@ Balkan	adj		C1	countries
 ball	intj		A1	
 ball	noun		A1	toys
 ball	verb		A1	
+ball up	verb		C2	
 ballad	noun		C1	music_arts
 ballad	verb		C1	
 ballet	noun		A2	music_arts
@@ -1408,6 +1451,7 @@ ban	verb		B1	environment
 banana	noun		A1	food
 band	noun		A1	music_arts
 band	verb		A1	
+band together	verb		C1	
 bandage	noun		A2	health
 bandage	verb		B2	health
 bandwidth	noun		C1	technology
@@ -1422,6 +1466,8 @@ banished	adj		C1
 banjo	noun		B2	music_arts
 bank	noun		A1	nature
 bank	verb		A1	
+bank on	verb		C1	
+bank up	verb		C2	
 banker	noun		B1	jobs
 banking	noun		B2	economy
 bankrupt	adj		C1	economy
@@ -1442,6 +1488,9 @@ bar	adv		A2
 bar	noun		A2	town
 bar	prep		A2	
 bar	verb		A2	
+bar off	verb		C2	
+bar out	verb		C2	
+bar up	verb		C2	
 Barack	adj		C2	
 Barbados	verb		C2	
 barbarian	adj		C1	
@@ -1489,6 +1538,9 @@ basal	noun		C2
 base	adj		B1	
 base	noun		B1	space
 base	verb		B1	
+base off	verb		C2	
+base on	verb		B1	
+base upon	verb		C1	
 baseball	noun		A2	sports
 baseless	adj		C1	thinking
 baseline	noun		B2	academic
@@ -1534,6 +1586,7 @@ battery-powered	adj		B1	toys
 battle	adj		A2	
 battle	noun		A2	fantasy
 battle	verb		A2	
+battle out	verb		C1	
 battlefield	noun		B2	history
 battleship	noun		B2	
 Bavarian	adj		B2	
@@ -1545,6 +1598,17 @@ bayonet	noun		C2
 BBC	propn		B1	anglophone.uk
 be	noun		A1	
 be	verb		A1	function.auxiliary
+be about	verb		B2	
+be around	verb		B1	
+be down with	verb		C2	
+be in for	verb		B2	
+be into	verb		B2	
+be on	verb		C2	
+be on at	verb		C2	
+be on to	verb		C2	
+be out for	verb		C1	
+be to	verb		B1	
+be with	verb		B2	
 beach	noun		A1	free_time
 beach	verb		A1	
 beacon	noun		C2	
@@ -1562,6 +1626,14 @@ beanstalk	noun		C1	fantasy
 bear	adj		A1	
 bear	noun		A1	toys
 bear	verb		B2	feelings
+bear down	verb		C2	
+bear down on	verb		C2	
+bear in on	verb		C2	
+bear on	verb		C2	
+bear out	verb		C1	
+bear up	verb		C2	
+bear upon	verb		C2	
+bear with	verb		B2	
 beard	noun		A2	body
 beard	verb		A2	
 bearded	adj		B2	self
@@ -1573,6 +1645,15 @@ beast	verb		B1
 beat	adj		A2	
 beat	noun		B2	music_arts
 beat	verb		A2	actions.handling
+beat back	verb		C1	
+beat down	verb		C1	
+beat into	verb		C2	
+beat off	verb		C2	
+beat on	verb		C2	
+beat out	verb		C2	
+beat to	verb		C2	
+beat up	verb		B2	
+beat up on	verb		C2	
 beating	noun		B2	
 Beaufort	noun		C2	
 beautiful	adj		A1	qualities.judgement
@@ -1591,8 +1672,11 @@ because	intj		A1
 because	prep		A1	
 beckon	verb		C1	
 become	verb		A2	actions
+become of	verb		C1	
 bed	noun		A1	home
 bed	verb		A1	
+bed down	verb		C2	
+bed in	verb		C2	
 Bedford	noun		C2	
 bedroom	noun		A1	home
 bedside	noun		C1	
@@ -1663,6 +1747,8 @@ below	adv		A2	function.adverb
 below	prep		A2	function.preposition
 belt	noun		A2	clothes
 belt	verb		A2	
+belt out	verb		C1	
+belt up	verb		C1	
 Ben	noun		C2	
 bench	noun		A2	home
 bench	verb		A2	
@@ -1752,12 +1838,14 @@ bicycle	noun		A1	free_time
 bicycle	verb		A1	
 bid	noun		B2	
 bid	verb		C1	
+bid up	verb		C2	
 bidder	noun		B2	economy
 bidding	noun		C1	
 big	adj		A1	qualities.size
 big	adv		A1	
 big	noun		A1	
 big	verb		A1	
+big up	verb		C2	
 bike	noun		A1	free_time
 bike	verb		A1	
 bikini	noun		A2	clothes
@@ -1838,6 +1926,8 @@ Black	noun		A1
 black	adj		A1	qualities.colour
 black	noun		A1	
 black	verb		A1	
+black out	verb		B2	
+black up	verb		C2	
 blackberry	noun		B1	food
 blackbird	noun		B2	animals
 blackboard	noun		A1	classroom
@@ -1894,6 +1984,9 @@ blister	noun		B2	health
 blizzard	noun		B1	weather
 block	noun		B1	home
 block	verb		B1	sports
+block off	verb		B2	
+block out	verb		B2	
+block up	verb		B2	
 blockade	noun		B2	history
 blockade	verb		B2	
 blockbuster	noun		B2	music_arts
@@ -1919,6 +2012,16 @@ blow	adj		A2
 blow	intj		A2	
 blow	noun		A2	
 blow	verb		A2	actions.handling
+blow apart	verb		C2	
+blow away	verb		B2	
+blow down	verb		C2	
+blow in	verb		C2	
+blow into	verb		B2	
+blow off	verb		C1	
+blow on	verb		B2	
+blow out	verb		B1	
+blow over	verb		C2	
+blow up	verb		B1	
 Blu-ray	noun		B2	
 Blue	noun		A1	
 blue	adj		A1	qualities.colour
@@ -1942,6 +2045,7 @@ blush	verb		B2	body
 boar	noun		C1	animals
 board	noun		A1	classroom
 board	verb		B1	actions.motion
+board up	verb		C1	
 boast	noun		B1	
 boast	verb		B1	actions.speaking
 boat	noun		A1	toys
@@ -2001,6 +2105,10 @@ bonus	verb		B2
 bony	adj		C1	body
 book	noun		A1	classroom
 book	verb		A2	food
+book in	verb		B2	
+book into	verb		B1	
+book on	verb		C2	
+book up	verb		B2	
 bookcase	noun		A2	home
 booking	noun		A2	travel
 bookmark	verb		B2	technology
@@ -2021,6 +2129,7 @@ boot	verb		A1
 booth	noun		B1	
 border	noun		A2	space
 border	verb		C1	space
+border on	verb		C1	
 bore	noun		B2	
 bore	verb		B2	actions.thinking
 bored	adj		A1	feelings
@@ -2057,6 +2166,7 @@ bottle	verb		A1
 bottom	adj		A2	space
 bottom	noun		A1	space
 bottom	verb		A1	
+bottom out	verb		C1	
 bough	noun		C2	
 boulder	noun		C1	nature
 boulevard	noun		B2	town
@@ -2083,6 +2193,9 @@ bowling	noun		A2	free_time
 bowtie	noun		B2	clothes
 box	noun		A1	home
 box	verb		C1	sports
+box in	verb		C1	
+box out	verb		C2	
+box up	verb		C1	
 boxer	noun		B1	sports
 boxers	noun		B2	clothes
 boxing	noun		A2	sports
@@ -2110,6 +2223,8 @@ brake	noun		B1	transport
 brake	verb		B1	transport
 branch	noun		A2	nature
 branch	verb		A2	
+branch off	verb		B2	
+branch out	verb		B2	
 brand	noun		A2	shopping
 brand	verb		A2	
 brandy	noun		B2	
@@ -2120,6 +2235,7 @@ brass	verb		B2
 brave	adj		A2	qualities.character
 brave	noun		A2	
 brave	verb		A2	
+brave out	verb		C2	
 bravely	adv		A2	function.adverb
 bravery	noun		B1	feelings
 bravo	intj		B1	celebrations
@@ -2133,6 +2249,18 @@ bread	verb		A1
 breadth	noun		B2	qualities.size
 break	noun		A1	time
 break	verb		A1	actions.handling
+break apart	verb		B2	
+break away	verb		B2	
+break back	verb		C2	
+break down	verb		B1	
+break from	verb		C2	
+break in	verb		B2	
+break into	verb		B1	
+break off	verb		B2	
+break out	verb		B2	
+break through	verb		B2	
+break up	verb		B1	
+break with	verb		C2	
 breakdown	noun		B2	transport
 breakfast	noun		A1	time.clock
 breakfast	verb		A1	
@@ -2184,6 +2312,7 @@ brief	adj		B1	qualities.size
 brief	adv		B1	
 brief	noun		B1	
 brief	verb		B1	
+brief against	verb		C2	
 briefing	noun		B2	
 briefly	adv		B1	communication
 briefs	noun		B2	clothes
@@ -2205,6 +2334,25 @@ brilliant	verb		A2
 brilliantly	adv		B2	
 bring	intj		A1	
 bring	verb		A1	actions
+bring about	verb		B2	
+bring along	verb		B1	
+bring back	verb		B1	
+bring down	verb		B2	
+bring down on	verb		C2	
+bring forward	verb		B2	
+bring in	verb		B2	
+bring off	verb		C1	
+bring on	verb		C1	
+bring out	verb		B2	
+bring over	verb		B2	
+bring round	verb		C1	
+bring through	verb		C2	
+bring to	verb		C2	
+bring together	verb		B2	
+bring under	verb		C2	
+bring up	verb		B1	
+bring up against	verb		C2	
+bring upon	verb		C2	
 brink	noun		B2	thinking
 brisk	adj		B2	qualities.judgement
 brisk	verb		B2	
@@ -2310,6 +2458,12 @@ buffet	noun		B1	food
 bug	noun		B1	technology
 build	noun		B2	self
 build	verb		A1	actions.handling
+build in	verb		B2	
+build into	verb		C1	
+build on	verb		B2	
+build out	verb		C2	
+build up	verb		B2	
+build upon	verb		C1	
 builder	noun		A2	jobs
 building	noun		A1	home
 built-in	adj		B2	
@@ -2367,6 +2521,9 @@ burnt	noun		B1
 burrow	noun		C1	animals
 burst	noun		B2	
 burst	verb		B2	actions.handling
+burst in	verb		B2	
+burst into	verb		B2	
+burst out	verb		B2	
 bury	noun		B2	
 bury	verb		B2	celebrations
 bus	noun		A1	school
@@ -2405,6 +2562,14 @@ button	noun		A2	clothes
 button	verb		B1	actions.handling
 buy	noun		A1	
 buy	verb		A1	actions
+buy back	verb		B2	
+buy in	verb		C2	
+buy into	verb		C1	
+buy off	verb		C1	
+buy off on	verb		C2	
+buy out	verb		C1	
+buy over	verb		C2	
+buy up	verb		B2	
 buyer	noun		B1	shopping
 buzz	verb		B2	animals
 BX	noun		C2	
@@ -2459,10 +2624,26 @@ calibration	noun		C2
 California	propn		A2	anglophone.us
 call	noun		A2	friends
 call	verb		A1	actions.speaking
+call ahead	verb		B2	
+call around	verb		B2	
+call away	verb		C1	
+call back	verb		A2	
+call down	verb		C2	
+call for	verb		B1	
+call in	verb		B2	
+call off	verb		B1	
+call on	verb		B2	
+call out	verb		B2	
+call over	verb		B2	
+call round	verb		B1	
+call to	verb		C2	
+call together	verb		B2	
+call up	verb		B1	
 caller	noun		B1	
 calm	adj		A2	qualities.character
 calm	noun		B1	feelings
 calm	verb		A2	actions.change
+calm down	verb		A2	
 calmly	adv		A2	feelings
 calmness	noun		B2	feelings
 calorie	noun		B1	health
@@ -2476,6 +2657,7 @@ Cameroon	noun		B1	countries
 camp	adj		A2	
 camp	noun		A2	travel
 camp	verb		A2	free_time
+camp out	verb		B2	
 campaign	noun		B1	media
 campaign	verb		B1	environment
 campaigner	noun		C1	politics
@@ -2539,6 +2721,7 @@ canyon	noun		B1	nature
 canyon	verb		B1	
 cap	noun		A1	clothes
 cap	verb		A1	
+cap off	verb		C2	
 capability	noun		B2	jobs
 capable	adj		B1	qualities.character
 capacity	adj		B2	
@@ -2587,6 +2770,7 @@ cardinal	noun		C1
 cardiovascular	adj		C1	
 care	noun		A2	family
 care	verb		A2	actions
+care for	verb		B1	
 career	adj		A2	
 career	noun		A2	jobs
 career	verb		A2	
@@ -2626,6 +2810,14 @@ Carroll	noun		C2
 carrot	noun		A1	food
 carry	noun		A1	
 carry	verb		A1	actions
+carry away	verb		C1	
+carry forward	verb		C1	
+carry off	verb		C1	
+carry on	verb		B1	
+carry out	verb		B1	
+carry over	verb		C1	
+carry through	verb		C1	
+carry up	verb		B2	
 cart	noun		B1	shopping
 cart	verb		B1	
 cartilage	noun		C2	body
@@ -2641,10 +2833,14 @@ Case	noun		A2
 case	adj		A2	
 case	noun		A2	law
 case	verb		A2	
+case out	verb		C2	
 case-by-case	adj		C1	
 cash	adj		A2	
 cash	noun		A2	travel
 cash	verb		A2	
+cash in	verb		C1	
+cash out	verb		C1	
+cash up	verb		C2	
 cashier	noun		A2	shopping
 casino	noun		B1	toys
 cassette	noun		B1	
@@ -2652,6 +2848,17 @@ cassette	verb		C2
 cast	adj		B1	
 cast	noun		B1	health
 cast	verb		C1	music_arts
+cast about	verb		C2	
+cast around	verb		C2	
+cast aside	verb		C1	
+cast away	verb		C2	
+cast back	verb		C2	
+cast down	verb		C2	
+cast off	verb		C2	
+cast on	verb		C1	
+cast out	verb		C2	
+cast round	verb		C2	
+cast up	verb		C2	
 caste	noun		C1	anglophone.commonwealth
 casting	noun		C1	
 castle	noun		A1	toys
@@ -2676,6 +2883,9 @@ catastrophe	noun		B1	environment
 catastrophic	adj		B2	thinking
 catch	noun		A1	
 catch	verb		A1	actions.handling
+catch on	verb		B2	
+catch out	verb		C1	
+catch up	verb		B1	
 catch-up	noun		C1	
 catcher	noun		B2	
 catchment	noun		C2	
@@ -2698,6 +2908,7 @@ cattle	noun		B2	animals
 cattle	verb		B2	
 catwalk	noun		B2	clothes
 caucus	noun		B2	politics
+caught up	verb		C1	
 cauldron	noun		C1	fantasy
 cauliflower	noun		A2	food
 causal	adj		B2	thinking
@@ -2801,6 +3012,7 @@ CF	phrase		C2
 Chad	noun		B2	
 chain	noun		B1	clothes
 chain	verb		C1	actions.handling
+chain up	verb		C1	
 chair	noun		A1	home
 chair	verb		A1	
 chairman	noun		B2	
@@ -2825,11 +3037,17 @@ chance	adj		A2
 chance	adv		A2	
 chance	noun		A2	toys
 chance	verb		A2	
+chance upon	verb		C2	
 Chancellor	noun		B1	
 chancellor	noun		B1	politics
 Chandler	noun		C2	
 change	noun		A1	environment
 change	verb		A1	actions.change
+change around	verb		B2	
+change down	verb		B2	
+change out	verb		C1	
+change over	verb		B2	
+change up	verb		C2	
 changeable	adj		B2	weather
 changing	noun		B2	shopping
 channel	noun		A2	media
@@ -2859,6 +3077,7 @@ charcoal	noun		B2	music_arts
 charcoal	verb		B2	
 charge	noun		B2	shopping
 charge	verb		A2	actions.motion
+charge up	verb		C2	
 chargeable	adj		C2	
 charger	noun		A2	technology
 chariot	noun		C1	
@@ -2900,6 +3119,16 @@ check	adj		A1
 check	intj		A1	
 check	noun		A2	food
 check	verb		A1	actions
+check in	verb		A2	
+check in on	verb		B2	
+check into	verb		B1	
+check off	verb		B2	
+check on	verb		B1	
+check out	verb		A2	
+check over	verb		B2	
+check through	verb		C2	
+check up	verb		B2	
+check up on	verb		B2	
 checked	adj		B1	qualities.colour
 checkered	adj		B2	clothes
 checkers	noun		B1	toys
@@ -3051,6 +3280,9 @@ cipher	verb		C2
 circa	prep		C1	
 circle	noun		A1	qualities.size
 circle	verb		A1	actions.motion
+circle back	verb		C2	
+circle in	verb		C2	
+circle up	verb		C2	
 circuit	noun		C1	technology
 circuit	verb		C1	
 circular	adj		B2	qualities.size
@@ -3101,6 +3333,7 @@ clasp	verb		C1
 class	adj		A1	
 class	noun		A1	school
 class	verb		A1	
+class up	verb		C2	
 classic	adj		B1	qualities.judgement
 classic	noun		B2	literature
 classical	adj		A2	music_arts
@@ -3119,6 +3352,11 @@ clean	adj		A1	qualities
 clean	adv		A1	
 clean	noun		A1	
 clean	verb		A1	actions
+clean down	verb		C2	
+clean off	verb		B1	
+clean out	verb		B2	
+clean up	verb		A2	
+clean up after	verb		B2	
 cleaner	noun		A2	jobs
 cleaning	noun		A2	home
 cleanse	verb		C1	
@@ -3128,6 +3366,10 @@ clear	adj		A2	qualities
 clear	adv		A2	
 clear	noun		A2	
 clear	verb		A2	home
+clear away	verb		B2	
+clear off	verb		B2	
+clear out	verb		B2	
+clear up	verb		B2	
 clearance	noun		B2	law
 clearing	noun		C1	nature
 clearly	adv		A2	function.adverb
@@ -3185,6 +3427,15 @@ close	adj		A2	space
 close	adv		A1	
 close	noun		A1	
 close	verb		A1	actions.handling
+close down	verb		B1	
+close in	verb		C1	
+close in on	verb		C1	
+close in upon	verb		C2	
+close off	verb		B2	
+close out	verb		C2	
+close round	verb		C2	
+close up	verb		B2	
+close with	verb		C2	
 closed	adj		A2	qualities
 closely	adv		B1	function.adverb
 closet	adj		B1	
@@ -3199,12 +3450,15 @@ clothesline	noun		B2	home
 clothing	noun		B1	clothes
 cloud	noun		A1	technology
 cloud	verb		C2	weather
+cloud over	verb		B2	
+cloud up	verb		C1	
 cloudburst	noun		C1	weather
 cloudy	adj		A1	weather
 clover	noun		C1	plants
 clown	noun		A2	music_arts
 club	noun		A1	friends
 club	verb		A1	
+club together	verb		C1	
 clue	noun		A2	classroom
 clue	verb		A2	
 clumsy	adj		B1	qualities.character
@@ -3247,6 +3501,7 @@ cod	noun		B2	food
 cod	verb		B2	
 code	noun		A2	technology
 code	verb		B1	actions.handling
+code up	verb		C2	
 codify	verb		B2	academic
 coding	adj		B1	
 coding	noun		B1	technology
@@ -3297,6 +3552,7 @@ collect	adj		A1
 collect	adv		A1	
 collect	noun		A1	
 collect	verb		A1	actions.handling
+collect up	verb		C1	
 collection	noun		A2	free_time
 collective	adj		B2	thinking
 collective	noun		B2	thinking
@@ -3328,12 +3584,14 @@ colony	verb		B2
 color	adj		A1	
 color	noun		A1	qualities.colour
 color	verb		A1	actions.handling
+color in	verb		A2	
 colorful	adj		A2	qualities.colour
 colorless	adj		B2	qualities.colour
 colossal	adj		B2	qualities.judgement
 colour	adj		A1	
 colour	noun		A1	
 colour	verb		A1	
+colour in	verb		A2	
 coloured	adj		A2	
 colours	noun		B2	
 Columbus	noun		C2	
@@ -3356,6 +3614,50 @@ come	intj		A1
 come	noun		A1	
 come	prep		A1	
 come	verb		A1	actions
+come about	verb		C1	
+come across	verb		B2	
+come across with	verb		C2	
+come after	verb		C1	
+come along	verb		B1	
+come apart	verb		B2	
+come around	verb		B2	
+come at	verb		C2	
+come away	verb		C2	
+come back	verb		A2	
+come back from	verb		B2	
+come by	verb		B2	
+come down	verb		B1	
+come down on	verb		C2	
+come down to	verb		B2	
+come down with	verb		B2	
+come for	verb		C1	
+come forward	verb		B2	
+come from	verb		A1	
+come from behind	verb		B2	
+come in	verb		A1	
+come in for	verb		C2	
+come into	verb		B2	
+come of	verb		C1	
+come off	verb		B2	
+come on	verb		B1	
+come on in	verb		A2	
+come on over	verb		B2	
+come on to	verb		C2	
+come out	verb		A2	
+come out in	verb		C2	
+come out with	verb		C1	
+come over	verb		B1	
+come round	verb		B1	
+come through	verb		B2	
+come to	verb		B1	
+come together	verb		B2	
+come under	verb		C1	
+come up	verb		B1	
+come up against	verb		C1	
+come up to	verb		B2	
+come up with	verb		B2	
+come upon	verb		C1	
+come with	verb		B1	
 comeback	noun		B2	
 comedian	noun		B1	music_arts
 comedy	noun		A2	music_arts
@@ -3386,6 +3688,7 @@ commensurate	adj		C2
 commensurate	verb		C2	
 comment	noun		A2	communication
 comment	verb		A2	actions.speaking
+comment out	verb		C2	
 commentary	noun		B2	literature
 commentator	noun		C1	media
 commenter	noun		C1	
@@ -3656,6 +3959,7 @@ conjunction	noun		B1	language
 conjure	verb		C2	fantasy
 connect	noun		A2	
 connect	verb		A2	actions
+connect up	verb		C1	
 connection	noun		A2	friends
 connectivity	noun		C1	
 connector	noun		C1	
@@ -3817,6 +4121,8 @@ contour	noun		C1
 contract	adj		B1	
 contract	noun		B1	jobs
 contract	verb		C1	language
+contract out	verb		C2	
+contract out of	verb		C2	
 contraction	noun		C1	language
 contractor	noun		C1	economy
 contractual	adj		B2	economy
@@ -3887,6 +4193,8 @@ cool	adj		A1	qualities.senses
 cool	intj		A2	communication
 cool	noun		A1	
 cool	verb		B2	actions.handling
+cool down	verb		B1	
+cool off	verb		B1	
 coolly	adj		C1	
 coolly	adv		C1	
 coolness	noun		B2	
@@ -3909,6 +4217,8 @@ copper	noun		B1	nature
 copper	verb		B1	
 copy	noun		A2	classroom
 copy	verb		A1	actions.handling
+copy down	verb		B1	
+copy out	verb		B2	
 copyright	noun		B2	law
 copyright	verb		B2	
 coral	adj		B2	
@@ -3968,6 +4278,8 @@ cosmopolitan	adj		B2	global
 cosmos	noun		B2	science
 cost	noun		A2	shopping
 cost	verb		A1	shopping
+cost out	verb		C2	
+cost up	verb		C2	
 cost-effective	adj		B2	economy
 costly	adj		B1	qualities.judgement
 costume	noun		A2	clothes
@@ -3996,6 +4308,14 @@ counselor	noun		B1	school
 count	adj		A1	
 count	noun		B2	numbers
 count	verb		A1	actions.thinking
+count against	verb		C2	
+count down	verb		B1	
+count in	verb		B2	
+count off	verb		C1	
+count on	verb		B1	
+count out	verb		C1	
+count up	verb		B1	
+count upon	verb		C2	
 countability	noun		C2	language
 countable	adj		B1	language
 countdown	noun		B1	celebrations
@@ -4030,6 +4350,7 @@ couple	adj		A2
 couple	det		A2	
 couple	noun		A2	numbers
 couple	verb		A2	
+couple up	verb		C2	
 coupon	noun		B1	shopping
 courage	noun		B1	qualities.character
 courage	verb		B1	
@@ -4057,6 +4378,7 @@ covenant	verb		C2
 cover	adj		A2	
 cover	noun		B1	media
 cover	verb		A2	actions.perception
+cover up	verb		B2	
 coverage	noun		B2	media
 covering	noun		B2	
 covert	adj		B2	law
@@ -4095,6 +4417,8 @@ crane	noun		B2	toys
 crash	adj		A2	
 crash	noun		A2	technology
 crash	verb		A2	actions.motion
+crash in	verb		C2	
+crash out	verb		C1	
 crater	noun		B2	nature
 crater	verb		B2	
 crave	verb		C1	actions.thinking
@@ -4181,6 +4505,10 @@ cross	adj		B2	feelings
 cross	noun		B1	qualities.size
 cross	prep		A1	
 cross	verb		A1	actions.motion
+cross off	verb		B2	
+cross out	verb		B1	
+cross over	verb		C1	
+cross up	verb		C2	
 cross-border	adj		B2	global
 cross-border	adv		B2	
 cross-country	adj		B2	
@@ -4200,6 +4528,9 @@ crow	noun		B2	animals
 crow	verb		B2	
 crowd	noun		A2	numbers
 crowd	verb		A2	
+crowd in	verb		C1	
+crowd out	verb		C1	
+crowd together	verb		B2	
 crowded	adj		A2	qualities.size
 crown	adj		B1	
 crown	noun		B1	fantasy
@@ -4232,6 +4563,11 @@ crust	verb		C2
 crutch	noun		B1	health
 cry	noun		A1	
 cry	verb		A1	actions.speaking
+cry down	verb		C2	
+cry off	verb		C2	
+cry out	verb		B2	
+cry out for	verb		C1	
+cry up	verb		C2	
 cryptoasset	noun		C1	
 crystal	adj		B2	
 crystal	noun		B2	fantasy
@@ -4312,6 +4648,17 @@ cut	adj		A1
 cut	intj		A1	
 cut	noun		B1	health
 cut	verb		A1	actions.handling
+cut across	verb		C1	
+cut away	verb		C1	
+cut back	verb		B2	
+cut down	verb		B1	
+cut in	verb		B2	
+cut into	verb		C1	
+cut off	verb		B1	
+cut on	verb		C2	
+cut out	verb		B1	
+cut through	verb		B2	
+cut up	verb		B2	
 cute	adj		A1	qualities.judgement
 cutlery	noun		B1	home
 cutlet	noun		C1	food
@@ -4393,6 +4740,7 @@ damsel	noun		C2	fantasy
 dan	noun		C2	
 dance	noun		A1	free_time
 dance	verb		A1	actions
+dance around	verb		C2	
 dancer	noun		A1	music_arts
 dancing	noun		A1	free_time
 dandelion	noun		B2	plants
@@ -4431,6 +4779,7 @@ database	verb		B1
 dataset	noun		B2	academic
 date	noun		A1	time
 date	verb		B1	friends
+date back	verb		B2	
 dating	noun		B2	friends
 datum	noun		C1	
 daughter	noun		A1	family
@@ -4473,6 +4822,9 @@ deafening	adj		C1	qualities.senses
 deal	adj		B1	
 deal	noun		B1	shopping
 deal	verb		B1	actions
+deal in	verb		C1	
+deal out	verb		C2	
+deal with	verb		B1	
 dealer	noun		B1	law
 dealing	noun		C1	
 dealings	noun		C1	
@@ -4512,6 +4864,8 @@ decent	adj		B1	qualities.judgement
 deception	noun		B2	media
 deceptive	adj		B2	media
 decide	verb		A2	actions.thinking
+decide on	verb		B1	
+decide upon	verb		B2	
 decidedly	adv		B2	function.adverb
 deciduous	adj		C2	plants
 decimal	adj		B2	numbers
@@ -4523,6 +4877,7 @@ decisive	adj		B1	qualities.character
 decisively	adv		B2	thinking
 deck	noun		B2	home
 deck	verb		B2	
+deck out	verb		C1	
 deckchair	noun		B2	free_time
 declaration	noun		B1	anglophone.us
 declarative	adj		C1	language
@@ -4629,12 +4984,14 @@ delicious	adj		A1	qualities.senses
 deliciously	adv		C1	food
 delight	noun		B2	feelings
 delight	verb		B2	feelings
+delight in	verb		C1	
 delighted	adj		B1	feelings
 delightful	adj		B2	
 delinquency	noun		C2	law
 delinquent	noun		C2	law
 deliver	adj		A2	
 deliver	verb		A2	actions
+deliver up	verb		C2	
 delivery	noun		A2	food
 Delta	noun		C1	
 delta	noun		C1	nature
@@ -4897,6 +5254,12 @@ didn't	verb		A1
 die	adv		A2	
 die	noun		A2	
 die	verb		A2	actions
+die away	verb		C1	
+die back	verb		C2	
+die down	verb		B2	
+die off	verb		C1	
+die on	verb		C2	
+die out	verb		B2	
 Diego	noun		C2	
 diesel	noun		B1	environment
 diesel	verb		B1	
@@ -5212,6 +5575,16 @@ DNA	verb		B1
 do	noun		A1	
 do	num		A1	
 do	verb		A1	function.auxiliary
+do away with	verb		C1	
+do down	verb		C2	
+do for	verb		C2	
+do in	verb		C2	
+do out	verb		C2	
+do out of	verb		C2	
+do over	verb		C2	
+do up	verb		B2	
+do with	verb		B1	
+do without	verb		B2	
 Doc	noun		A2	
 dock	noun		C1	town
 dock	verb		C1	
@@ -5220,6 +5593,7 @@ docket	verb		C2
 Doctor	noun		A1	
 doctor	noun		A1	health
 doctor	verb		A1	
+doctor up	verb		C2	
 doctor's	noun		A2	
 doctoral	adj		C1	
 doctorate	noun		C1	school
@@ -5304,6 +5678,10 @@ double	adj		A2	qualities
 double	adv		A2	
 double	noun		A2	
 double	verb		A2	actions.change
+double back	verb		C1	
+double down	verb		C1	
+double over	verb		C2	
+double up	verb		C1	
 double-decker	noun		A2	transport
 doubly	adv		B2	
 doubt	noun		B1	feelings
@@ -5351,6 +5729,8 @@ Dracula	noun		B2
 draft	adj		B1	
 draft	noun		B1	classroom
 draft	verb		B2	academic
+draft in	verb		C1	
+draft up	verb		C1	
 drafty	adj		C1	home
 drag	adj		B1	
 drag	noun		B1	
@@ -5372,6 +5752,18 @@ draught	noun		C1
 draw	intj		A1	
 draw	noun		A2	sports
 draw	verb		A1	actions
+draw ahead	verb		C2	
+draw away	verb		C1	
+draw back	verb		B2	
+draw down	verb		C2	
+draw in	verb		C1	
+draw into	verb		C2	
+draw off	verb		C2	
+draw on	verb		B2	
+draw out	verb		B2	
+draw together	verb		C2	
+draw up	verb		B2	
+draw upon	verb		C1	
 drawback	noun		B2	thinking
 drawdown	noun		C2	
 drawer	noun		A2	home
@@ -5386,12 +5778,17 @@ dreadfully	adv		C1
 dream	adj		A1	
 dream	noun		A1	self
 dream	verb		A2	actions
+dream on	verb		C2	
+dream up	verb		B2	
 dreary	adj		C1	qualities.character
 dreary	noun		C1	
 dredge	verb		C2	
 Dresden	noun		C2	
 dress	noun		A1	clothes
 dress	verb		A1	actions
+dress down	verb		C1	
+dress out	verb		C2	
+dress up	verb		B1	
 dress-up	noun		B1	toys
 dressed	adj		A2	clothes
 dresser	noun		B2	home
@@ -5404,9 +5801,23 @@ drill	noun		B2	home
 drill	verb		B2	actions.handling
 drink	noun		A1	food
 drink	verb		A1	actions
+drink down	verb		C2	
+drink in	verb		C1	
+drink off	verb		C2	
+drink to	verb		B2	
+drink under	verb		C2	
+drink up	verb		B1	
 drip	verb		B2	actions.motion
 drive	noun		B1	technology
 drive	verb		A1	actions.motion
+drive at	verb		C1	
+drive away	verb		B1	
+drive back	verb		C1	
+drive down	verb		B2	
+drive in	verb		B1	
+drive off	verb		B2	
+drive out	verb		C1	
+drive up	verb		B1	
 driver	noun		A1	transport
 driveway	noun		B2	home
 drizzle	noun		B2	weather
@@ -5418,6 +5829,16 @@ drooping	adj		C1
 drooping	noun		C1	
 drop	noun		B1	health
 drop	verb		A2	actions.motion
+drop away	verb		C2	
+drop back	verb		C1	
+drop behind	verb		C1	
+drop by	verb		B1	
+drop down	verb		C1	
+drop in	verb		B1	
+drop into	verb		C2	
+drop off	verb		B1	
+drop out	verb		B2	
+drop round	verb		B2	
 drought	noun		B1	weather
 drove	noun		C2	
 drown	verb		B2	
@@ -5435,6 +5856,9 @@ drunken	verb		C1
 dry	adj		A1	qualities
 dry	noun		A1	
 dry	verb		A2	actions.handling
+dry off	verb		B1	
+dry out	verb		B2	
+dry up	verb		B2	
 dryer	noun		B1	home
 DS	noun		C2	
 dual	adj		B2	academic
@@ -5494,6 +5918,8 @@ dusky	adj		C2
 dusky	noun		C2	
 dust	noun		B1	nature
 dust	verb		C1	actions.handling
+dust down	verb		C2	
+dust off	verb		C1	
 duster	noun		B2	home
 dusting	noun		B2	home
 dustpan	noun		B2	home
@@ -5558,6 +5984,7 @@ earphone	noun		B1	technology
 earring	noun		A2	clothes
 earth	noun		A2	space
 earth	verb		A2	
+earth up	verb		C2	
 earthly	adj		C2	
 earthly	adv		C2	
 earthly	noun		C1	
@@ -5565,6 +5992,9 @@ earthquake	noun		A2	nature
 earthquake	verb		A2	
 ease	noun		B2	
 ease	verb		B2	
+ease down	verb		C2	
+ease off	verb		C1	
+ease up	verb		C1	
 easel	noun		C1	music_arts
 easily	adv		A2	function.adverb
 east	adj		A2	space
@@ -5589,6 +6019,12 @@ easy	verb		A1
 easygoing	adj		A2	qualities.character
 eat	noun		A1	
 eat	verb		A1	actions
+eat away	verb		C1	
+eat away at	verb		C1	
+eat in	verb		B1	
+eat into	verb		C1	
+eat out	verb		A2	
+eat up	verb		B2	
 eavesdrop	verb		C1	actions.perception
 Ebola	noun		B2	
 eccentric	adj		B2	qualities.character
@@ -5621,6 +6057,9 @@ Eden	noun		C1
 Edgar	noun		C2	
 edge	noun		A2	qualities.size
 edge	verb		A2	
+edge in	verb		C2	
+edge out	verb		C1	
+edge up	verb		C1	
 edible	adj		C1	food
 edifice	noun		C2	
 Edinburgh	propn		A2	anglophone.uk
@@ -5840,6 +6279,7 @@ empress	noun		B2	history
 empty	adj		A1	qualities
 empty	noun		A1	
 empty	verb		B1	actions.handling
+empty out	verb		B2	
 EMS	noun		C1	
 emu	noun		C1	anglophone.commonwealth
 emulate	verb		C1	actions.change
@@ -5872,6 +6312,8 @@ encryption	noun		C1	technology
 End	noun		A1	
 end	noun		A1	time
 end	verb		A2	actions
+end in	verb		B2	
+end up	verb		B1	
 endanger	verb		B1	environment
 endangered	adj		A2	animals
 endeavor	noun		C1	
@@ -5902,6 +6344,7 @@ enforceable	adj		C2
 enforcement	noun		C1	law
 enforcer	noun		C1	
 engage	verb		C1	celebrations
+engage in	verb		B2	
 engaged	adj		B1	family
 engagement	noun		B2	friends
 engaging	adj		C1	literature
@@ -5956,6 +6399,7 @@ entail	verb		C1	thinking
 Enter	noun		A2	
 enter	noun		A2	
 enter	verb		A2	actions.motion
+enter into	verb		C1	
 enterprise	noun		C1	economy
 enterprise	verb		C1	
 entertain	noun		B1	
@@ -6139,6 +6583,8 @@ even	adj		B2	qualities.size
 even	adv		A2	function.adverb
 even	noun		A2	
 even	verb		A2	
+even out	verb		B2	
+even up	verb		C2	
 evening	noun		A1	time.clock
 evenly	adv		B2	thinking
 event	noun		A2	time
@@ -6317,6 +6763,7 @@ expiration	noun		C1
 expire	verb		B2	actions.change
 expiry	noun		C1	
 explain	verb		A2	actions.speaking
+explain away	verb		C1	
 explanation	noun		A2	communication
 explanatory	adj		C1	academic
 explicit	adj		C1	academic
@@ -6395,6 +6842,7 @@ extremity	noun		C1
 exultation	noun		C1	feelings
 eye	noun		A1	body
 eye	verb		A1	
+eye up	verb		C1	
 eyebrow	noun		B1	body
 eyelash	noun		B2	body
 eyelid	noun		B2	body
@@ -6415,6 +6863,10 @@ facade	verb		C1
 face	adv		A1	
 face	noun		A1	body
 face	verb		B1	actions.perception
+face down	verb		C2	
+face off	verb		C2	
+face up	verb		C2	
+face up to	verb		B2	
 face-to-face	adj		B2	
 face-to-face	adv		B2	
 face-to-face	noun		B2	
@@ -6429,6 +6881,9 @@ fact	noun		A2	media
 faction	noun		B2	politics
 factor	noun		B1	thinking
 factor	verb		B1	
+factor in	verb		C1	
+factor out	verb		C2	
+factor through	verb		C2	
 factory	adj		A2	
 factory	noun		A2	environment
 factual	adj		B1	media
@@ -6440,6 +6895,8 @@ fade	verb		C1	actions.perception
 fail	adj		A2	
 fail	noun		A2	
 fail	verb		A2	actions
+fail out	verb		C2	
+fail over	verb		C2	
 failing	noun		C1	
 failure	noun		B1	school
 fain	adj		C2	
@@ -6472,6 +6929,29 @@ falcon	noun		B2	animals
 fall	intj		A1	
 fall	noun		A2	time.calendar
 fall	verb		A1	actions.motion
+fall about	verb		C2	
+fall apart	verb		B2	
+fall away	verb		C1	
+fall back	verb		C1	
+fall back into	verb		C1	
+fall back on	verb		B2	
+fall back upon	verb		C1	
+fall behind	verb		B2	
+fall down	verb		A2	
+fall down on	verb		C2	
+fall for	verb		B2	
+fall in	verb		B2	
+fall in with	verb		C2	
+fall into	verb		B2	
+fall off	verb		B2	
+fall on	verb		C1	
+fall out	verb		B2	
+fall over	verb		A2	
+fall through	verb		B2	
+fall to	verb		C2	
+fall together	verb		C2	
+fall under	verb		C1	
+fall upon	verb		C2	
 fallacious	adj		C2	thinking
 fallacy	noun		C1	thinking
 false	adj		A2	qualities
@@ -6499,6 +6979,7 @@ fancy	adj		B1
 fancy	adv		B1	
 fancy	noun		B1	
 fancy	verb		B1	actions.thinking
+fancy up	verb		C2	
 fang	noun		B2	animals
 fantastic	adj		A1	qualities.judgement
 fantastic	noun		A1	
@@ -6519,6 +7000,7 @@ farewell	noun		B2	language
 farewell	verb		B2	
 farm	noun		A1	animals
 farm	verb		A1	
+farm out	verb		C1	
 farmer	noun		A1	jobs
 farmhouse	noun		B1	
 farming	adj		B1	
@@ -6539,6 +7021,7 @@ fast	adj		A1	time
 fast	adv		A1	transport
 fast	noun		A1	
 fast	verb		C1	celebrations
+fast forward	verb		B2	
 fasten	verb		B1	actions.handling
 fasting	noun		C1	celebrations
 fat	adj		A1	qualities.size
@@ -6617,10 +7100,19 @@ feeble	verb		C1
 feebly	adv		C2	
 feed	noun		B2	media
 feed	verb		A1	actions
+feed back	verb		C1	
+feed into	verb		C1	
+feed off	verb		C2	
+feed on	verb		C1	
+feed through	verb		C2	
+feed up	verb		C2	
 feedback	noun		B1	school
 feedback	verb		B1	
 feel	noun		A1	
 feel	verb		A1	actions.perception
+feel around	verb		B2	
+feel for	verb		B2	
+feel out	verb		C2	
 feeling	adj		A2	
 feeling	noun		A2	feelings
 feet	noun		A1	body
@@ -6706,19 +7198,35 @@ fig	noun		B2	food
 fig	verb		B2	
 fight	noun		A2	family
 fight	verb		A2	actions
+fight back	verb		B2	
+fight down	verb		C2	
+fight off	verb		B2	
+fight out	verb		C2	
 fighter	noun		B2	
 figurative	adj		C1	language
 figuratively	adv		C1	literature
 figure	noun		B1	numbers
 figure	verb		B1	
+figure on	verb		C2	
+figure out	verb		B1	
+figure up	verb		C2	
 figurine	noun		B2	toys
 file	noun		A2	technology
 file	verb		A2	
+file away	verb		C1	
+file down	verb		C2	
+file in	verb		C1	
+file off	verb		C2	
+file out	verb		C2	
+file with	verb		C2	
 filing	noun		C1	
 Filipino	adj		B2	countries
 Filipino	noun		B2	countries
 fill	noun		A2	
 fill	verb		A2	actions.handling
+fill in	verb		B1	
+fill out	verb		B1	
+fill up	verb		A2	
 filler	noun		C1	language
 film	noun		A1	music_arts
 film	verb		B1	music_arts
@@ -6741,6 +7249,7 @@ financially	adv		B1	economy
 financier	noun		B2	economy
 find	noun		A1	
 find	verb		A1	actions
+find out	verb		A2	
 finding	noun		B2	thinking
 fine	adj		A1	qualities.senses
 fine	adv		A1	
@@ -6754,6 +7263,10 @@ fingernail	noun		B1	body
 fingerprint	noun		B2	law
 finish	noun		B2	time
 finish	verb		A1	actions
+finish off	verb		B2	
+finish out	verb		C2	
+finish up	verb		B1	
+finish with	verb		B2	
 finished	adj		A2	classroom
 finite	adj		C1	
 finite	noun		C2	
@@ -6766,6 +7279,9 @@ fire	adj		A1
 fire	intj		A1	
 fire	noun		A1	nature
 fire	verb		B1	jobs
+fire away	verb		B2	
+fire off	verb		C1	
+fire up	verb		C1	
 firearm	noun		B2	law
 firefighter	noun		A2	jobs
 fireman	noun		A2	jobs
@@ -6776,6 +7292,7 @@ firm	adj		B1	qualities
 firm	adv		B1	
 firm	noun		B1	jobs
 firm	verb		B1	
+firm up	verb		C1	
 firmly	adv		B2	
 firmness	noun		B2	qualities.character
 first	adj		A1	numbers
@@ -6789,6 +7306,8 @@ fiscal	adj		C1	economy
 fiscal	noun		C1	
 fish	noun		A1	food
 fish	verb		A2	free_time
+fish out	verb		C1	
+fish up	verb		C2	
 fisherman	noun		A2	jobs
 fishery	noun		C1	
 fishing	noun		A2	free_time
@@ -6799,6 +7318,11 @@ fist	verb		B2
 fit	adj		A2	body
 fit	noun		B2	clothes
 fit	verb		A2	clothes
+fit in	verb		B2	
+fit into	verb		B1	
+fit out	verb		C1	
+fit together	verb		B1	
+fit up	verb		C2	
 fitness	noun		A2	health
 fitting	adj		B2	qualities.judgement
 fitting	noun		C1	clothes
@@ -6811,6 +7335,8 @@ fixture	noun		C1	sports
 fjord	noun		B2	nature
 flag	noun		A1	celebrations
 flag	verb		A1	
+flag down	verb		C1	
+flag up	verb		C1	
 flagship	noun		C1	
 flagship	verb		C1	
 flame	adj		B2	
@@ -6872,6 +7398,7 @@ flock	noun		B2	animals
 flock	verb		B2	
 flood	noun		A2	weather
 flood	verb		B1	environment
+flood out	verb		C2	
 flooding	noun		B2	
 floodplain	noun		C2	
 floor	noun		A1	space
@@ -6888,6 +7415,7 @@ flourish	noun		C1
 flourish	verb		C1	actions.change
 flow	noun		B2	
 flow	verb		B2	actions.motion
+flow out	verb		B2	
 flower	noun		A1	celebrations
 flower	verb		C2	plants
 flowered	adj		B2	clothes
@@ -6915,6 +7443,14 @@ flux	verb		C2
 fly	adj		A1	
 fly	noun		A2	animals
 fly	verb		A1	actions.motion
+fly apart	verb		C2	
+fly at	verb		C2	
+fly by	verb		B2	
+fly in	verb		B1	
+fly into	verb		B2	
+fly off	verb		B2	
+fly out	verb		B2	
+fly up	verb		B2	
 flyer	noun		B1	media
 FM	noun		B2	
 foal	noun		B2	animals
@@ -6942,6 +7478,11 @@ folklore	noun		C1	fantasy
 folktale	noun		B1	literature
 follow	noun		A2	
 follow	verb		A2	actions
+follow along	verb		C1	
+follow on	verb		C2	
+follow through	verb		C1	
+follow up	verb		B2	
+follow up on	verb		C1	
 follow-up	noun		B2	
 follower	noun		B1	friends
 following	adj		A2	time.relations
@@ -6960,6 +7501,10 @@ food	noun		A1	food
 fool	adj		B2	
 fool	noun		B1	
 fool	verb		B2	
+fool about	verb		B2	
+fool around	verb		B2	
+fool away	verb		C2	
+fool with	verb		C1	
 foolish	adj		B1	qualities.character
 foot	noun		A1	numbers
 foot	verb		A1	
@@ -6984,6 +7529,8 @@ foraging	noun		C2
 forbid	verb		B1	actions.speaking
 force	noun		B1	science
 force	verb		B1	
+force in	verb		C2	
+force out	verb		B2	
 forcibly	adv		B2	thinking
 Ford	noun		C2	
 fore	adj		C1	
@@ -7022,6 +7569,7 @@ forge	noun		C1
 forge	verb		C1	law
 forgery	noun		C1	law
 forget	verb		A1	actions.thinking
+forget about	verb		A2	
 forgetful	adj		B1	qualities.character
 forgive	verb		A2	actions.speaking
 forgiveness	noun		B2	friends
@@ -7125,6 +7673,7 @@ frail	noun		B2
 frail	verb		B2	
 frame	noun		B1	home
 frame	verb		C1	music_arts
+frame up	verb		C2	
 framework	noun		C1	thinking
 franc	noun		B1	
 France	noun		A1	travel
@@ -7156,6 +7705,7 @@ free	adj		A1	qualities
 free	adv		A1	
 free	noun		A1	
 free	verb		B2	fantasy
+free up	verb		B2	
 freedom	adj		B1	
 freedom	noun		B1	media
 freehold	adj		C1	
@@ -7189,6 +7739,7 @@ fresh	adj		A1	qualities
 fresh	adv		A1	
 fresh	noun		A1	
 fresh	verb		A1	
+fresh up	verb		C1	
 freshman	noun		B2	school
 freshness	noun		B2	
 freshwater	adj		B2	environment
@@ -7231,6 +7782,7 @@ front	adj		A2	space
 front	intj		A1	
 front	noun		A1	space
 front	verb		A1	
+front up	verb		C2	
 frontal	adj		C1	
 frontal	noun		C1	
 frontier	noun		B2	anglophone.us
@@ -7256,6 +7808,7 @@ ft	noun		B1
 ft	verb		C2	
 fuel	noun		B1	environment
 fuel	verb		C1	transport
+fuel up	verb		C1	
 fugitive	adj		B2	
 fugitive	noun		B2	law
 fugitive	verb		B2	
@@ -7345,6 +7898,8 @@ gain	adv		B1
 gain	noun		B1	
 gain	prep		B1	
 gain	verb		B1	actions
+gain on	verb		C2	
+gain upon	verb		C2	
 gait	noun		C2	
 gait	verb		C2	
 gal	noun		C1	
@@ -7394,6 +7949,7 @@ Gary	noun		C2
 gas	adj		A2	
 gas	noun		A2	home
 gas	verb		A2	
+gas up	verb		C2	
 gas-fired	adj		C2	
 gaseous	adj		C2	science
 gasoline	adj		B1	
@@ -7508,6 +8064,47 @@ gesture	verb		C1	actions.speaking
 Get	noun		A1	
 get	noun		A1	
 get	verb		A1	actions
+get about	verb		B2	
+get across	verb		B2	
+get after	verb		C2	
+get ahead	verb		B2	
+get ahead of	verb		C1	
+get along	verb		B1	
+get around	verb		B2	
+get around to	verb		C1	
+get at	verb		C1	
+get away	verb		B1	
+get away with	verb		B2	
+get back	verb		B1	
+get back at	verb		C1	
+get back to	verb		B2	
+get behind	verb		B2	
+get by	verb		B2	
+get by with	verb		C2	
+get down	verb		B1	
+get down to	verb		B2	
+get in	verb		B1	
+get in on	verb		C2	
+get in with	verb		C2	
+get into	verb		B1	
+get off	verb		A2	
+get off on	verb		C2	
+get off with	verb		C2	
+get on	verb		B1	
+get on at	verb		C2	
+get on to	verb		C2	
+get on with	verb		B1	
+get onto	verb		C2	
+get out	verb		A2	
+get out of	verb		B2	
+get over	verb		B2	
+get round	verb		C1	
+get through	verb		B2	
+get to	verb		B1	
+get together	verb		A2	
+get up	verb		A1	
+get up to	verb		B2	
+get with	verb		C2	
 getaway	noun		B2	travel
 Ghana	noun		B1	countries
 Ghanaian	adj		B2	countries
@@ -7555,6 +8152,14 @@ git	intj		C2
 git	noun		C2	
 give	noun		A1	
 give	verb		A1	actions
+give away	verb		B1	
+give back	verb		B1	
+give in	verb		B1	
+give into	verb		B2	
+give off	verb		B2	
+give out	verb		B1	
+give over	verb		C2	
+give up	verb		A2	
 glacial	adj		C1	
 glacial	noun		C2	
 glacier	noun		B1	nature
@@ -7566,6 +8171,9 @@ gladly	adv		B2	feelings
 Gladstone	noun		C2	
 glance	noun		C1	
 glance	verb		C1	actions.perception
+glance away	verb		C1	
+glance off	verb		C2	
+glance over	verb		C1	
 gland	noun		C2	body
 glare	adj		C1	
 glare	noun		C1	
@@ -7621,6 +8229,43 @@ Go	noun		A1
 go	adj		A1	
 go	noun		A1	
 go	verb		A1	actions
+go about	verb		C1	
+go after	verb		B2	
+go against	verb		B2	
+go ahead	verb		B1	
+go ahead with	verb		B2	
+go along	verb		B2	
+go along with	verb		B2	
+go around	verb		B1	
+go around with	verb		C2	
+go at	verb		C1	
+go away	verb		A2	
+go back	verb		A2	
+go back on	verb		C1	
+go back to	verb		B2	
+go by	verb		B1	
+go down	verb		B1	
+go down with	verb		B2	
+go for	verb		B2	
+go in	verb		A2	
+go in for	verb		C1	
+go in on	verb		C2	
+go into	verb		B2	
+go off	verb		B2	
+go on	verb		B1	
+go out	verb		A2	
+go over	verb		B1	
+go round	verb		B1	
+go through	verb		B1	
+go through with	verb		B2	
+go to	verb		A2	
+go together	verb		B2	
+go under	verb		C1	
+go up	verb		B1	
+go up against	verb		C2	
+go up for	verb		C2	
+go with	verb		B1	
+go without	verb		B2	
 goal	noun		A1	self
 goal	verb		A1	
 goalie	noun		B1	sports
@@ -7679,6 +8324,7 @@ gospel	noun		B2	society
 gospel	verb		B2	
 gossip	noun		B1	friends
 gossip	verb		B1	actions.speaking
+got to	verb		B1	
 goth	noun		C1	identity
 Gothic	adj		B2	
 Gothic	noun		B2	
@@ -7758,6 +8404,8 @@ grasp	noun		C1
 grasp	verb		C1	actions.thinking
 grass	noun		A1	plants
 grass	verb		A1	
+grass on	verb		C2	
+grass up	verb		C2	
 grasshopper	noun		B2	animals
 grassland	noun		B2	environment
 grassroots	adj		B2	politics
@@ -7782,6 +8430,7 @@ gravy	noun		B2	food
 gray	adj		A1	qualities.colour
 gray	noun		A1	
 gray	verb		A1	
+gray out	verb		C2	
 graze	verb		C1	animals
 greasy	adj		B2	qualities.senses
 great	adj		A1	qualities.size
@@ -7872,6 +8521,13 @@ grove	noun		C1	plants
 grove	verb		C1	
 grow	noun		A1	
 grow	verb		A1	actions
+grow apart	verb		B2	
+grow away from	verb		C2	
+grow into	verb		C1	
+grow on	verb		C1	
+grow out	verb		C1	
+grow out of	verb		B2	
+grow up	verb		A2	
 growl	verb		C1	animals
 growth	noun		B1	economy
 grumble	verb		B2	
@@ -7881,6 +8537,7 @@ guarantee	noun		B1	shopping
 guarantee	verb		B1	actions.speaking
 guard	noun		B1	jobs
 guard	verb		B2	fantasy
+guard against	verb		C1	
 guardian	noun		B2	family
 guardianship	noun		C1	
 gubernatorial	adj		C2	
@@ -7917,6 +8574,9 @@ gum	noun		B1	body
 gum	verb		B1	
 gun	noun		B1	toys
 gun	verb		B1	
+gun down	verb		B2	
+gun for	verb		C2	
+gun up	verb		C2	
 gunboat	noun		C2	
 guru	noun		C1	anglophone.commonwealth
 gust	noun		C1	weather
@@ -8007,6 +8667,15 @@ Hampshire	noun		C2
 hamster	noun		A1	animals
 hand	noun		A1	time.clock
 hand	verb		B2	actions.handling
+hand around	verb		B2	
+hand back	verb		B2	
+hand down	verb		C1	
+hand in	verb		B1	
+hand off	verb		C2	
+hand on	verb		C1	
+hand out	verb		B1	
+hand over	verb		B2	
+hand round	verb		B1	
 handbag	noun		A2	clothes
 handball	noun		A2	sports
 handbook	noun		B2	academic
@@ -8032,6 +8701,11 @@ Hannah	noun		C2
 Hans	noun		C2	
 happen	adv		A1	
 happen	verb		A1	actions
+happen across	verb		C2	
+happen along	verb		C2	
+happen by	verb		C2	
+happen on	verb		C1	
+happen upon	verb		C1	
 happening	noun		B2	
 happily	adv		A2	feelings
 happiness	noun		A2	feelings
@@ -8048,6 +8722,7 @@ hard	adj		A1	qualities
 hard	adv		A2	function.adverb
 hard	noun		A1	
 hard	verb		A1	
+hard up	verb		C2	
 harden	verb		C1	actions.change
 hardly	adv		B1	function.adverb
 hardly	intj		B1	
@@ -8091,6 +8766,7 @@ hat	verb		A1
 hatch	verb		C1	animals
 hate	noun		A2	feelings
 hate	verb		A1	actions
+hate on	verb		C1	
 hateful	adj		B2	qualities.judgement
 hath	noun		C2	
 hatred	noun		B1	feelings
@@ -8104,6 +8780,15 @@ haunting	adj		C1	literature
 Havana	noun		B2	
 have	noun		A1	
 have	verb		A1	function.auxiliary
+have against	verb		C1	
+have at	verb		C2	
+have down	verb		C2	
+have in	verb		B2	
+have on	verb		B2	
+have out	verb		C2	
+have over	verb		B2	
+have to	verb		A1	
+have up	verb		C2	
 haven	noun		B2	history
 haven	verb		B2	
 haven't	verb		A1	
@@ -8129,6 +8814,9 @@ he	pron		A1	function.pronoun
 head	adj		A1	
 head	noun		A1	body
 head	verb		B2	actions.motion
+head off	verb		B2	
+head out	verb		B2	
+head up	verb		C1	
 headache	noun		A1	health
 header	noun		B2	sports
 heading	noun		A2	classroom
@@ -8156,6 +8844,9 @@ heap	noun		C1	numbers
 heap	verb		C1	
 hear	intj		A1	
 hear	verb		A1	actions.perception
+hear from	verb		A2	
+hear of	verb		B1	
+hear out	verb		C1	
 hearing	adj		B2	
 hearing	noun		B2	qualities.senses
 heart	noun		A1	qualities.size
@@ -8172,6 +8863,8 @@ hearty	adj		B2	qualities.judgement
 hearty	noun		B2	
 heat	noun		A2	qualities.senses
 heat	verb		A2	actions.handling
+heat through	verb		C1	
+heat up	verb		B1	
 heated	adj		C1	thinking
 heater	noun		A2	home
 heath	noun		C2	nature
@@ -8224,6 +8917,8 @@ helmet	verb		A2
 help	intj		A1	
 help	noun		A1	friends
 help	verb		A1	actions
+help along	verb		C2	
+help out	verb		B1	
 helpful	adj		A2	qualities
 helpless	adj		B1	feelings
 helplessness	noun		B2	feelings
@@ -8364,6 +9059,13 @@ hit	adj		A1
 hit	noun		B2	music_arts
 hit	pron		A1	
 hit	verb		A1	actions
+hit back	verb		B2	
+hit off	verb		C2	
+hit on	verb		C1	
+hit out	verb		C1	
+hit up	verb		C2	
+hit upon	verb		C2	
+hit with	verb		C2	
 hitchhike	verb		B2	transport
 hither	adj		C2	
 hither	adv		C2	
@@ -8390,11 +9092,28 @@ hoist	verb		C1
 hold	adj		A1	
 hold	noun		A1	
 hold	verb		A1	actions
+hold against	verb		C1	
+hold back	verb		B1	
+hold back on	verb		C2	
+hold down	verb		B2	
+hold in	verb		C1	
+hold off	verb		B2	
+hold on	verb		B1	
+hold onto	verb		B1	
+hold out	verb		B2	
+hold over	verb		C2	
+hold to	verb		C1	
+hold together	verb		B2	
+hold up	verb		B1	
+hold up to	verb		C2	
+hold with	verb		C2	
 Holden	noun		C2	
 holder	noun		B2	
 holding	noun		C1	
 hole	noun		A2	space
 hole	verb		A2	
+hole out	verb		C2	
+hole up	verb		C2	
 holiday	noun		A1	time
 holiday	verb		A1	
 holistic	adj		B2	thinking
@@ -8420,6 +9139,7 @@ home	adj		A1
 home	adv		A1	function.adverb
 home	noun		A1	family
 home	verb		A1	
+home in	verb		C1	
 homeland	noun		B2	countries
 homeless	adj		A2	society
 homeless	noun		A2	
@@ -8512,6 +9232,8 @@ horrified	adj		B2	feelings
 horror	noun		A2	feelings
 horse	noun		A1	toys
 horse	verb		A1	
+horse about	verb		C2	
+horse around	verb		C1	
 horseback	adv		B2	
 horseback	noun		C1	
 horseman	noun		C1	
@@ -8536,6 +9258,7 @@ hot	adj		A1	qualities.senses
 hot	adv		A1	
 hot	noun		A1	
 hot	verb		A1	
+hot up	verb		C1	
 hotel	noun		A1	town
 hotspot	noun		B2	technology
 hound	noun		C1	
@@ -8665,6 +9388,9 @@ IC	adj		C2
 ICE	verb		A1	
 ice	noun		A1	nature
 ice	verb		A1	
+ice down	verb		C1	
+ice over	verb		C1	
+ice up	verb		C1	
 iceberg	noun		B2	nature
 Iceland	noun		A2	countries
 Icelandic	adj		B2	countries
@@ -8850,6 +9576,7 @@ improper	adj		C1	qualities.judgement
 improper	verb		C1	
 improperly	adv		B2	thinking
 improve	verb		A2	actions.change
+improve on	verb		B2	
 improvement	noun		B1	actions.change
 improvise	verb		C1	music_arts
 impulse	noun		C1	
@@ -8900,6 +9627,10 @@ incessant	adj		C2
 inch	adj		A2	
 inch	noun		A2	numbers
 inch	verb		A2	
+inch along	verb		C1	
+inch back	verb		C2	
+inch forward	verb		C1	
+inch up	verb		C1	
 incidence	noun		B2	thinking
 incident	adj		B1	
 incident	noun		B1	fantasy
@@ -9061,6 +9792,7 @@ influenza	noun		B2
 influx	noun		C1	global
 inform	adj		B1	
 inform	verb		B1	actions.speaking
+inform on	verb		C1	
 informal	adj		B1	qualities
 informally	adv		B2	language
 information	noun		A1	self
@@ -9414,6 +10146,7 @@ Iron	adj		A2
 iron	adj		A2	
 iron	noun		B1	home
 iron	verb		A2	actions.handling
+iron out	verb		C1	
 ironed	adj		B1	clothes
 ironic	adj		B2	literature
 ironically	adv		C1	literature
@@ -9585,6 +10318,8 @@ Johnny	noun		C2
 Johnson	noun		C2	
 join	noun		A2	
 join	verb		A2	actions
+join in	verb		B1	
+join up	verb		B2	
 joint	adj		B2	economy
 joint	noun		C1	body
 joint	verb		B2	
@@ -9703,6 +10438,27 @@ keen	verb		B1
 keenly	adv		C1	
 keep	noun		A2	
 keep	verb		A2	actions
+keep across	verb		C2	
+keep ahead	verb		C2	
+keep around	verb		C1	
+keep at	verb		C1	
+keep away	verb		B1	
+keep away from	verb		B1	
+keep back	verb		B2	
+keep down	verb		C1	
+keep from	verb		B2	
+keep in	verb		B2	
+keep in with	verb		C2	
+keep off	verb		B1	
+keep on	verb		B1	
+keep on about	verb		C1	
+keep out	verb		B1	
+keep out of	verb		B2	
+keep to	verb		B2	
+keep together	verb		B2	
+keep under	verb		C2	
+keep up	verb		B2	
+keep up with	verb		B2	
 keeper	noun		B1	sports
 Kelly	noun		C2	
 kennel	noun		C1	animals
@@ -9718,6 +10474,9 @@ kettle	noun		A2	home
 key	adj		B1	qualities
 key	noun		A1	home
 key	verb		A1	
+key in	verb		C1	
+key in on	verb		C2	
+key on	verb		C2	
 keyboard	noun		A2	music_arts
 keyboard	verb		A2	
 keypad	noun		B2	technology
@@ -9736,6 +10495,7 @@ kidnapping	noun		B2	law
 kidney	noun		B1	body
 kill	noun		A2	
 kill	verb		A2	actions
+kill off	verb		C1	
 killer	adj		B1	
 killer	noun		B1	law
 killing	noun		B2	
@@ -9798,6 +10558,8 @@ knot	verb		C1	actions.handling
 know	noun		A1	
 know	part		A1	
 know	verb		A1	actions.thinking
+know about	verb		A2	
+know of	verb		B1	
 knowingly	adv		C1	
 knowledge	noun		B1	school
 knowledge	verb		B1	
@@ -9874,6 +10636,9 @@ lance	noun		C2
 lance	verb		C2	
 land	noun		A2	nature
 land	verb		A2	actions.motion
+land on	verb		C1	
+land up	verb		C1	
+land with	verb		C2	
 landfall	noun		C2	
 landfill	noun		B2	environment
 landfill	verb		B2	
@@ -9916,6 +10681,7 @@ last	det		A1
 last	noun		A1	
 last	num		A1	time.relations
 last	verb		B1	actions.change
+last out	verb		C1	
 lasting	adj		B2	thinking
 lasting	noun		B2	
 lastly	adv		B1	function.adverb
@@ -9948,9 +10714,15 @@ Latvian	adj		B2	countries
 Latvian	noun		B2	
 laugh	noun		A2	body
 laugh	verb		A1	actions.speaking
+laugh at	verb		A2	
+laugh away	verb		C2	
+laugh down	verb		C2	
+laugh off	verb		C1	
+laugh with	verb		B1	
 laughter	noun		B1	feelings
 launch	noun		B2	science
 launch	verb		B1	actions.motion
+launch into	verb		C1	
 launder	verb		C1	
 laundering	noun		B2	law
 laundry	noun		B1	home
@@ -9975,9 +10747,22 @@ lawsuit	noun		C1	law
 lawsuit	verb		C1	
 lawyer	noun		A2	jobs
 lawyer	verb		A2	
+lawyer up	verb		C2	
 lay	adj		B1	
 lay	noun		B1	
 lay	verb		B1	actions.handling
+lay aside	verb		C2	
+lay away	verb		C2	
+lay back	verb		C2	
+lay by	verb		C2	
+lay down	verb		B2	
+lay in	verb		C2	
+lay into	verb		C2	
+lay off	verb		B2	
+lay on	verb		C1	
+lay out	verb		B2	
+lay over	verb		C1	
+lay up	verb		C2	
 layer	noun		B1	space
 layer	verb		B2	academic
 layoff	noun		C1	economy
@@ -9992,6 +10777,12 @@ le	prep		C2
 lead	adj		B1	
 lead	noun		B1	
 lead	verb		B1	actions
+lead in	verb		C2	
+lead off	verb		C1	
+lead on	verb		C1	
+lead through	verb		C2	
+lead to	verb		B1	
+lead up to	verb		B2	
 leader	noun		A2	politics
 leadership	noun		B1	politics
 leaf	noun		A1	nature
@@ -10018,6 +10809,7 @@ learner	noun		B1	school
 learning	noun		B1	school
 lease	noun		C1	home
 lease	verb		C1	
+lease out	verb		C1	
 leasehold	adj		C1	
 leasehold	noun		C1	
 leaseholder	noun		C1	
@@ -10032,6 +10824,12 @@ leather	noun		A2	clothes
 leather	verb		A2	
 leave	noun		B2	jobs
 leave	verb		A1	actions
+leave aside	verb		C1	
+leave behind	verb		B1	
+leave off	verb		C1	
+leave on	verb		B1	
+leave out	verb		B1	
+leave over	verb		C2	
 Lebanese	adj		B1	countries
 Lebanese	noun		B1	
 Lebanon	noun		B2	countries
@@ -10116,6 +10914,15 @@ lesson	verb		A1
 lest	conj		C2	function.conjunction
 let	noun		A1	
 let	verb		A1	actions
+let down	verb		B2	
+let in	verb		B1	
+let in on	verb		C1	
+let into	verb		C2	
+let off	verb		C1	
+let on	verb		C1	
+let out	verb		B2	
+let through	verb		B2	
+let up	verb		C2	
 let's	verb		A1	
 lethal	adj		B2	qualities.judgement
 lethal	noun		B2	
@@ -10125,6 +10932,11 @@ lettuce	noun		A2	food
 level	adj		C1	qualities.size
 level	noun		A2	space
 level	verb		A2	
+level down	verb		C2	
+level off	verb		B2	
+level out	verb		C1	
+level up	verb		C1	
+level with	verb		C2	
 lever	adv		C2	
 lever	noun		C1	
 lever	verb		C1	
@@ -10168,6 +10980,14 @@ lid	noun		B2	home
 lid	verb		B2	
 lie	noun		A2	thinking
 lie	verb		A2	actions.motion
+lie ahead	verb		C1	
+lie around	verb		B2	
+lie back	verb		B2	
+lie behind	verb		C2	
+lie down	verb		A2	
+lie in	verb		C1	
+lie upon	verb		C2	
+lie with	verb		C2	
 Liechtenstein	noun		B1	countries
 lieu	noun		C2	
 lieutenant	adj		C1	
@@ -10185,6 +11005,10 @@ light	adj		A1	qualities.size
 light	adv		A1	
 light	noun		A1	qualities.senses
 light	verb		B2	actions.handling
+light on	verb		C2	
+light out	verb		C2	
+light up	verb		B1	
+light upon	verb		C2	
 lighten	verb		C1	actions.change
 lighter	noun		B1	
 lighthouse	noun		B1	town
@@ -10233,6 +11057,9 @@ Lincoln	noun		B2
 line	intj		A1	
 line	noun		A1	qualities.size
 line	verb		A1	
+line off	verb		C2	
+line out	verb		C2	
+line up	verb		B1	
 lineage	noun		B2	history
 lineal	adj		C2	
 linear	adj		C1	literature
@@ -10254,6 +11081,9 @@ linguistics	noun		C1	language
 lining	noun		C1	clothes
 link	noun		A2	technology
 link	verb		B1	actions
+link in	verb		C1	
+link out	verb		C2	
+link up	verb		B2	
 Lion	noun		A1	
 lion	adj		A1	
 lion	noun		A1	animals
@@ -10272,6 +11102,9 @@ list	noun		A1	classroom
 list	verb		A2	academic
 listen	noun		A1	
 listen	verb		A1	actions.perception
+listen in	verb		B2	
+listen out	verb		C1	
+listen up	verb		B2	
 listener	noun		B1	communication
 listing	noun		B2	
 liter	noun		A2	numbers
@@ -10297,6 +11130,16 @@ little	pron		A1	function.pronoun
 live	adj		A2	music_arts
 live	adv		B1	media
 live	verb		A1	actions
+live down	verb		C2	
+live for	verb		B2	
+live in	verb		B1	
+live off	verb		B2	
+live on	verb		B2	
+live out	verb		C1	
+live through	verb		B2	
+live together	verb		B1	
+live up	verb		C1	
+live with	verb		A2	
 livelihood	noun		C1	
 lively	adj		B1	qualities.character
 lively	adv		B1	
@@ -10318,6 +11161,9 @@ lo	intj		C2
 lo	part		C2	
 load	noun		B2	
 load	verb		B2	actions.handling
+load down	verb		C2	
+load up	verb		B2	
+load up on	verb		B2	
 loaf	noun		B1	food
 loafer	noun		C1	clothes
 loan	noun		B1	shopping
@@ -10373,6 +11219,7 @@ long	adj		A1	qualities.size
 long	adv		A1	
 long	noun		A1	
 long	verb		C1	actions.thinking
+long for	verb		B2	
 long-distance	adj		B1	
 long-range	adj		C1	
 long-running	adj		C1	
@@ -10390,6 +11237,29 @@ longtime	adv		C1
 look	intj		A1	
 look	noun		B1	self
 look	verb		A1	actions.perception
+look after	verb		A2	
+look ahead	verb		B2	
+look ahead to	verb		B2	
+look around	verb		A2	
+look at	verb		A1	
+look away	verb		B1	
+look back	verb		B2	
+look down	verb		B2	
+look down on	verb		B2	
+look for	verb		A2	
+look forward to	verb		B1	
+look in	verb		B2	
+look in on	verb		C1	
+look into	verb		B2	
+look on	verb		B2	
+look out	verb		B1	
+look over	verb		B2	
+look round	verb		A2	
+look through	verb		B2	
+look to	verb		C1	
+look up	verb		A2	
+look up to	verb		B2	
+look upon	verb		C1	
 lookout	noun		B2	
 loom	verb		C1	
 loop	noun		C1	
@@ -10407,11 +11277,13 @@ Lord	intj		B2
 Lord	noun		B2	
 lord	noun		B2	fantasy
 lord	verb		B2	
+lord over	verb		C2	
 lordship	noun		C2	
 lorry	noun		A2	transport
 los	noun		C2	
 lose	noun		A1	
 lose	verb		A1	actions
+lose out	verb		C1	
 loser	noun		B1	toys
 loss	noun		B1	sports
 lot	noun		A1	qualities.size
@@ -10429,6 +11301,8 @@ louse	noun		C1	animals
 Love	noun		A1	
 love	noun		A1	feelings
 love	verb		A1	actions
+love on	verb		C2	
+love up	verb		C2	
 loveliness	noun		C2	
 lovely	adj		A1	qualities.judgement
 lovely	adv		A1	
@@ -10533,6 +11407,7 @@ magazine	noun		A1	free_time
 magic	adj		A2	fantasy
 magic	noun		A2	toys
 magic	verb		A2	
+magic up	verb		C2	
 magical	adj		B1	fantasy
 magically	adv		B2	fantasy
 magician	noun		A2	toys
@@ -10578,9 +11453,24 @@ Major	noun		B1
 major	adj		B1	qualities
 major	noun		B1	
 major	verb		C1	school
+major in	verb		C1	
 majority	noun		B1	qualities.size
 make	noun		A1	
 make	verb		A1	actions
+make after	verb		C2	
+make against	verb		C2	
+make away	verb		C2	
+make away with	verb		C2	
+make for	verb		C1	
+make into	verb		B2	
+make of	verb		B2	
+make off	verb		C2	
+make off with	verb		C1	
+make out	verb		B2	
+make out of	verb		B2	
+make over	verb		C2	
+make up	verb		B1	
+make up to	verb		C2	
 make-up	adj		B1	
 make-up	verb		B2	
 maker	noun		B2	
@@ -10610,8 +11500,12 @@ man	intj		A1
 man	noun		A1	self
 man	pron		A1	
 man	verb		A1	
+man up	verb		C2	
 manage	noun		A2	
 manage	verb		A2	actions
+manage down	verb		C2	
+manage up	verb		C2	
+manage with	verb		C2	
 management	noun		B1	economy
 manager	noun		A2	shopping
 managerial	adj		B2	jobs
@@ -10675,6 +11569,8 @@ Maori	adj		B2	anglophone.commonwealth
 Maori	noun		B2	anglophone.commonwealth
 map	noun		A1	space
 map	verb		A1	
+map onto	verb		C2	
+map out	verb		C1	
 maple	noun		B2	plants
 Mar	noun		C2	
 mar	verb		C2	
@@ -10688,6 +11584,7 @@ March	noun		A1	time.calendar
 March	propn		A1	time.calendar
 march	noun		B1	politics
 march	verb		B1	actions.motion
+march on	verb		C1	
 Marco	intj		C2	
 mare	noun		C2	
 margarine	noun		B1	food
@@ -10713,6 +11610,10 @@ marital	noun		C1	self
 maritime	adj		B2	history
 mark	noun		A2	school
 mark	verb		B1	actions.handling
+mark down	verb		B2	
+mark off	verb		B2	
+mark out	verb		C1	
+mark up	verb		B2	
 marked	adj		B2	academic
 markedly	adv		B2	function.adverb
 marker	noun		A2	classroom
@@ -10730,6 +11631,9 @@ married	noun		A1
 marrow	noun		C2	body
 marry	intj		A2	
 marry	verb		A2	family
+marry into	verb		C1	
+marry off	verb		C1	
+marry up	verb		C2	
 Mars	noun		A2	
 marsh	noun		B2	nature
 marshal	noun		C2	anglophone.us
@@ -10779,6 +11683,7 @@ mat	noun		B1	home
 mat	verb		B1	
 match	noun		A1	sports
 match	verb		A2	clothes
+match up	verb		B2	
 matching	adj		B2	clothes
 matching	noun		B2	
 mate	noun		A2	friends
@@ -10836,6 +11741,7 @@ meal	verb		A1
 mean	adj		A2	qualities.character
 mean	noun		C2	numbers
 mean	verb		A1	actions
+mean to	verb		B1	
 meaning	adj		A2	
 meaning	noun		A2	classroom
 meaningful	adj		B2	qualities.judgement
@@ -10851,6 +11757,9 @@ measurable	adj		B2	thinking
 measurable	noun		B2	
 measure	noun		B1	numbers
 measure	verb		A2	actions.thinking
+measure off	verb		C2	
+measure out	verb		C1	
+measure up	verb		C1	
 measurement	noun		B1	numbers
 meat	noun		A1	food
 meatball	noun		A2	food
@@ -10895,6 +11804,8 @@ meek	adj		C1	qualities.character
 meet	adj		A1	
 meet	noun		A1	
 meet	verb		A1	actions
+meet up	verb		B1	
+meet with	verb		B2	
 meeting	noun		A2	friends
 Meg	noun		C2	
 megabyte	noun		B1	technology
@@ -11069,6 +11980,8 @@ milk	verb		C1	actions.handling
 milkshake	noun		A1	food
 mill	noun		B1	history
 mill	verb		B1	
+mill about	verb		C2	
+mill around	verb		C2	
 millennial	noun		C1	identity
 millennium	noun		B2	time
 miller	noun		C1	fantasy
@@ -11082,6 +11995,7 @@ min	noun		C2
 min	verb		C2	
 mind	noun		A2	health
 mind	verb		A2	actions.thinking
+mind out	verb		C1	
 mindful	adj		B2	thinking
 mindful	noun		B2	
 mindset	noun		C1	identity
@@ -11114,6 +12028,7 @@ ministry	noun		B2	politics
 minor	adj		B1	qualities
 minor	noun		B1	
 minor	verb		B1	
+minor in	verb		C2	
 minority	adj		B1	
 minority	noun		B1	qualities.size
 mint	verb		C1	
@@ -11422,10 +12337,31 @@ mousse	noun		B2	food
 moustache	noun		B1	
 mouth	noun		A1	body
 mouth	verb		A1	
+mouth off	verb		C2	
 mouthful	noun		C1	food
 movable	adj		C1	
 move	noun		B2	toys
 move	verb		A1	actions.motion
+move about	verb		B2	
+move ahead	verb		B1	
+move along	verb		B2	
+move around	verb		B1	
+move away	verb		A2	
+move back	verb		B2	
+move back in	verb		B1	
+move down	verb		B2	
+move forward	verb		B1	
+move in	verb		B1	
+move in on	verb		C1	
+move into	verb		B1	
+move off	verb		B2	
+move on	verb		B2	
+move out	verb		B1	
+move over	verb		B1	
+move to	verb		B1	
+move together	verb		C2	
+move up	verb		B1	
+move with	verb		C2	
 movement	noun		B1	body
 movie	noun		A1	music_arts
 moving	adj		B2	feelings
@@ -11560,6 +12496,8 @@ naive	adj		B2	qualities.character
 naked	adj		B1	body
 name	noun		A1	family
 name	verb		A2	actions.speaking
+name after	verb		B2	
+name for	verb		C2	
 namely	adj		B2	
 namely	adv		B2	function.adverb
 namesake	noun		C2	
@@ -11577,6 +12515,7 @@ narrator	noun		B1	fantasy
 narrow	adj		A2	qualities.size
 narrow	noun		A2	
 narrow	verb		B2	actions.change
+narrow down	verb		B2	
 narrow-minded	adj		B2	qualities.character
 narrowly	adv		B2	thinking
 nasal	adj		C1	language
@@ -11676,6 +12615,7 @@ necklace	verb		A2
 nectar	noun		C1	plants
 need	noun		A2	thinking
 need	verb		A1	function.auxiliary
+need to	verb		A2	
 needle	noun		B1	clothes
 needle	verb		B1	
 needless	adj		B2	thinking
@@ -11731,6 +12671,7 @@ net	adj		C1	numbers
 net	adv		A2	
 net	noun		A2	sports
 net	verb		A2	
+net out	verb		C2	
 Netflix	verb		B1	
 Netherlands	noun		A2	travel
 Netherlands	propn		A2	countries
@@ -11933,6 +12874,9 @@ Norwegian	adj		A2	travel
 Norwegian	noun		B1	countries
 nose	noun		A1	body
 nose	verb		A1	
+nose about	verb		C2	
+nose around	verb		C2	
+nose out	verb		C2	
 nostalgia	noun		C1	feelings
 nostalgic	adj		C1	literature
 nostril	noun		C1	body
@@ -11949,6 +12893,7 @@ notably	adv		B2	function.adverb
 notation	noun		C1	
 note	noun		A1	classroom
 note	verb		B1	actions.speaking
+note down	verb		B1	
 notebook	noun		A1	classroom
 noteworthy	adj		C1	qualities.judgement
 nothing	adj		A1	
@@ -12127,6 +13072,7 @@ offensive	adj		B1	sports
 offensive	noun		B1	
 offer	noun		A2	communication
 offer	verb		A2	actions
+offer up	verb		C1	
 offering	noun		B2	
 office	noun		A1	town
 office	verb		A1	
@@ -12202,6 +13148,7 @@ one	num		A1	numbers
 one	part		A1	
 one	pron		A1	function.pronoun
 one	verb		A1	
+one up	verb		C2	
 one's	det		B1	
 one-half	noun		C1	
 one-off	adj		C1	
@@ -12243,6 +13190,8 @@ oops	intj		A1	communication
 open	adj		A1	qualities
 open	noun		A1	
 open	verb		A1	actions.handling
+open out	verb		C1	
+open up	verb		B1	
 open-minded	adj		B1	qualities.character
 opener	noun		B1	home
 opening	adj		B1	
@@ -12320,6 +13269,11 @@ ordained	adj		C2
 ordeal	noun		B2	feelings
 order	noun		A2	food
 order	verb		A1	actions
+order about	verb		C1	
+order around	verb		B2	
+order in	verb		B2	
+order out	verb		C2	
+order up	verb		C2	
 orderly	adj		B2	qualities.judgement
 orderly	adv		B2	
 orderly	noun		B2	
@@ -12389,6 +13343,7 @@ ought	adv		B1
 ought	noun		B1	
 ought	pron		B1	
 ought	verb		B1	function.auxiliary
+ought to	verb		B1	
 ounce	noun		B2	numbers
 our	det		A1	function.article
 ours	pron		A1	function.pronoun
@@ -12546,6 +13501,7 @@ own	adj		A2	qualities
 own	det		A2	function.article
 own	noun		A2	
 own	verb		A2	actions
+own up	verb		C1	
 owner	noun		A2	home
 ownership	noun		C1	law
 ox	noun		B2	animals
@@ -12573,6 +13529,8 @@ pace	adj		C2
 pace	noun		B2	
 pace	prep		C2	
 pace	verb		B2	
+pace off	verb		C2	
+pace out	verb		C2	
 Pacific	adj		B1	anglophone.commonwealth
 Pacific	noun		B1	anglophone.commonwealth
 pacifier	noun		C1	toys
@@ -12595,6 +13553,9 @@ pagan	adj		B2	society
 pagan	noun		B2	society
 page	noun		A1	classroom
 page	verb		A1	
+page down	verb		C2	
+page out	verb		C2	
+page up	verb		C2	
 pageant	noun		C2	
 pageant	verb		C2	
 paid	adj		A2	jobs
@@ -12609,6 +13570,8 @@ painter	noun		A2	music_arts
 painting	noun		A1	home
 pair	noun		A2	numbers
 pair	verb		A2	
+pair off	verb		C1	
+pair up	verb		B1	
 pajamas	noun		A1	clothes
 Pakistan	noun		A2	countries
 Pakistani	adj		B1	countries
@@ -12656,6 +13619,7 @@ paparazzo	noun		C1	media
 paper	adj		A1	
 paper	noun		A1	classroom
 paper	verb		A1	
+paper over	verb		C1	
 paperback	noun		B1	literature
 paperclip	noun		B1	classroom
 paperwork	noun		B2	jobs
@@ -12710,6 +13674,8 @@ parish	verb		C1
 parity	noun		C1	
 park	noun		A1	free_time
 park	verb		A2	actions.motion
+park in	verb		B2	
+park up	verb		B2	
 parka	noun		B2	clothes
 Parker	noun		C2	
 parking	noun		A2	town
@@ -12730,6 +13696,7 @@ part	adj		A1
 part	adv		A1	
 part	noun		A1	qualities.size
 part	verb		A1	
+part with	verb		C1	
 part-time	adj		A2	school
 part-time	adv		B1	jobs
 partake	verb		C1	
@@ -12756,16 +13723,32 @@ partition	verb		C1
 partly	adv		B1	function.adverb
 partner	noun		A1	family
 partner	verb		A1	
+partner up	verb		B2	
 partnership	noun		B2	jobs
 party	adj		A1	
 party	adv		A1	
 party	noun		A1	friends
 party	verb		B1	free_time
+party down	verb		C2	
+party on	verb		C1	
 pas	noun		C2	
 Pasha	noun		C2	
 Paso	noun		C2	
 pass	noun		B2	sports
 pass	verb		A2	actions.motion
+pass along	verb		B2	
+pass around	verb		B1	
+pass away	verb		B2	
+pass by	verb		B1	
+pass down	verb		C1	
+pass for	verb		C1	
+pass off	verb		C1	
+pass on	verb		B2	
+pass out	verb		B1	
+pass over	verb		C1	
+pass round	verb		B2	
+pass through	verb		B1	
+pass up	verb		C1	
 passage	adj		B1	
 passage	noun		B1	literature
 passage	verb		B1	
@@ -12852,6 +13835,12 @@ pawn	verb		C1
 pay	adj		A1	
 pay	noun		B1	jobs
 pay	verb		A1	actions
+pay back	verb		B1	
+pay down	verb		C2	
+pay forward	verb		C2	
+pay off	verb		B2	
+pay out	verb		B2	
+pay up	verb		B2	
 payable	adj		C1	
 payable	noun		C1	
 paycheck	noun		B2	economy
@@ -12929,6 +13918,7 @@ penny	noun		A2	shopping
 penny	verb		A2	
 pension	noun		B1	jobs
 pension	verb		B1	
+pension off	verb		C2	
 pensioner	noun		B2	self
 people	noun		A1	self
 people	verb		A1	
@@ -13065,6 +14055,9 @@ pharmacist	noun		B1	health
 pharmacy	noun		A2	health
 phase	noun		B1	time
 phase	verb		B1	
+phase down	verb		C2	
+phase in	verb		C1	
+phase out	verb		C1	
 phenomenon	noun		C1	science
 philanthropic	adj		B2	society
 philanthropist	noun		B2	society
@@ -13082,6 +14075,9 @@ Phoenix	noun		C1
 phoenix	noun		C1	fantasy
 phone	noun		A1	self
 phone	verb		A1	actions.speaking
+phone ahead	verb		B2	
+phone in	verb		B2	
+phone up	verb		A2	
 phonetic	adj		C1	language
 phonetics	noun		C1	language
 photo	noun		A1	friends
@@ -13115,6 +14111,16 @@ piano	verb		A1
 picaresque	adj		C2	literature
 pick	noun		A2	
 pick	verb		A2	actions.thinking
+pick apart	verb		C1	
+pick at	verb		C1	
+pick away at	verb		C2	
+pick off	verb		C2	
+pick on	verb		B2	
+pick out	verb		B2	
+pick over	verb		C2	
+pick through	verb		C1	
+pick up	verb		A2	
+pick up on	verb		C1	
 pickpocket	noun		B2	law
 pickup	noun		B2	transport
 picnic	noun		A1	food
@@ -13127,6 +14133,7 @@ pie	noun		A2	food
 pie	verb		A2	
 piece	noun		A1	qualities.size
 piece	verb		A1	
+piece together	verb		C1	
 pier	noun		B2	town
 pierce	verb		B2	
 pierced	adj		B2	
@@ -13141,6 +14148,9 @@ piglet	noun		A2	animals
 Pike	noun		C1	
 pile	noun		B1	numbers
 pile	verb		B2	actions.handling
+pile in	verb		C2	
+pile on	verb		C2	
+pile up	verb		B2	
 Pilgrim	noun		C1	anglophone.us
 pilgrim	noun		B2	celebrations
 pilgrimage	noun		C1	celebrations
@@ -13215,6 +14225,9 @@ plainly	adv		B2	thinking
 plaintiff	noun		C2	law
 plan	noun		A1	self
 plan	verb		A1	actions
+plan ahead	verb		B1	
+plan on	verb		B2	
+plan out	verb		B2	
 plane	adj		A1	
 plane	noun		A1	toys
 plane	verb		A1	
@@ -13223,6 +14236,7 @@ plank	noun		B2
 planner	noun		B2	
 plant	noun		A1	home
 plant	verb		A2	actions.handling
+plant out	verb		C2	
 plantation	noun		B2	plants
 planter	noun		C1	
 plaque	noun		C1	
@@ -13236,6 +14250,7 @@ plasticine	noun		B1	toys
 plat	verb		C2	
 plate	noun		A1	home
 plate	verb		A1	
+plate up	verb		C2	
 plateau	noun		C1	nature
 plateau	verb		C1	
 platform	noun		A2	media
@@ -13246,6 +14261,23 @@ platinum	verb		C1
 plausible	adj		C1	thinking
 play	noun		A2	free_time
 play	verb		A1	actions
+play about	verb		B2	
+play along	verb		C1	
+play around	verb		B2	
+play at	verb		C1	
+play away	verb		C2	
+play back	verb		B2	
+play down	verb		B2	
+play in	verb		C2	
+play into	verb		C2	
+play off	verb		C1	
+play on	verb		C1	
+play out	verb		C1	
+play through	verb		C2	
+play to	verb		C2	
+play up	verb		C1	
+play up to	verb		C2	
+play with	verb		A2	
 playable	adj		C1	
 playable	noun		C2	
 player	noun		A1	toys
@@ -13287,6 +14319,7 @@ plight	noun		B2	society
 plight	verb		B2	
 plot	noun		B1	music_arts
 plot	verb		C1	literature
+plot out	verb		C1	
 plow	verb		C1	actions.handling
 pluck	noun		C2	
 pluck	verb		C1	
@@ -13334,6 +14367,8 @@ poignant	adj		C1	literature
 point	intj		A1	
 point	noun		A2	qualities.size
 point	verb		A1	actions.speaking
+point out	verb		B1	
+point up	verb		C2	
 pointed	adj		B2	qualities.size
 pointless	adj		B1	qualities.judgement
 poised	adj		C1	
@@ -13446,6 +14481,7 @@ porter	verb		B2
 portfolio	noun		B2	academic
 portion	noun		B2	qualities.size
 portion	verb		B2	
+portion out	verb		C2	
 Porto	noun		B2	
 portrait	adj		B1	
 portrait	noun		B1	music_arts
@@ -13522,6 +14558,11 @@ power	adj		B1
 power	intj		B1	
 power	noun		B1	technology
 power	verb		B1	
+power ahead	verb		C2	
+power down	verb		C1	
+power off	verb		B2	
+power on	verb		B2	
+power up	verb		B2	
 powerful	adj		B1	thinking
 powerful	adv		B1	
 powerfully	adv		B1	qualities.judgement
@@ -13632,6 +14673,7 @@ preparation	noun		B1	actions.handling
 preparatory	adj		C1	
 prepare	noun		A2	
 prepare	verb		A2	actions
+prepare ahead	verb		B2	
 preparedness	noun		B2	politics
 preposition	noun		A2	language
 prequel	noun		C1	music_arts
@@ -13664,6 +14706,12 @@ presidential	adj		C1	politics
 presiding	adj		C1	
 press	noun		B1	media
 press	verb		A2	actions.handling
+press ahead	verb		C1	
+press down	verb		B2	
+press forward	verb		C1	
+press in	verb		C2	
+press on	verb		C1	
+press out	verb		C2	
 pressure	noun		B1	friends
 pressure	verb		B1	
 prestige	adj		B2	
@@ -13687,6 +14735,7 @@ pretty	adj		A1	qualities.judgement
 pretty	adv		A2	function.adverb
 pretty	noun		A1	
 pretty	verb		A1	
+pretty up	verb		C2	
 pretzel	noun		B2	food
 prevail	verb		B2	thinking
 prevalence	noun		B2	thinking
@@ -13704,6 +14753,9 @@ prey	noun		B1	animals
 prey	verb		B1	
 price	noun		A1	clothes
 price	verb		A1	
+price in	verb		C1	
+price out	verb		C2	
+price up	verb		C2	
 priceless	adj		B2	qualities.judgement
 pricey	adj		B2	shopping
 pricing	noun		B2	economy
@@ -13949,6 +15001,7 @@ proud	adj		A2	qualities.character
 proudly	adv		B1	feelings
 prove	noun		B1	
 prove	verb		B1	actions.thinking
+prove out	verb		C2	
 proverb	noun		B2	language
 provide	verb		B1	actions
 provided	conj		B2	function.conjunction
@@ -14003,6 +15056,22 @@ puff	verb		B2
 pull	intj		A1	
 pull	noun		A1	
 pull	verb		A1	actions.handling
+pull ahead	verb		C1	
+pull apart	verb		B2	
+pull aside	verb		C1	
+pull away	verb		B2	
+pull back	verb		C1	
+pull down	verb		B2	
+pull in	verb		B2	
+pull into	verb		B2	
+pull off	verb		C1	
+pull on	verb		B2	
+pull out	verb		B2	
+pull over	verb		B1	
+pull round	verb		C2	
+pull through	verb		C1	
+pull together	verb		B2	
+pull up	verb		B1	
 pullover	noun		A2	clothes
 pulmonary	adj		C1	
 pulp	adj		C2	
@@ -14065,8 +15134,51 @@ pursuer	noun		C1
 pursuit	noun		B2	anglophone.us
 push	noun		A1	
 push	verb		A1	actions.handling
+push about	verb		C2	
+push along	verb		C2	
+push around	verb		C1	
+push aside	verb		B2	
+push away	verb		B1	
+push back	verb		B2	
+push down	verb		B1	
+push forward	verb		B2	
+push in	verb		B2	
+push off	verb		B2	
+push on	verb		B2	
+push out	verb		C1	
+push over	verb		B2	
+push through	verb		C1	
+push under	verb		C2	
+push up	verb		B2	
+push up against	verb		C2	
 put	noun		A1	
 put	verb		A1	actions
+put about	verb		C2	
+put across	verb		B2	
+put ahead	verb		C2	
+put around	verb		C2	
+put aside	verb		B2	
+put away	verb		B1	
+put back	verb		B1	
+put by	verb		C2	
+put down	verb		B1	
+put down for	verb		C2	
+put down to	verb		C1	
+put forward	verb		B2	
+put in	verb		B2	
+put off	verb		B1	
+put on	verb		A2	
+put onto	verb		C2	
+put out	verb		B1	
+put over	verb		C2	
+put round	verb		C2	
+put through	verb		B2	
+put to	verb		C1	
+put together	verb		B1	
+put under	verb		C2	
+put up	verb		B1	
+put up to	verb		C2	
+put up with	verb		B2	
 putt	verb		C2	sports
 puzzle	noun		A1	free_time
 puzzle	verb		B2	actions.thinking
@@ -14143,6 +15255,7 @@ quiet	adj		A1	qualities.senses
 quiet	intj		A2	classroom
 quiet	noun		A1	
 quiet	verb		A1	
+quiet down	verb		B2	
 quietly	adv		A2	classroom
 quilt	noun		B2	home
 Quincy	noun		C2	
@@ -14175,6 +15288,7 @@ rabbit	verb		A1
 raccoon	noun		B2	animals
 race	noun		A2	sports
 race	verb		B2	actions.motion
+race off	verb		C1	
 racer	noun		B2	
 Rachel	noun		C2	
 racial	adj		B2	society
@@ -14201,6 +15315,7 @@ radicalize	verb		C1	global
 radically	adv		B2	function.adverb
 radio	noun		A1	media
 radio	verb		A1	
+radio ahead	verb		C2	
 radioactive	adj		C1	science
 radioactive	noun		C1	
 radiological	adj		C2	
@@ -14223,6 +15338,9 @@ railroad	verb		A2
 railway	noun		A2	toys
 rain	noun		A1	weather
 rain	verb		A1	weather
+rain down	verb		B2	
+rain off	verb		C2	
+rain out	verb		C1	
 Rainbow	noun		A1	
 rainbow	adj		A1	
 rainbow	noun		A1	qualities.colour
@@ -14234,6 +15352,7 @@ rainforest	noun		A2	nature
 rainy	adj		A1	weather
 raise	noun		B2	jobs
 raise	verb		A2	actions
+raise up	verb		B2	
 raisin	noun		B2	food
 rake	noun		C1	plants
 rake	verb		C1	actions.handling
@@ -14330,12 +15449,24 @@ re	prep		C1
 re-election	noun		B2	politics
 reach	noun		A2	
 reach	verb		A2	actions.motion
+reach down	verb		C1	
+reach for	verb		B1	
+reach out	verb		C1	
 react	noun		B1	
 react	verb		B1	science
 reaction	noun		B1	science
 reactor	noun		B1	environment
 read	noun		A1	
 read	verb		A1	actions
+read across	verb		C2	
+read along	verb		C2	
+read for	verb		C2	
+read into	verb		C1	
+read off	verb		B2	
+read out	verb		B1	
+read over	verb		B2	
+read through	verb		B2	
+read up	verb		B2	
 readable	adj		B2	academic
 Reader	noun		A2	
 reader	noun		A2	media
@@ -14370,8 +15501,12 @@ rear	adj		B2	space
 rear	adv		B2	
 rear	noun		B2	
 rear	verb		B2	
+rear back	verb		C2	
+rear up	verb		C2	
 reason	noun		A2	thinking
 reason	verb		C1	actions.thinking
+reason out	verb		C2	
+reason with	verb		C1	
 reasonable	adj		B1	qualities.judgement
 reasonably	adv		B1	function.adverb
 reasoning	noun		C1	thinking
@@ -14519,6 +15654,8 @@ refine	verb		B2	actions.change
 refinement	noun		C1	
 refinery	noun		C1	
 reflect	verb		B1	actions.perception
+reflect on	verb		B2	
+reflect upon	verb		C1	
 reflection	noun		B1	thinking
 reflective	adj		B2	thinking
 reflective	noun		B2	
@@ -14662,6 +15799,7 @@ reluctance	noun		B2	thinking
 reluctant	adj		B2	feelings
 reluctantly	adv		B2	thinking
 rely	verb		B1	actions.thinking
+rely on	verb		B1	
 remain	noun		B1	
 remain	verb		B1	actions.change
 remainder	adj		B2	
@@ -14702,6 +15840,7 @@ remorse	verb		C1
 remote	adj		B1	space
 remote	noun		B1	technology
 remote	verb		B1	
+remote in	verb		C2	
 remotely	adv		B2	thinking
 removal	noun		B2	
 remove	noun		A2	
@@ -14726,6 +15865,7 @@ renowned	adj		C1	literature
 rent	adj		A2	
 rent	noun		B1	home
 rent	verb		A2	home
+rent out	verb		B2	
 rental	adj		B1	
 rental	noun		B2	
 renter	noun		B2	
@@ -14745,6 +15885,7 @@ repeal	noun		B2	politics
 repeal	verb		B2	politics
 repeat	noun		A1	
 repeat	verb		A1	actions.speaking
+repeat on	verb		C2	
 repeatedly	adv		B1	qualities
 repel	verb		C1	
 repent	verb		C1	
@@ -14765,6 +15906,8 @@ reply	noun		A2	communication
 reply	verb		A2	actions.speaking
 report	noun		A2	school
 report	verb		A2	actions.speaking
+report back	verb		B2	
+report out	verb		C2	
 reported	adj		B1	language
 reportedly	adv		B2	media
 reporter	noun		A2	media
@@ -14880,6 +16023,8 @@ responsibly	adv		B1	qualities.character
 responsive	adj		B2	thinking
 rest	noun		A2	health
 rest	verb		A2	actions
+rest on	verb		C1	
+rest up	verb		B2	
 restart	verb		B1	technology
 restaurant	noun		A1	food
 restful	adj		C1	free_time
@@ -14900,6 +16045,7 @@ restructuring	noun		B2	economy
 result	intj		A2	
 result	noun		A2	numbers
 result	verb		B1	actions.change
+result in	verb		B1	
 resultant	adj		C1	thinking
 resume	noun		B2	jobs
 resume	verb		C1	actions.change
@@ -14928,6 +16074,7 @@ retrospective	noun		C1
 return	adj		B1	transport
 return	noun		A2	shopping
 return	verb		A2	actions
+return back	verb		B2	
 reunification	noun		C1	history
 reunion	noun		B2	family
 reunion	verb		B2	
@@ -15009,6 +16156,11 @@ rid	verb		C1
 riddle	noun		B1	toys
 ride	noun		A2	free_time
 ride	verb		A1	actions.motion
+ride along	verb		C2	
+ride on	verb		C2	
+ride out	verb		C1	
+ride up	verb		C2	
+ride with	verb		C2	
 rider	noun		B1	sports
 ridge	noun		C1	nature
 ridge	verb		C1	
@@ -15041,6 +16193,14 @@ rim	noun		C1
 rim	verb		C1	
 ring	noun		A2	qualities.size
 ring	verb		A2	actions.speaking
+ring around	verb		B2	
+ring back	verb		B1	
+ring in	verb		C2	
+ring off	verb		C1	
+ring out	verb		C1	
+ring round	verb		B2	
+ring through	verb		C1	
+ring up	verb		B1	
 rink	noun		B2	sports
 rinse	verb		B2	actions.handling
 riot	noun		B2	
@@ -15054,6 +16214,7 @@ ripped	adj		B2	clothes
 ripple	verb		C2	nature
 rise	noun		B1	academic
 rise	verb		A2	actions.motion
+rise up	verb		B2	
 risk	noun		A2	health
 risk	verb		B1	actions
 risky	adj		B1	qualities
@@ -15090,6 +16251,10 @@ robotics	noun		B2	technology
 robust	adj		B2	thinking
 rock	noun		A2	music_arts
 rock	verb		A2	
+rock along	verb		C2	
+rock on	verb		C2	
+rock out	verb		C2	
+rock up	verb		C2	
 Rockefeller	noun		C2	
 rocket	noun		A2	toys
 rocket	verb		A2	
@@ -15103,6 +16268,19 @@ rogue	verb		C1
 role	noun		B1	music_arts
 roll	noun		B1	food
 roll	verb		A2	actions.motion
+roll about	verb		C2	
+roll around	verb		C1	
+roll away	verb		C2	
+roll back	verb		C1	
+roll down	verb		B2	
+roll forward	verb		C2	
+roll in	verb		C1	
+roll off	verb		C1	
+roll on	verb		C2	
+roll out	verb		C1	
+roll over	verb		B2	
+roll up	verb		B2	
+roll with	verb		C2	
 roller	noun		B2	
 roller	verb		B2	
 rollerblade	noun		B1	free_time
@@ -15126,6 +16304,7 @@ Romeo	noun		C1
 Romney	noun		C2	
 roof	noun		A1	home
 roof	verb		A1	
+roof over	verb		C2	
 rook	noun		C1	toys
 rookie	adj		B2	
 rookie	noun		C1	
@@ -15163,6 +16342,8 @@ rough	adj		B1	qualities.size
 rough	adv		B1	
 rough	noun		B1	
 rough	verb		B1	
+rough out	verb		C2	
+rough up	verb		C2	
 roughly	adv		B1	function.adverb
 roun	noun		C2	
 roun	verb		C2	
@@ -15170,6 +16351,11 @@ round	adj		A1	qualities.size
 round	noun		A2	toys
 round	prep		A2	function.preposition
 round	verb		B2	numbers
+round down	verb		B2	
+round off	verb		C1	
+round on	verb		C2	
+round out	verb		C1	
+round up	verb		B2	
 round-trip	adj		B1	transport
 roundabout	noun		B1	toys
 rouse	adj		C2	
@@ -15185,6 +16371,7 @@ routinely	adv		B2	function.adverb
 Rover	noun		C2	
 row	noun		A2	numbers
 row	verb		B1	actions.motion
+row back	verb		C2	
 rowing	noun		B1	sports
 Royal	noun		A2	
 royal	adj		A2	fantasy
@@ -15214,6 +16401,10 @@ ruin	noun		B1	travel
 ruin	verb		B2	actions.handling
 rule	noun		A2	classroom
 rule	verb		B1	actions
+rule in	verb		C2	
+rule off	verb		C2	
+rule on	verb		C1	
+rule out	verb		B2	
 rulemaking	adj		C2	
 rulemaking	noun		C2	
 ruler	noun		A1	classroom
@@ -15225,6 +16416,38 @@ rumor	verb		B1
 run	adj		A1	
 run	noun		A1	
 run	verb		A1	actions
+run about	verb		B2	
+run about with	verb		C2	
+run across	verb		C1	
+run after	verb		B1	
+run against	verb		C2	
+run ahead	verb		B2	
+run along	verb		B2	
+run around	verb		B1	
+run around after	verb		C2	
+run around with	verb		C2	
+run at	verb		C2	
+run away	verb		A2	
+run away from	verb		B1	
+run away together	verb		C1	
+run away with	verb		C1	
+run back	verb		B1	
+run by	verb		C1	
+run down	verb		B2	
+run in	verb		C2	
+run into	verb		B1	
+run off	verb		B2	
+run off with	verb		B2	
+run on	verb		C1	
+run out	verb		B1	
+run out on	verb		C1	
+run over	verb		B1	
+run through	verb		B2	
+run to	verb		C1	
+run up	verb		B2	
+run up against	verb		C1	
+run up on	verb		C2	
+run with	verb		C2	
 rundown	adj		C1	town
 runner	noun		B1	sports
 runner-up	noun		B2	
@@ -15344,6 +16567,8 @@ sanctuary	noun		C1	environment
 sand	adj		A1	
 sand	noun		A1	nature
 sand	verb		A1	
+sand down	verb		C1	
+sand off	verb		C1	
 sandal	noun		A2	clothes
 sandbox	noun		B2	toys
 sandcastle	noun		A2	free_time
@@ -15403,6 +16628,8 @@ save	conj		A2
 save	noun		C2	sports
 save	prep		A2	
 save	verb		A2	actions
+save over	verb		C2	
+save up	verb		B1	
 saving	noun		B1	
 savings	noun		B1	shopping
 savory	adj		C1	qualities.senses
@@ -15410,6 +16637,7 @@ Savoy	noun		C2
 Saw	noun		C1	
 saw	noun		C1	
 saw	verb		C1	actions.handling
+saw off	verb		B2	
 sawmill	noun		B2	
 sawmill	verb		C2	
 Saxon	adj		C1	history
@@ -15425,6 +16653,11 @@ saying	noun		B1	communication
 SB	noun		C2	
 scale	noun		B1	qualities.size
 scale	verb		B1	
+scale back	verb		C1	
+scale down	verb		C1	
+scale off	verb		C2	
+scale out	verb		C2	
+scale up	verb		C1	
 scalp	noun		C1	body
 scaly	adj		C2	animals
 scam	noun		B1	law
@@ -15495,10 +16728,14 @@ scold	verb		C1	actions.speaking
 scooter	noun		A2	toys
 scope	noun		C1	academic
 scope	verb		B2	actions.change
+scope out	verb		C1	
 scorching	adj		C1	weather
 score	intj		A2	
 score	noun		A2	numbers
 score	verb		A2	toys
+score off	verb		C2	
+score out	verb		C2	
+score through	verb		C2	
 scoreboard	noun		B2	sports
 scorer	noun		B2	
 scorn	noun		C1	
@@ -15531,6 +16768,8 @@ scream	noun		B1	feelings
 scream	verb		A2	actions.speaking
 screen	noun		A2	classroom
 screen	verb		A2	
+screen off	verb		C1	
+screen out	verb		C1	
 screening	noun		C1	
 screenplay	noun		B1	music_arts
 screenplay	verb		B1	
@@ -15565,6 +16804,9 @@ seam	noun		C1	clothes
 seaman	noun		B2	
 search	noun		A2	technology
 search	verb		A2	actions
+search for	verb		B1	
+search out	verb		C1	
+search up	verb		C2	
 seasick	adj		B2	travel
 seaside	noun		A2	travel
 season	noun		A1	time
@@ -15612,11 +16854,22 @@ sediment	verb		C1
 see	intj		A1	
 see	noun		A1	
 see	verb		A1	actions.perception
+see about	verb		C1	
+see after	verb		C1	
+see in	verb		B2	
+see into	verb		C2	
+see off	verb		C1	
+see out	verb		C1	
+see over	verb		C2	
+see through	verb		C1	
+see to	verb		B2	
 seed	noun		B1	food
 seed	verb		B1	
 seedling	noun		C1	plants
 seek	noun		B1	
 seek	verb		B1	actions
+seek for	verb		C2	
+seek out	verb		C1	
 seeker	noun		C1	global
 seem	verb		A2	actions
 seemingly	adv		B2	function.adverb
@@ -15654,6 +16907,10 @@ selfishness	noun		B1	qualities.character
 selfless	adj		B1	qualities.character
 sell	noun		A1	
 sell	verb		A1	actions
+sell off	verb		B2	
+sell on	verb		C1	
+sell out	verb		B1	
+sell up	verb		C2	
 seller	noun		B1	shopping
 Selma	noun		C2	
 semester	noun		B1	time
@@ -15667,6 +16924,18 @@ Senator	noun		B2
 senator	noun		B2	politics
 send	noun		A1	
 send	verb		A1	actions
+send around	verb		B2	
+send away	verb		B2	
+send away for	verb		C2	
+send back	verb		B1	
+send down	verb		C2	
+send for	verb		B2	
+send in	verb		B2	
+send off	verb		B2	
+send on	verb		B2	
+send out	verb		B1	
+send out for	verb		C2	
+send up	verb		C1	
 Seneca	noun		C2	
 Senegal	noun		B1	countries
 Senegalese	adj		B2	countries
@@ -15696,6 +16965,7 @@ sentinel	verb		C2
 separate	adj		B1	qualities
 separate	noun		B1	
 separate	verb		B1	actions.change
+separate out	verb		C1	
 separated	adj		B1	family
 separately	adv		B1	
 separation	noun		B1	family
@@ -15733,6 +17003,8 @@ servant	noun		B1	fantasy
 servant	verb		B1	
 serve	noun		B2	sports
 serve	verb		A2	actions
+serve out	verb		C2	
+serve up	verb		C1	
 server	noun		B1	food
 service	noun		A2	transport
 service	verb		A2	
@@ -15742,11 +17014,36 @@ session	verb		B1
 set	adj		A2	
 set	noun		B1	numbers
 set	verb		A2	actions
+set about	verb		B2	
+set after	verb		C2	
+set against	verb		C1	
+set ahead	verb		C2	
+set apart	verb		C1	
+set aside	verb		B2	
+set back	verb		C1	
+set down	verb		C1	
+set forward	verb		C2	
+set in	verb		B2	
+set off	verb		B1	
+set on	verb		C2	
+set out	verb		B1	
+set over	verb		C2	
+set to	verb		C2	
+set up	verb		B1	
+set upon	verb		C2	
 setback	noun		C1	
 setting	adj		B1	
 setting	noun		B1	technology
 settle	noun		B1	
 settle	verb		B1	actions.motion
+settle down	verb		B2	
+settle for	verb		B2	
+settle in	verb		B1	
+settle into	verb		B2	
+settle on	verb		C1	
+settle up	verb		C1	
+settle upon	verb		C1	
+settle with	verb		C2	
 settlement	noun		B2	anglophone
 settler	noun		B1	anglophone
 seven	noun		A1	
@@ -15777,6 +17074,7 @@ sewerage	noun		C2
 sewing	noun		B1	clothes
 sex	noun		B1	identity
 sex	verb		B1	
+sex up	verb		C2	
 sexist	adj		B2	society
 sexual	adj		B2	society
 sexual	noun		B2	
@@ -15812,8 +17110,11 @@ shamrock	noun		C1	anglophone.uk
 shanty	noun		B2	society
 shape	noun		A1	qualities.size
 shape	verb		B1	actions.handling
+shape up	verb		B2	
 share	noun		B1	qualities.size
 share	verb		A1	actions
+share in	verb		C2	
+share out	verb		B2	
 shared	adj		B1	home
 shareholder	noun		C1	economy
 shark	noun		A2	animals
@@ -15850,6 +17151,7 @@ sheet	verb		B1
 shelf	noun		A1	home
 shell	noun		A2	animals
 shell	verb		A2	
+shell out	verb		C1	
 shelter	noun		B2	global
 shelter	verb		B2	global
 shelve	verb		C1	
@@ -15862,6 +17164,7 @@ shield	noun		B2	toys
 shield	verb		B2	
 shift	noun		B1	jobs
 shift	verb		B1	actions.motion
+shift about	verb		C2	
 shilling	noun		C2	anglophone.commonwealth
 shin	noun		C1	body
 shine	noun		A2	
@@ -15869,6 +17172,7 @@ shine	verb		A2	actions.perception
 shiny	adj		B1	qualities.colour
 ship	noun		A1	fantasy
 ship	verb		B2	actions.handling
+ship out	verb		C2	
 shipbuilding	noun		C1	
 shipment	noun		B2	economy
 shipping	noun		B2	
@@ -15899,6 +17203,7 @@ shooting	noun		B1	law
 shop	intj		A1	
 shop	noun		A1	clothes
 shop	verb		A1	shopping
+shop around	verb		B2	
 shopkeeper	noun		A2	shopping
 shoplift	verb		C1	law
 shoplifter	noun		C1	law
@@ -15907,12 +17212,14 @@ shopper	noun		B1	shopping
 shopping	noun		A1	free_time
 shore	noun		B2	nature
 shore	verb		B2	
+shore up	verb		C1	
 shoreline	noun		B2	environment
 short	adj		A1	qualities.size
 short	adv		A1	
 short	noun		A1	
 short	prep		A1	
 short	verb		A1	
+short out	verb		C2	
 short-lived	adj		C1	
 short-sleeved	adj		B1	clothes
 short-term	adj		B2	
@@ -15940,6 +17247,11 @@ shovel	noun		B2	plants
 shovel	verb		B2	actions.handling
 show	noun		A2	music_arts
 show	verb		A1	actions.perception
+show around	verb		B1	
+show in	verb		B2	
+show off	verb		B1	
+show round	verb		B1	
+show up	verb		B1	
 showcase	noun		C1	
 showcase	verb		C1	
 shower	noun		A1	home
@@ -15963,6 +17275,12 @@ shuffle	verb		C1	toys
 shut	adj		A2	
 shut	noun		A2	
 shut	verb		A2	actions.handling
+shut away	verb		C1	
+shut down	verb		B1	
+shut in	verb		C2	
+shut off	verb		B2	
+shut out	verb		C1	
+shut up	verb		B1	
 shutdown	noun		B2	
 shutter	noun		C1	home
 shutter	verb		C1	
@@ -15978,11 +17296,13 @@ sic	verb		C2
 sick	adj		A1	health
 sick	noun		B2	jobs
 sick	verb		A1	
+sick up	verb		C2	
 sickness	noun		B1	health
 side	adj		A2	
 side	adv		A2	
 side	noun		A2	qualities.size
 side	verb		C2	thinking
+side with	verb		B2	
 sidekick	noun		C1	fantasy
 sideline	noun		C2	sports
 sidewalk	noun		A2	town
@@ -15995,12 +17315,21 @@ sigh	noun		B2	feelings
 sigh	verb		B2	actions.speaking
 sight	noun		A2	qualities.senses
 sight	verb		A2	
+sight in	verb		C2	
 sighting	noun		C1	
 sightsee	verb		B1	travel
 sightseeing	noun		A2	free_time
 sightseer	noun		B2	travel
 sign	noun		A2	communication
 sign	verb		A2	actions.handling
+sign away	verb		C1	
+sign in	verb		B1	
+sign off	verb		C1	
+sign on	verb		B2	
+sign onto	verb		C2	
+sign out	verb		C1	
+sign over	verb		C2	
+sign up	verb		B1	
 signal	adj		A2	
 signal	noun		A2	communication
 signal	verb		B2	actions.speaking
@@ -16074,6 +17403,7 @@ singing	noun		A2	free_time
 single	adj		A2	qualities
 single	noun		B1	self
 single	verb		A2	
+single out	verb		C1	
 single-parent	adj		B2	family
 singular	adj		B2	language
 singular	noun		A2	language
@@ -16095,6 +17425,23 @@ sister	noun		A1	family
 sister	verb		A1	
 sit	noun		A1	
 sit	verb		A1	actions.motion
+sit about	verb		C1	
+sit around	verb		B2	
+sit back	verb		B2	
+sit by	verb		C2	
+sit down	verb		A2	
+sit for	verb		C2	
+sit in	verb		C2	
+sit in for	verb		C1	
+sit in on	verb		C1	
+sit in with	verb		C2	
+sit on	verb		C1	
+sit out	verb		C1	
+sit through	verb		C2	
+sit up	verb		B1	
+sit up with	verb		C1	
+sit upon	verb		C2	
+sit with	verb		C2	
 sitcom	noun		B1	media
 site	noun		B1	space
 site	verb		B1	
@@ -16116,6 +17463,8 @@ sixty	noun		A1
 sixty	num		A1	numbers
 size	noun		A1	qualities.size
 size	verb		A1	
+size down	verb		C2	
+size up	verb		C1	
 skate	noun		A2	sports
 skate	verb		A1	actions.motion
 skateboard	noun		A1	free_time
@@ -16182,6 +17531,14 @@ slay	verb		C2	fantasy
 sled	noun		B1	free_time
 sleep	noun		A2	health
 sleep	verb		A1	actions
+sleep around	verb		C1	
+sleep in	verb		B1	
+sleep off	verb		C1	
+sleep on	verb		B2	
+sleep out	verb		C2	
+sleep over	verb		B1	
+sleep together	verb		B2	
+sleep with	verb		B2	
 sleeper	noun		B2	
 sleeping	adj		B2	
 sleeping	noun		B2	travel
@@ -16231,6 +17588,8 @@ slow	adj		A1	time
 slow	adv		A1	
 slow	noun		A1	
 slow	verb		B1	actions.motion
+slow down	verb		A2	
+slow up	verb		C1	
 slowly	adv		A1	classroom
 slug	noun		B2	animals
 sluggish	adj		B2	qualities.judgement
@@ -16259,6 +17618,8 @@ Smithsonian	adj		C2
 smog	noun		B2	weather
 smoke	noun		A2	nature
 smoke	verb		A2	health
+smoke out	verb		C2	
+smoke up	verb		C2	
 smoker	noun		B1	health
 smoking	adj		A2	
 smoking	noun		A2	health
@@ -16266,6 +17627,10 @@ smooth	adj		A2	qualities.size
 smooth	adv		A2	
 smooth	noun		A2	
 smooth	verb		A2	
+smooth away	verb		C2	
+smooth down	verb		B2	
+smooth out	verb		B2	
+smooth over	verb		C1	
 smoothie	noun		A2	food
 smoothly	adv		B1	function.adverb
 smother	verb		C1	
@@ -16297,6 +17662,10 @@ snooker	noun		B2	sports
 snow	adj		A1	
 snow	noun		A1	weather
 snow	verb		A1	weather
+snow in	verb		C2	
+snow out	verb		C2	
+snow under	verb		C1	
+snow up	verb		C2	
 snowball	noun		A2	weather
 snowboard	noun		A2	sports
 snowboarding	noun		A2	sports
@@ -16362,6 +17731,7 @@ sold	adj		A2	shopping
 sold	noun		A2	
 soldier	noun		A2	toys
 soldier	verb		A2	
+soldier on	verb		C1	
 sole	adj		B2	thinking
 sole	noun		C1	body
 sole	verb		B2	
@@ -16454,6 +17824,8 @@ sorry	noun		A1
 sorry	verb		A1	
 sort	noun		A2	thinking
 sort	verb		B1	actions.thinking
+sort out	verb		B1	
+sort through	verb		B2	
 soul	adj		B2	
 soul	noun		B2	feelings
 soul	verb		B2	
@@ -16463,6 +17835,8 @@ sound	adv		A2
 sound	intj		A2	
 sound	noun		A2	qualities.senses
 sound	verb		A2	actions.perception
+sound off	verb		C2	
+sound out	verb		C1	
 soundtrack	noun		B1	music_arts
 soundtrack	verb		B1	
 soup	noun		A1	food
@@ -16504,6 +17878,7 @@ sow	verb		C1	actions.handling
 spa	noun		B1	free_time
 space	noun		A2	space
 space	verb		A2	
+space out	verb		C2	
 spacecraft	noun		B2	science
 spaceship	noun		B1	fantasy
 spacious	adj		B2	qualities.size
@@ -16534,6 +17909,12 @@ spawn	verb		C1
 spawning	noun		C1	
 speak	noun		A1	
 speak	verb		A1	actions.speaking
+speak down to	verb		C2	
+speak for	verb		B2	
+speak of	verb		C1	
+speak out	verb		B2	
+speak to	verb		A2	
+speak up	verb		B2	
 Speaker	noun		A2	
 speaker	noun		A2	communication
 spear	adj		B2	
@@ -16568,6 +17949,7 @@ speech	verb		A2
 speed	intj		A2	
 speed	noun		A2	sports
 speed	verb		B2	actions.change
+speed up	verb		A2	
 speedily	adv		C1	
 speedy	adj		B2	
 speedy	verb		C2	
@@ -16605,6 +17987,7 @@ spiral	verb		C1
 spire	noun		C1	
 spirit	noun		B1	feelings
 spirit	verb		B1	
+spirit away	verb		C2	
 Spiritual	noun		B2	
 spiritual	adj		B2	society
 spiritual	noun		B2	
@@ -16620,6 +18003,8 @@ splendour	noun		C1
 split	adj		B2	
 split	noun		B2	
 split	verb		B2	actions.handling
+split off	verb		C1	
+split up	verb		B1	
 spoil	noun		B2	
 spoil	verb		B2	actions.handling
 spoiled	adj		B2	family
@@ -16654,9 +18039,14 @@ spray	noun		B2
 spray	verb		B2	
 spread	noun		B1	
 spread	verb		B1	actions.motion
+spread out	verb		B2	
 spreadsheet	noun		B1	technology
 spring	noun		A1	time.calendar
 spring	verb		A1	
+spring back	verb		C1	
+spring for	verb		C2	
+spring out	verb		C2	
+spring up	verb		C1	
 sprinkle	verb		B2	actions.handling
 sprint	noun		B2	sports
 sprint	verb		B2	actions.motion
@@ -16680,6 +18070,9 @@ square	adj		A2	qualities.size
 square	adv		A1	
 square	noun		A1	qualities.size
 square	verb		A1	
+square away	verb		C2	
+square off	verb		C2	
+square up	verb		C2	
 squarely	adv		B2	thinking
 squash	noun		B2	sports
 squat	verb		C1	actions.motion
@@ -16742,6 +18135,27 @@ stance	noun		C1	thinking
 stance	verb		C1	
 stand	noun		B2	thinking
 stand	verb		A1	actions.motion
+stand around	verb		B1	
+stand aside	verb		C2	
+stand back	verb		B2	
+stand behind	verb		B2	
+stand by	verb		B2	
+stand down	verb		C1	
+stand for	verb		B1	
+stand in	verb		B2	
+stand in for	verb		B2	
+stand off	verb		C2	
+stand on	verb		C2	
+stand out	verb		B1	
+stand over	verb		C2	
+stand to	verb		C2	
+stand together	verb		B2	
+stand up	verb		A2	
+stand up against	verb		C1	
+stand up for	verb		B2	
+stand up to	verb		B2	
+stand up with	verb		C2	
+stand with	verb		C1	
 stand-alone	adj		C1	
 stand-alone	noun		C1	
 standard	adj		B1	qualities
@@ -16770,6 +18184,15 @@ Start	noun		A1
 start	adv		A1	
 start	noun		A2	time
 start	verb		A1	actions
+start in	verb		B2	
+start in on	verb		C2	
+start into	verb		C2	
+start off	verb		A2	
+start on	verb		B2	
+start on at	verb		C2	
+start out	verb		B1	
+start over	verb		B2	
+start up	verb		B1	
 starter	noun		A2	food
 startle	verb		C1	feelings
 startling	adj		B2	thinking
@@ -16818,6 +18241,15 @@ stay	adv		A1
 stay	noun		A1	
 stay	part		A1	
 stay	verb		A1	actions
+stay away	verb		B1	
+stay back	verb		B2	
+stay behind	verb		B1	
+stay in	verb		A2	
+stay on	verb		B1	
+stay out	verb		B1	
+stay over	verb		B1	
+stay together	verb		B1	
+stay up	verb		B1	
 steadfast	adj		B2	qualities.character
 steadily	adv		B1	academic
 steady	adj		B1	academic
@@ -16832,6 +18264,8 @@ steal	verb		A2	law
 steam	adj		B1	
 steam	noun		B1	history
 steam	verb		B2	food
+steam ahead	verb		C2	
+steam up	verb		C1	
 steamboat	noun		C1	
 steamboat	verb		C2	
 steamed	adj		B1	food
@@ -16852,6 +18286,17 @@ stem	noun		C1	plants
 stem	verb		C1	
 step	noun		A2	body
 step	verb		B1	actions.motion
+step aside	verb		C1	
+step back	verb		B2	
+step down	verb		B2	
+step forward	verb		B2	
+step in	verb		C1	
+step into	verb		B2	
+step off	verb		C2	
+step on	verb		B2	
+step out	verb		B2	
+step over	verb		B2	
+step up	verb		C1	
 stepbrother	noun		A2	family
 stepchild	noun		C1	family
 stepdaughter	noun		B2	family
@@ -16882,6 +18327,17 @@ stewardship	noun		B2	politics
 stick	adj		A2	
 stick	noun		A2	sports
 stick	verb		A2	actions.handling
+stick around	verb		B2	
+stick at	verb		C1	
+stick by	verb		C1	
+stick down	verb		B1	
+stick on	verb		B1	
+stick out	verb		B2	
+stick to	verb		B1	
+stick together	verb		B2	
+stick up	verb		B2	
+stick up for	verb		B2	
+stick with	verb		B2	
 sticker	noun		A1	classroom
 sticky	adj		A2	qualities.senses
 stiff	adj		B1	body
@@ -16915,6 +18371,7 @@ stochastic	adj		C2
 stock	adj		B1	
 stock	noun		B1	shopping
 stock	verb		C1	shopping
+stock up	verb		B2	
 stockbroker	noun		C1	economy
 Stockholm	verb		C2	
 stocking	noun		B2	clothes
@@ -16931,16 +18388,27 @@ stool	verb		B2
 stoop	verb		C2	actions.motion
 stop	noun		A1	transport
 stop	verb		A1	actions
+stop by	verb		B1	
+stop in	verb		C1	
+stop into	verb		C2	
+stop off	verb		B2	
+stop over	verb		B2	
+stop up	verb		C2	
 stopover	noun		B2	transport
 stopwatch	noun		B1	time.clock
 storage	noun		B1	technology
 storage	verb		B1	
 store	noun		A1	clothes
 store	verb		B1	actions.handling
+store away	verb		B2	
+store up	verb		B2	
 storey	noun		B2	town
 stork	noun		B2	animals
 storm	noun		A2	weather
 storm	verb		A2	
+storm in	verb		C1	
+storm off	verb		C1	
+storm out	verb		B2	
 stormy	adj		A2	weather
 story	intj		A1	
 story	noun		A1	home
@@ -17008,6 +18476,7 @@ strength	verb		B1
 strengthen	verb		B1	actions.change
 stress	noun		A2	health
 stress	verb		B1	actions.speaking
+stress out	verb		B2	
 stressed	adj		A2	feelings
 stressful	adj		B1	feelings
 stretch	noun		B2	sports
@@ -17021,6 +18490,12 @@ stride	verb		C1	actions.motion
 strife	noun		B2	history
 strike	noun		B2	jobs
 strike	verb		B2	actions.handling
+strike back	verb		B2	
+strike down	verb		C1	
+strike off	verb		C1	
+strike out	verb		B2	
+strike through	verb		C2	
+strike up	verb		C1	
 strikebreaker	noun		C2	economy
 striker	noun		B2	sports
 striking	adj		B1	qualities.judgement
@@ -17062,8 +18537,11 @@ studio	noun		A2	music_arts
 studious	adj		C1	school
 study	noun		A2	science
 study	verb		A1	actions
+study up on	verb		C2	
 stuff	noun		C1	
 stuff	verb		C1	food
+stuff out	verb		C2	
+stuff up	verb		C2	
 stuffed	adj		B1	toys
 stumble	verb		C1	actions.motion
 stump	noun		C1	
@@ -17080,6 +18558,7 @@ sturdy	noun		B2
 stutter	verb		C1	actions.speaking
 style	noun		A2	clothes
 style	verb		A2	
+style up	verb		C2	
 stylish	adj		A2	qualities.judgement
 stylistic	adj		B2	language
 sub	noun		C1	
@@ -17196,6 +18675,7 @@ Sue	noun		C1
 sue	verb		C1	law
 suede	noun		C1	clothes
 suffer	verb		B1	actions.change
+suffer from	verb		B1	
 sufferer	noun		C1	
 suffering	adj		B2	
 suffering	noun		B2	feelings
@@ -17222,6 +18702,7 @@ suicide	noun		B1	society
 suicide	verb		B1	
 suit	noun		A2	clothes
 suit	verb		B1	clothes
+suit up	verb		C1	
 suitability	noun		B2	jobs
 suitable	adj		B1	qualities
 suitcase	noun		A2	travel
@@ -17237,6 +18718,7 @@ sullen	noun		C1
 sullen	verb		C1	
 sum	noun		B1	numbers
 sum	verb		C1	academic
+sum up	verb		B2	
 summarily	adv		C2	
 summarize	verb		B1	actions.speaking
 summary	adj		B1	
@@ -17333,6 +18815,7 @@ supreme	verb		B2
 sure	adj		A1	qualities
 sure	adv		A1	
 sure	intj		A2	communication
+sure up	verb		C2	
 surely	adv		B1	function.adverb
 surety	noun		C2	
 surf	noun		B1	nature
@@ -17541,6 +19024,8 @@ tag	verb		B2	media
 tail	adj		A1	
 tail	noun		A1	animals
 tail	verb		A1	
+tail away	verb		C2	
+tail off	verb		C1	
 tailor	noun		B2	clothes
 tailor	verb		C1	actions.handling
 taint	verb		C1	
@@ -17549,6 +19034,25 @@ Taiwanese	adj		B1	countries
 Taiwanese	noun		B1	
 take	noun		A1	
 take	verb		A1	actions
+take across	verb		B2	
+take after	verb		B1	
+take against	verb		C2	
+take apart	verb		B2	
+take away	verb		A2	
+take away from	verb		B2	
+take back	verb		B1	
+take down	verb		B2	
+take for	verb		B2	
+take in	verb		B2	
+take off	verb		B1	
+take on	verb		B2	
+take out	verb		B1	
+take over	verb		B2	
+take to	verb		C1	
+take up	verb		B1	
+take up for	verb		C2	
+take up with	verb		C2	
+take with	verb		C2	
 takeaway	noun		A2	food
 takeoff	noun		C1	
 takeout	noun		B1	food
@@ -17560,6 +19064,19 @@ talented	adj		A2	school
 Taliban	noun		B2	
 talk	noun		A2	friends
 talk	verb		A1	actions.speaking
+talk about	verb		A2	
+talk around	verb		C1	
+talk at	verb		C1	
+talk back	verb		B2	
+talk down	verb		C1	
+talk down to	verb		C1	
+talk into	verb		B2	
+talk out	verb		C2	
+talk out of	verb		B2	
+talk over	verb		B2	
+talk through	verb		B2	
+talk to	verb		A1	
+talk up	verb		C1	
 talkative	adj		B1	qualities.character
 tall	adj		A1	qualities.size
 tall	noun		A1	
@@ -17626,11 +19143,14 @@ tea	noun		A1	food
 tea	verb		A1	
 teach	noun		A1	
 teach	verb		A1	actions
+teach out	verb		C2	
 teacher	noun		A1	school
 teaching	noun		B1	
 team	intj		A1	
 team	noun		A1	friends
 team	verb		A1	
+team up	verb		B2	
+team up with	verb		B2	
 teammate	noun		B1	friends
 teamwork	noun		B1	friends
 tear	noun		A2	body
@@ -17678,6 +19198,11 @@ television	noun		A1	media
 television	verb		A1	
 tell	noun		A1	
 tell	verb		A1	actions.speaking
+tell against	verb		C2	
+tell apart	verb		B1	
+tell of	verb		C1	
+tell off	verb		B2	
+tell on	verb		B2	
 telly	noun		B1	anglophone.uk
 temper	noun		B2	qualities.character
 temper	verb		B2	
@@ -17774,6 +19299,7 @@ tertiary	noun		C1
 Test	noun		A1	
 test	noun		A1	health
 test	verb		A2	actions
+test out	verb		B2	
 testament	noun		C1	
 testament	verb		C2	
 testify	verb		C1	law
@@ -17894,6 +19420,8 @@ thin	adj		A1	qualities.size
 thin	adv		A1	
 thin	noun		A1	
 thin	verb		C1	actions.change
+thin down	verb		C1	
+thin out	verb		C1	
 thine	det		C1	
 thine	pron		C1	function.pronoun
 Thing	noun		A1	
@@ -17901,6 +19429,14 @@ thing	noun		A1	school
 thing	verb		A1	
 think	noun		A1	
 think	verb		A1	actions.thinking
+think about	verb		A2	
+think back	verb		B2	
+think of	verb		A2	
+think on	verb		C2	
+think out	verb		C2	
+think over	verb		B2	
+think through	verb		B2	
+think up	verb		B2	
 thinker	noun		C1	thinking
 third	adj		A1	numbers
 third	noun		B1	numbers
@@ -17985,6 +19521,18 @@ throughout	adv		B1
 throughout	prep		B1	function.preposition
 throw	noun		A1	
 throw	verb		A1	actions.handling
+throw about	verb		C2	
+throw aside	verb		C2	
+throw away	verb		A2	
+throw back	verb		C1	
+throw down	verb		C2	
+throw in	verb		B2	
+throw off	verb		C1	
+throw on	verb		B2	
+throw out	verb		B2	
+throw over	verb		C2	
+throw together	verb		C1	
+throw up	verb		B2	
 thrust	noun		C1	
 thrust	verb		C1	
 thumb	noun		A2	body
@@ -18041,6 +19589,8 @@ timber	verb		C1
 time	intj		A1	
 time	noun		A1	time
 time	verb		A1	
+time in	verb		C2	
+time out	verb		C1	
 timeframe	noun		B2	academic
 timeline	noun		B1	media
 timeline	verb		B1	
@@ -18133,6 +19683,9 @@ ton	noun		B1	numbers
 tone	noun		B1	qualities.colour
 tone	pron		B1	
 tone	verb		B1	
+tone down	verb		C1	
+tone in	verb		C2	
+tone up	verb		C1	
 tongue	noun		B1	body
 tongue	verb		B1	
 tongue-twister	noun		B1	language
@@ -18144,6 +19697,8 @@ Tony	noun		C1
 too	adv		A1	function.adverb
 tool	noun		A2	home
 tool	verb		A2	
+tool around	verb		C2	
+tool up	verb		C2	
 toolbar	noun		B1	technology
 toolbox	noun		B1	home
 tooth	noun		A1	body
@@ -18156,6 +19711,9 @@ top	adv		A1
 top	intj		A1	
 top	noun		A1	space
 top	verb		A1	
+top off	verb		C1	
+top out	verb		C2	
+top up	verb		B2	
 topic	adj		A2	
 topic	noun		A2	classroom
 topography	noun		C1	
@@ -18185,11 +19743,17 @@ toss	verb		C1	actions.handling
 total	adj		A2	qualities
 total	noun		A2	qualities.size
 total	verb		C1	numbers
+total up	verb		B2	
 totalitarian	adj		C1	politics
 totally	adv		A2	function.adverb
 totem	noun		C2	anglophone.commonwealth
 touch	noun		B2	qualities.senses
 touch	verb		A1	actions.perception
+touch down	verb		B2	
+touch in	verb		C2	
+touch off	verb		C1	
+touch on	verb		C1	
+touch up	verb		C1	
 touchdown	noun		C1	
 touching	adj		B2	feelings
 touching	noun		B2	
@@ -18201,6 +19765,7 @@ tough	adj		B1	qualities.senses
 tough	intj		B1	
 tough	noun		B1	
 tough	verb		B1	
+tough out	verb		C2	
 tour	noun		A2	free_time
 tour	verb		B1	travel
 tourism	noun		B1	travel
@@ -18218,6 +19783,7 @@ towel	noun		A2	home
 Tower	noun		A1	
 tower	noun		A1	fantasy
 tower	verb		A1	
+tower over	verb		C1	
 towering	adj		B2	qualities.judgement
 towering	noun		B2	
 town	noun		A1	self
@@ -18238,6 +19804,7 @@ trace	noun		B2
 trace	verb		B2	actions.change
 track	noun		A2	toys
 track	verb		B2	media
+track down	verb		B2	
 tracking	noun		B2	
 tracksuit	noun		A2	clothes
 tract	noun		C2	
@@ -18248,6 +19815,11 @@ tractor	noun		A2	toys
 trade	adj		B1	
 trade	noun		B1	jobs
 trade	verb		B1	toys
+trade away	verb		C2	
+trade down	verb		C2	
+trade in	verb		B2	
+trade off	verb		C1	
+trade up	verb		C1	
 trademark	adj		B2	
 trademark	noun		B2	economy
 trademark	verb		B2	
@@ -18270,10 +19842,13 @@ tragically	adv		B2	literature
 tragicomic	adj		C2	literature
 trail	noun		B2	free_time
 trail	verb		C2	sports
+trail behind	verb		C1	
+trail off	verb		C1	
 trailer	noun		B1	home
 trailer	verb		B1	
 train	noun		A1	toys
 train	verb		A2	actions
+train up	verb		C1	
 trainee	noun		B1	jobs
 trainer	noun		A2	sports
 training	noun		A2	sports
@@ -18367,6 +19942,7 @@ Treasury	noun		B2
 treasury	noun		B2	politics
 treat	noun		B1	celebrations
 treat	verb		A2	health
+treat of	verb		C2	
 treatise	noun		B2	academic
 treatment	noun		B1	health
 treaty	noun		C1	environment
@@ -18422,6 +19998,9 @@ trio	noun		B2	numbers
 trip	adj		A1	
 trip	noun		A1	space
 trip	verb		B1	actions.motion
+trip out	verb		C2	
+trip over	verb		B1	
+trip up	verb		B2	
 triple	adj		B2	qualities.size
 triple	noun		B2	
 triple	verb		C1	actions.change
@@ -18480,6 +20059,8 @@ truthful	adj		B1	qualities
 try	adj		A1	
 try	noun		A1	
 try	verb		A1	actions
+try on	verb		A2	
+try out	verb		B1	
 TSL	noun		C2	
 tsunami	noun		B1	nature
 TTY	noun		C2	
@@ -18526,6 +20107,22 @@ turmoil	noun		B2	politics
 turmoil	verb		B2	
 turn	noun		A1	classroom
 turn	verb		A1	actions.motion
+turn about	verb		C2	
+turn against	verb		B2	
+turn around	verb		B1	
+turn aside	verb		C1	
+turn away	verb		B2	
+turn back	verb		B1	
+turn down	verb		B1	
+turn in	verb		B2	
+turn into	verb		B1	
+turn off	verb		A2	
+turn on	verb		A2	
+turn out	verb		B1	
+turn over	verb		B1	
+turn round	verb		B1	
+turn to	verb		B2	
+turn up	verb		B1	
 Turner	noun		C2	
 turnout	noun		C1	politics
 turnover	adj		C1	
@@ -18577,6 +20174,8 @@ two-thirds	noun		B1
 type	adv		A2	
 type	noun		A2	academic
 type	verb		A2	actions.handling
+type out	verb		C1	
+type up	verb		C1	
 typhoon	noun		B2	weather
 typical	adj		A2	qualities
 typical	noun		A2	
@@ -18964,6 +20563,7 @@ urbanization	noun		C1	global
 Urdu	noun		C1	countries
 urge	noun		B1	feelings
 urge	verb		B1	actions.speaking
+urge on	verb		C1	
 urgency	noun		B2	thinking
 urgent	adj		B1	environment
 urgently	adv		B1	qualities
@@ -18979,8 +20579,10 @@ USA	propn		A1	anglophone.us
 usage	noun		C1	language
 use	noun		A2	actions.handling
 use	verb		A1	actions
+use up	verb		B1	
 used	adj		B1	shopping
 used	verb		A2	function.auxiliary
+used to	verb		A2	
 useful	adj		A1	qualities
 usefulness	noun		B2	thinking
 useless	adj		A2	qualities
@@ -19325,6 +20927,10 @@ vomit	verb		B1	health
 Vote	noun		B1	
 vote	noun		B1	politics
 vote	verb		B1	politics
+vote down	verb		C1	
+vote in	verb		B2	
+vote out	verb		B2	
+vote up	verb		C1	
 voter	noun		B1	politics
 voting	noun		B2	
 voucher	noun		B1	shopping
@@ -19356,6 +20962,12 @@ waistcoat	noun		B2	clothes
 wait	intj		A1	
 wait	noun		A1	
 wait	verb		A1	actions
+wait around	verb		B1	
+wait for	verb		A1	
+wait on	verb		C1	
+wait out	verb		C1	
+wait up	verb		B1	
+wait upon	verb		C2	
 waiter	noun		A1	food
 waiter	verb		A1	
 waiting	noun		B1	health
@@ -19371,10 +20983,30 @@ Wales	noun		A2	travel
 Wales	propn		A2	anglophone.uk
 walk	noun		A1	free_time
 walk	verb		A1	actions.motion
+walk around	verb		A2	
+walk away	verb		B2	
+walk away from	verb		B2	
+walk away with	verb		C2	
+walk back	verb		B1	
+walk down	verb		C2	
+walk in	verb		B2	
+walk in on	verb		C1	
+walk into	verb		B2	
+walk off	verb		B2	
+walk off with	verb		C2	
+walk on	verb		C2	
+walk on by	verb		C1	
+walk out	verb		B2	
+walk out on	verb		C1	
+walk over	verb		C2	
+walk through	verb		B2	
 Walker	intj		C2	
 Walker	noun		C2	
 wall	noun		A1	space
 wall	verb		A1	
+wall in	verb		C2	
+wall off	verb		C1	
+wall up	verb		C2	
 wallet	noun		A2	clothes
 wallpaper	noun		B1	home
 wallpaper	verb		C1	home
@@ -19388,6 +21020,8 @@ wandering	noun		C1
 wane	verb		C2	
 want	noun		A1	
 want	verb		A1	actions
+want in	verb		C2	
+want out	verb		C2	
 war	noun		A2	fantasy
 war	verb		A2	
 ward	noun		B1	health
@@ -19403,6 +21037,9 @@ warlord	noun		C1	global
 warm	adj		A1	qualities.senses
 warm	noun		A1	
 warm	verb		B1	actions.handling
+warm down	verb		C1	
+warm over	verb		C2	
+warm up	verb		B1	
 warm-up	noun		B1	sports
 warming	noun		B1	environment
 warmly	adv		B2	feelings
@@ -19429,15 +21066,20 @@ wasp	noun		B2	animals
 waste	adj		A2	
 waste	noun		A2	environment
 waste	verb		A2	actions
+waste away	verb		C1	
 wastebasket	noun		B2	home
 wasteful	adj		B1	environment
 wastewater	noun		B2	environment
 watch	noun		A1	time.clock
 watch	verb		A1	actions.perception
+watch back	verb		C2	
+watch out	verb		B1	
+watch over	verb		B2	
 watchdog	noun		B2	media
 watchful	adj		C1	
 water	noun		A1	home
 water	verb		A2	actions.handling
+water down	verb		C1	
 watercolor	noun		B2	music_arts
 waterfall	noun		A2	nature
 waterfall	verb		A2	
@@ -19454,6 +21096,12 @@ wattle	noun		C2
 wattle	verb		C2	
 wave	noun		A2	communication
 wave	verb		A2	actions.motion
+wave aside	verb		C2	
+wave away	verb		C1	
+wave down	verb		C2	
+wave in	verb		C2	
+wave off	verb		C1	
+wave through	verb		C2	
 wavelength	noun		C1	
 waver	verb		C2	thinking
 wavy	adj		B1	self
@@ -19477,6 +21125,13 @@ weapon	noun		B1	law
 weapon	verb		B1	
 wear	noun		A1	
 wear	verb		A1	actions
+wear away	verb		B2	
+wear down	verb		C1	
+wear in	verb		C2	
+wear off	verb		B2	
+wear on	verb		C1	
+wear out	verb		B2	
+wear through	verb		C1	
 weariness	noun		C2	
 weary	adj		C1	feelings
 weary	verb		C1	
@@ -19514,6 +21169,7 @@ weigh	noun		A2
 weigh	verb		A2	actions.thinking
 weight	noun		A2	qualities.size
 weight	verb		A2	
+weight down	verb		C2	
 weightlifting	noun		B1	sports
 weird	adj		A2	qualities.judgement
 weird	adv		A2	
@@ -19531,6 +21187,7 @@ well	adv		A1	function.adverb
 well	intj		A1	communication
 well	noun		B2	fantasy
 well	verb		A1	
+well up	verb		C1	
 well-behaved	adj		B1	family
 well-being	noun		B2	
 well-done	adj		B1	food
@@ -19561,6 +21218,8 @@ westward	noun		B2
 wet	adj		A1	qualities
 wet	noun		A1	
 wet	verb		A1	
+wet down	verb		C2	
+wet through	verb		C1	
 wetland	noun		C1	nature
 whale	noun		A2	animals
 whale	verb		A2	
@@ -19624,6 +21283,7 @@ while	conj		A2	function.conjunction
 while	noun		B2	time
 while	prep		A2	
 while	verb		A2	
+while away	verb		C1	
 whilst	adv		B2	
 whilst	conj		B2	thinking
 whip	noun		B2	politics
@@ -19644,6 +21304,7 @@ White	noun		A1
 white	adj		A1	qualities.colour
 white	noun		A1	
 white	verb		A1	
+white out	verb		C2	
 whiteboard	noun		A1	classroom
 Whitehall	propn		C1	politics
 whither	adv		C2	
@@ -19717,9 +21378,18 @@ wilt	verb		C1	plants
 Wiltshire	adj		C2	
 win	noun		A1	
 win	verb		A1	actions
+win around	verb		C2	
+win back	verb		B2	
+win out	verb		C1	
+win over	verb		B2	
+win round	verb		C1	
+win through	verb		C2	
 Winchester	noun		C1	
 wind	noun		A1	nature
 wind	verb		B2	actions.handling
+wind back	verb		C1	
+wind down	verb		C1	
+wind up	verb		C1	
 wind-up	adj		C1	toys
 winding	noun		C2	
 window	noun		A1	home
@@ -19750,9 +21420,11 @@ wisdom	noun		B2	thinking
 wise	adj		B1	qualities.character
 wise	noun		B1	
 wise	verb		B1	
+wise up	verb		C1	
 wisely	adv		B1	qualities.character
 wish	noun		A2	self
 wish	verb		A2	actions.thinking
+wish away	verb		C2	
 wit	noun		C1	literature
 wit	verb		C1	
 witch	noun		A1	fantasy
@@ -19829,6 +21501,18 @@ wordplay	noun		C1	language
 wordy	adj		C1	language
 work	noun		A1	music_arts
 work	verb		A1	actions
+work around	verb		C1	
+work at	verb		B2	
+work away	verb		C1	
+work in	verb		C1	
+work off	verb		C1	
+work on	verb		B1	
+work out	verb		B1	
+work over	verb		B2	
+work through	verb		B2	
+work together	verb		B1	
+work up	verb		B2	
+work up to	verb		C1	
 workbook	noun		A2	school
 worker	noun		A2	jobs
 workforce	noun		B2	economy
@@ -19905,6 +21589,12 @@ wrist	noun		B1	body
 wrist	verb		B1	
 write	noun		A1	
 write	verb		A1	actions
+write down	verb		A2	
+write in	verb		B2	
+write off	verb		C1	
+write out	verb		B2	
+write over	verb		C2	
+write up	verb		B2	
 writer	noun		A1	jobs
 writing	noun		A2	school
 written	adj		B1	school
@@ -20040,6 +21730,8 @@ zero	det		A1
 zero	noun		A1	numbers
 zero	num		A1	numbers
 zero	verb		A1	
+zero in	verb		C1	
+zero out	verb		C2	
 zero-rate	verb		C2	
 zero-rated	adj		C2	
 Zhou	noun		C2	
@@ -20052,6 +21744,8 @@ zipper	noun		A2	clothes
 zombie	noun		B2	fantasy
 zone	noun		B1	space
 zone	verb		B1	
+zone in	verb		C2	
+zone out	verb		C1	
 zoo	noun		A1	free_time
 zoology	noun		B2	science
 zoom	verb		B2	technology
