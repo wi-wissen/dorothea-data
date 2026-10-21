@@ -11,6 +11,12 @@ Buckets per word token (one entry of the analyser's `words` list):
   other      anything else (should stay 0)
 
 The not-found words and the no-level, base-gloss and empty-card lemmas are written with counts to an output folder outside git.
+
+Names: `names.tsv` lists, per passage, the word tokens that are names (kind person, place, org,
+other) and the ordinary words inside names that may count either way (kind part). A token is
+marked as a name when the analyser sets `name`. Reported per language: recall (gold name tokens
+marked), false alarms (marked tokens that are neither names nor parts) and precision; the misses
+and false alarms are written to `names-missed-<lang>.tsv` and `names-false-<lang>.tsv`.
 Python 3 standard library only.
 """
 import argparse
@@ -18,6 +24,7 @@ import collections
 import csv
 import json
 import os
+import re
 import subprocess
 import sys
 
@@ -29,11 +36,16 @@ BUCKETS = ['level', 'no-level', 'part-gloss', 'base-gloss', 'empty', 'not-found'
 
 
 def pack_args(packs, lang):
+    # Name list packs (`names-*.pack`) of the pack directory, if any.
+    names = []
+    for f in sorted(os.listdir(packs)):
+        if f.startswith('names-') and f.endswith('.pack'):
+            names += ['--names-pack', f'{packs}/{f}']
     if lang == 'de':
         return ['--morph-pack', f'{packs}/de-morph.pack', '--dict-pack', f'{packs}/de-en/core.pack',
-                '--chunks', f'{packs}/de-en', '--freq-pack', f'{packs}/freq-de.pack']
+                '--chunks', f'{packs}/de-en', '--freq-pack', f'{packs}/freq-de.pack'] + names
     return ['--morph-pack', f'{packs}/en-morph.pack', '--dict-pack', f'{packs}/en-de/core.pack',
-            '--chunks', f'{packs}/en-de', '--freq-pack', f'{packs}/freq-en.pack']
+            '--chunks', f'{packs}/en-de', '--freq-pack', f'{packs}/freq-en.pack'] + names
 
 
 def bucket(w):
@@ -48,6 +60,27 @@ def bucket(w):
     if not w.get('lemma') and not w.get('gloss'):
         return 'not-found'
     return 'other'
+
+
+NAME_KINDS = ('person', 'place', 'org', 'other')
+
+
+def load_names():
+    """(passage id, token) -> kind from names.tsv."""
+    gold = {}
+    with open(os.path.join(HERE, 'names.tsv'), encoding='utf-8', newline='') as fh:
+        for row in csv.DictReader(fh, delimiter='\t'):
+            for tok in row['tokens'].split():
+                gold[(row['id'], tok)] = row['kind']
+    return gold
+
+
+def name_kind(gold, pid, surface):
+    """Gold kind of a token: as written, else without a possessive ending or a final full stop."""
+    for s in (surface, re.sub(r"(['’]s|['’])$", '', surface), surface.rstrip('.')):
+        if (pid, s) in gold:
+            return gold[(pid, s)]
+    return None
 
 
 def analyze(cli, packs, lang, text):
@@ -87,6 +120,10 @@ def main():
     empty = collections.defaultdict(collections.Counter)    # lang -> (lemma, pos)
     basegloss = collections.defaultdict(collections.Counter)  # lang -> (lemma, how: gloss)
     propn = collections.Counter()
+    gold = load_names()
+    names = collections.defaultdict(collections.Counter)  # lang -> gold/hit/marked/false
+    missed = collections.defaultdict(collections.Counter)  # lang -> (id, surface)
+    false = collections.defaultdict(collections.Counter)
     per_passage = []
     for r in rows:
         with open(os.path.join(HERE, 'passages', r['id'] + '.txt'), encoding='utf-8') as fh:
@@ -98,6 +135,19 @@ def main():
             b = bucket(w)
             c[b] += 1
             surface = data[w['start']:w['end']].decode('utf-8', 'replace')
+            kind = name_kind(gold, r['id'], surface)
+            marked = bool(w.get('name'))
+            nc = names[r['lang']]
+            if kind in NAME_KINDS:
+                nc['gold'] += 1
+                nc['hit'] += marked
+                if not marked:
+                    missed[r['lang']][(r['id'], surface, w.get('lemma') or '', w.get('pos') or '')] += 1
+            if marked:
+                nc['marked'] += 1
+                if kind is None:
+                    nc['false'] += 1
+                    false[r['lang']][(r['id'], surface, w.get('lemma') or '', w.get('pos') or '')] += 1
             if b == 'not-found':
                 notfound[r['lang']][surface] += 1
             elif b == 'base-gloss':
@@ -142,6 +192,13 @@ def main():
             for (lemma, g), n in sorted(cnt.items(), key=lambda x: (-x[1], x[0])):
                 fh.write(f'{n}\t{lemma}\t{g}\n')
 
+    for lang in names:
+        for fname, cnt in ((f'names-missed-{lang}.tsv', missed[lang]), (f'names-false-{lang}.tsv', false[lang])):
+            with open(os.path.join(args.out, fname), 'w', encoding='utf-8') as fh:
+                fh.write('count\tid\tword\tlemma\tpos\n')
+                for k, n in sorted(cnt.items(), key=lambda x: (-x[1], x[0])):
+                    fh.write(f'{n}\t' + '\t'.join(k) + '\n')
+
     groups = ['all'] + sorted(g for g in totals if g != 'all')
     if args.markdown:
         print('| group | tokens | level | no level | part-gloss | base-gloss | empty | not found | other |')
@@ -154,6 +211,11 @@ def main():
         for g in groups:
             t = totals[g]; n = sum(t.values())
             print(f'{g:24} {n:7d} ' + ' '.join(f'{t[b]:6d} ({pct(t[b], n):>5}%)' for b in BUCKETS))
+    for lang in sorted(names):
+        n = names[lang]
+        prec = pct(n['hit'], n['hit'] + n['false'])
+        print(f"{lang} names: {n['hit']} of {n['gold']} marked (recall {pct(n['hit'], n['gold'])}%), "
+              f"{n['false']} false alarms of {n['marked']} marked (precision {prec}%)")
     for lang in sorted(propn):
         print(f'{lang}: {propn[lang]} of the no-level tokens are proper nouns (pos=propn)')
     print(f'details: {args.out}')

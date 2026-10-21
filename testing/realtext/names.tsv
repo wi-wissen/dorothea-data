@@ -1,0 +1,133 @@
+id	kind	tokens
+de-klexikon-1	org	Kraftwerk
+de-klexikon-1	person	Sven Väth
+de-klexikon-1	part	Goa Uplifting Tech
+de-klexikon-2	person	Michelangelo Leonardo Vinci Auguste Rodin Picasso
+de-klexikon-2	place	Italien Frankreich
+de-klexikon-2	part	da
+de-klexikon-4	place	Spanien Spaniens Valencia Madrid Mexiko Texas
+de-klexikon-4	person	Hernán Cortés
+de-miniklexikon-1	person	Martin Luther Jesus Maria Huldrych Zwingli
+de-miniklexikon-1	place	Deutschland Schweiz
+de-miniklexikon-1	part	Westfälischen Dreißigjährige Evangelischen Reformierte Katholische Orthodoxen Kirche
+de-lit-eichendorff	person	Leonhard
+de-lit-fontane	person	Innstetten Gieshübler Effi Roswitha Annie Crampas Hoppensacks
+de-lit-fontane	place	Breitling Breitlings
+de-lit-hauff	person	Chasid
+de-lit-kafka	person	Gregor Gregors
+de-lit-kafka	part	Wertheimkassa
+de-lit-storm	person	Hauke
+de-news-1	place	Peking China Chinas
+de-news-1	person	Huang Zerong Tie Liu Xiaoyuan Mao Zedong Maos Huangs Yunshan Wang Quan’an Jackie Chan Guo Meimei
+de-news-1	part	Rote Kreuz Kommunistischen Partei
+de-news-2	place	Nuevo Laredo Mexiko Mexikos Texas Tamaulipas
+de-news-2	person	Antonio Garza
+de-news-3	place	München Deutschland England
+de-news-3	person	Dönitz
+de-news-3	other	Laconia
+de-news-3	part	Laconia-Befehl Nürnberger Roten Kreuz Münchner
+de-news-4	place	Berlin Deutschland Frankfurt Oder Bayern
+de-news-4	person	Gesine Schwan Horst Köhler Angela Merkel Ronald Pofalla Erwin Huber
+de-news-4	org	Viadrina
+de-news-4	part	SPD Willy-Brandt-Haus Europa-Universität Union FDP CSU DDR CDU SPD-Führung SPD-Kandidatin CDU-Generalsekretär CSU-Vorsitzende SPD-Rechte DDR-Nostalgiker
+de-tatoeba-1	person	Maria Karl Tom Mary Toms
+de-tatoeba-1	place	Boston
+de-tatoeba-1	org	Facebook
+de-tatoeba-2	person	Liisas Schmidt Tom Toms Maria
+de-tatoeba-2	place	Paris Tizi-Ouzou Bejaia Algier Gdansk Bagdad
+de-tatoeba-2	part	DDR
+de-wp-biography	person	Arthur Fauser Christian Therese Walter Ast HAP Grieshaber Fromann Mussolini Sautter Günther Weisenborn Ernst Brasch Aribert Moog Maria Razum Jörg
+de-wp-biography	place	Reutlingen Locarno Schweiz Zürich Genua Bellinzona Basel Deutschland Frankfurt Main Berlin Belgien Frankreich Finnland Holland
+de-wp-biography	other	Wanda Tyll Leonien
+de-wp-biography	part	Deutsche Bank Marienkirche Reutlinger NSDAP Reichsstelle Dachluke Die
+de-wp-biology	part	Tartarocyon Amphicyonidae Cynelos Amphicyon Magericyon Ammitocyon Agnotherium Haplocyon Gobicyon Foramen
+de-wp-culture	place	Afrika Deutsch-Ostafrika
+de-wp-economy	person	Agemon Philipp Heinrich Triepel Charles P Kindleberger Robert O Keohane Joseph Nye
+de-wp-economy	place	Athen Sparta Makedonien USA
+de-wp-economy	part	II Römische Reich Pax Americana Hegemonic Stability Theory Soft Power Amerikanisches Amerikanischer
+de-wp-food	person	Henriette Davidis Franz Maier-Bruck
+de-wp-food	place	Österreich
+de-wp-geography	place	Wilhelmsburg Grasbrook Steinwerder Veddel Norderelbe Süderelbe-Köhlbrand Stillhorn Georgswerder Moorwerder Schaar Neuhof Rothenburgsort Spadenland Ochsenwerder Neuland Harburg Heimfeld Moorburg Altenwerder Seevetal Köhlbrand Süderelbe Vierlanden Braunschweig-Lüneburg-Celle Frankreich Hambourg Hannover Hamburgs Reiherstiegviertel Westpreußen Posen
+de-wp-geography	person	Georg Wilhelm
+de-wp-geography	part	Kleiner Hohe Bunthäuser Spitze Norder Norder- Weichsel-Kaltzeit Hamburger Georg-Wilhelm-Straße Elbemündung Deutschen Zollverein Wilhelmsburger
+de-wp-history	place	Nieszawa Polen Niederlitauen Litauen Pommerellen Memel Klaipėda Cleupeda Memelburg Samogitien Melnosee Ostpreußen Ostpreußens Europa Preußenlandes Masuren Masowien Preußen
+de-wp-history	part	Thorner Gollub-Krieges Deutsche Orden Kulmer Land Michelauer Samogitico Preußisch Ersten
+de-wp-politics	place	Bayern Saarland Deutschland Hamburg Thüringen Mecklenburg-Vorpommern Sachsen-Anhalt Sachsen Berlin Rheinland-Pfalz Niedersachsen Bremen Baden-Württemberg Schleswig-Holstein Hessen Nordrhein-Westfalen Brandenburg
+de-wp-politics	part	CSU SPD AKP Bundestag
+de-wp-science	place	California Berkeley
+de-wp-science	person	Stanley G Thompson Albert Ghiorso Bernard Harvey Gregory Choppin Glenn T Seaborg Mendelejews
+de-wp-science	part	University of International Union Pure and Applied Chemistry IUPAC
+de-wp-sport	place	Rosenaustadion Österreich Schweden Göppingen Lintfort Neckarstadion Schweiz Deutschland
+de-wp-sport	part	Augsburger Frisch Auf TuS Stuttgarter Leipziger Zentralstadion DDR Bundesrepublik Deutsche DDR-Nationalauswahl DDR-Mannschaft
+de-wp-technology	person	Edward William Lane
+de-wp-technology	part	Nahen Osten Kibbi Bi-Siniyyah Sufrah
+en-lit-austen	person	Elizabeth Lydia Forster Kitty Bennet
+en-lit-austen	place	Meryton
+en-lit-doyle	person	Holmes Hosmer Sherlock Watson
+en-lit-doyle	org	Westhouse Marbank
+en-lit-doyle	place	Fenchurch Andover Hague
+en-lit-doyle	part	Street The
+en-lit-grimm	person	Dummling
+en-lit-london	person	Buck John Thornton
+en-lit-london	part	God
+en-lit-twain	person	Tom
+en-lit-twain	part	Lord
+en-lit-wilde	person	Hans
+en-lit-wilde	part	Miller
+en-news-culture	person	Mary Magdalen Rachel Bevilacqua James Punch Jesus Steve Bevilacquas
+en-news-culture	place	Orleans Dallas Texas Columbus
+en-news-culture	org	SubGenius
+en-news-culture	other	Scientology
+en-news-culture	part	Church County X-Day New Age ACLU
+en-news-politics	person	Leo Tolstoy Albert Einstein Hitler S M Krishna Alexandr Kadakin
+en-news-politics	place	Russia Kolkata Tomsk Siberia India
+en-news-politics	other	Bhagavad Gita
+en-news-politics	part	Parliament As It Is Federal List Extremist Materials Mein Kampf External Affairs Minister House Ministry Ambassador
+en-news-science	person	Joe Descds
+en-news-science	org	Binnews Wikinews
+en-news-science	place	America
+en-news-science	other	BitTorrent Usenet
+en-news-science	part	Motion Picture Association MPAA
+en-news-sport	person	Stephanie Rice Kirsty Coventry Natalie Coughlin Federica Pellegrini Sara Isakovic Jiaying Pang Michael Phelps László Cseh Takeshi Matsuda Ryan Lochte Ricky Berens Peter Vanderkaay Mark Spitz
+en-news-sport	place	Zimbabwe Slovenia Beijing Melbourne Australia Russia
+en-news-sport	part	Olympic Olympics Record World Aquatics Championships
+en-simple-animals	place	Wales Australia Guinea
+en-simple-animals	part	Monotremata Upper Triassic Cretaceous Lightning Ridge New South Metatheria Eutheria
+en-simple-birds	place	Australia Bismarck Philippines
+en-simple-birds	part	Cacatuidae Archipelago
+en-simple-geography	place	Jura Andes Alps Himalayas Appalachians Russia Ural Africa Vosges America Rhine Fuji Japan Pinatubo Philippines Navajo Utah Arizona Washington Oregon California Atlantic Pacific Iceland Azores
+en-simple-geography	part	Earth Mountains East Basin Range Western North Mount Mountain United States Cascade Indian Oceans
+en-simple-music	person	Mozart
+en-simple-science	part	Earth
+en-tatoeba-1	person	Tom Mary Ziri Elias Yanni Boris Rima
+en-tatoeba-2	person	Yanni Skura Tom Mary Lorenzo Elias
+en-tatoeba-2	place	Australia Singapore
+en-wp-biography	person	Joseph Emes Ames Henry Theodore Tuckerman Washington Allston Pius Rufus Choate Daniel Webster Abraham Lincoln Nathan Sarah Fisher Amory
+en-wp-biography	place	Roxbury Hampshire Saugus Massachusetts Boston Rome Italy Tremont Pennsylvania Baltimore York
+en-wp-biography	part	New Pope IX National Academy Design Hall Street Summer Athenæum Members Art Club
+en-wp-biology	person	John Latham
+en-wp-biology	part	Scolopax Gallinago
+en-wp-culture	part	Guitarra Portuguesa Viola Requinto Terras
+en-wp-economy	place	Basel
+en-wp-economy	part	Guidelines Conversion Factor Loan Equivalent Credit Risk Mitigation Techniques Exposure At Default
+en-wp-food	place	Japan Korea Malaysia Thailand China Vietnam
+en-wp-geography	place	Mykonos Alexandria Byzantium Athens Delos Constantinople Tinos Mukene
+en-wp-geography	person	Hesychius Stephanus Anius Herodotus Alexander Andrea Ghisi Hayreddin Barbarossa Suleiman
+en-wp-geography	part	Mykon Delian League Great Islanders Byzantine Empire Fourth Crusade Magnificent Ottoman Kapudan Pasha Battle
+en-wp-history	person	Montfort Blois Montforts Robert Bemborough Jean Beaumanoir Froissart Joan Joanna Bel Merlin Pierre Baud Thomas Dagworth
+en-wp-history	place	Brittany France England Ploërmel Josselin Penthièvre Flanders
+en-wp-history	part	War Succession House Duchy Hundred Years de le Le God Prophesies History
+en-wp-medicine	part	United States Helicobacter H
+en-wp-politics	place	Belgium Europe Ireland Dublin Éireann
+en-wp-politics	org	Dáil Seanad Oireachtas
+en-wp-politics	part	House Commons United Kingdom Southern Electoral Act University National
+en-wp-science	person	Mohs
+en-wp-sport	person	Ken Edwards David Thompson Troy Meston Stan Grant John Rudder Robert Hamilton Mathews Evans Malcom Walker Patrick Greene Gustav Mützel Blandowski
+en-wp-sport	place	Queensland Bogan Lachlan Victoria Wales Torres Mondellimin Merbein
+en-wp-sport	org	Laureus
+en-wp-sport	other	Choopadoo Woggabaliri Jarijari
+en-wp-sport	part	Associate Professor Sport Health Physical Education University Technology Games Dreamtime Wiradjuri River New South Ngunnawal Sports Commission Indigenous Traditional Good Foundation Strait Islander Museums
+en-wp-technology	person	Earl Richardson
+en-wp-technology	place	America
+en-wp-technology	org	Whirlpool Electrolux Maytag Thermador
+en-wp-technology	part	Post–World War II United States Department Energy National Appliance Conservation Act General Electric
