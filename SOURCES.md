@@ -10,6 +10,8 @@ Downloads are kept outside the repository.
 | German Wiktionary, all entries, via kaikki.org (`de-extract.jsonl.gz`) | extract of 2026-10-03 (Last-Modified) | 2026-10-20 | `de-extract.jsonl.gz` (308,579,949 bytes) | `2e66f18a093e94b29b04733d0222625695a3d5ed199e700059193895490dfb19` |
 | English Wiktionary, French entries, via kaikki.org (`kaikki.org-dictionary-French.jsonl`, https://kaikki.org/dictionary/French/; marked deprecated by kaikki.org, still served) | extract of 2026-10-03 (Last-Modified) | 2026-10-21 | `kaikki.org-dictionary-French.jsonl` (583,677,104 bytes) | `829805e271688af4cb7e4430b2c49b7d29f4fe0ce523d6b9c19a8b6c585a25b7` |
 | French Wiktionary, all entries, via kaikki.org (`fr-extract.jsonl.gz`, https://kaikki.org/dictionary/downloads/fr/fr-extract.jsonl.gz) | extract of 2026-10-03 (Last-Modified) | 2026-10-21 | `fr-extract.jsonl.gz` (736,590,407 bytes) | `f3fc5417d1759188ecfd74df90cbf231b28306b150970ea89614cb8cb4668f32` |
+| English Wiktionary, Spanish entries, via kaikki.org (`kaikki.org-dictionary-Spanish.jsonl`, https://kaikki.org/dictionary/Spanish/; marked deprecated by kaikki.org, still served; stored gzipped as `en-Spanish.jsonl.gz`, 81,441,448 bytes, SHA-256 `d480a9199d54e2150c576f9b87324630e0960b7c64f91952ef9c93eb0e2ebde0`) | extract of 2026-10-03 (Last-Modified) | 2026-10-22 | `kaikki.org-dictionary-Spanish.jsonl` (1,054,565,723 bytes) | `7b23a5dc004a47b63edc2e79a34b246bbf59d1a3067a1843a5c554c0e252b97c` |
+| Spanish Wiktionary, all entries, via kaikki.org (`es-extract.jsonl.gz`, https://kaikki.org/dictionary/downloads/es/es-extract.jsonl.gz) | extract of 2026-10-03 (Last-Modified) | 2026-10-22 | `es-extract.jsonl.gz` (103,226,106 bytes) | `fb5b5b8520912d1d1a398f2b8bf2569c11911b4c26bad6b8c066a84f5e3d34ed` |
 | OdeNet (Open German WordNet), `odenet_oneline.xml` of https://github.com/hdaSprachtechnologie/odenet, CC BY-SA 4.0 | version 1.3, commit `8ba741223048c28f67d4c38560ea4c0ee89568bb` (2026-01-07) | 2026-10-21 | `odenet_oneline.xml` (24,404,316 bytes) | `ff2bd92b8758c36e80477393e220675edf4062d13e6c8f8e3eb84b9df569df83` |
 | Open English WordNet, https://github.com/globalwordnet/english-wordnet, CC BY 4.0 | 2025 edition (release `2025-edition`) | 2026-10-21 | `english-wordnet-2025.xml.gz` (11,363,503 bytes) | `9ca6d1dcb75f822fdd66617f7d9da48142ace38dd544d6ad5e2feca1674ad3fe` |
 | Wikidata lexemes, https://dumps.wikimedia.org/wikidatawiki/entities/, CC0 1.0 (evaluated, not used by the default build) | `latest-lexemes.json.gz`, Last-Modified 2026-10-21 03:55 UTC | 2026-10-21 | `latest-lexemes.json.gz` (655,273,999 bytes) | `85ebe293f2357f69776fd06edc4fb4c23f26403f3489b8ff9e1014322dc3f4c2` |
@@ -34,6 +36,14 @@ Downloads are kept outside the repository.
   (`de-extract.jsonl.gz` above) and the French translation tables of the English Wiktionary
   (`kaikki.org-dictionary-English.jsonl` above). All CC BY-SA 4.0, like the other Wiktionary
   data.
+- **Spanish** (2026-10-22): the Spanish directions (es–es, es → de, de → es, es → en, en → es)
+  use the Spanish Wiktionary extract (Spanish entries with their German and English
+  translations; German entries with Spanish definitions), the Spanish entries of the English
+  Wiktionary, the Spanish entries and the Spanish translation tables of the German Wiktionary
+  (`de-extract.jsonl.gz` above) and the Spanish translation tables of the English Wiktionary
+  (`kaikki.org-dictionary-English.jsonl` above). All CC BY-SA 4.0, like the other Wiktionary
+  data. German translations reached through English for Spanish words without German
+  (`pivot`) come from the same English Wiktionary data.
 
 ## Real-text development set (`testing/realtext/`)
 
@@ -60,3 +70,11 @@ revision, URL, licence and attribution of every passage are in `testing/realtext
 | Project Gutenberg eBook #1661 (public domain) | plain-text edition | 2026-10-20 | `pg1661.txt` (607,606 bytes) | `922e2a12ccb43a4c9544c260b2166c6ad2097aeb5957faeee113f173bb857cd0` |
 | Project Gutenberg eBook #74 (public domain) | plain-text edition | 2026-10-20 | `pg74.txt` (434,357 bytes) | `74d77384b123a6360db9ab58463cff8b38df8525fbdc6000c81ee388e1f3cf10` |
 | Project Gutenberg eBook #215 (public domain) | plain-text edition | 2026-10-20 | `pg215.txt` (199,757 bytes) | `30f569c5671bba7bbc4a92ab6d8ee01a0d3be00f994819c77da62c28041eb8a2` |
+| Spanish Wikipedia (CC BY-SA 4.0) | page revision per passage (`oldid` in `passages.tsv`) | 2026-10-22 | MediaWiki API `action=parse`, one page per passage | – (the revision id fixes the version) |
+| Tatoeba, Spanish sentences (`spa_sentences_detailed.tsv.bz2`) | weekly export | 2026-10-22 | `spa_sentences_detailed.tsv.bz2` (9,511,792 bytes) | `1c1a471125889fee14c4ad1cbb85edb45e5160d56a4c933136433c6b67b5f48d` |
+| Tatoeba, user language skills and CC0 list (`user_languages.tar.bz2`, `sentences_CC0.tar.bz2`, extracted on download) | weekly export | 2026-10-22 | `user_languages.csv` (2,425,571 bytes), `sentences_CC0.csv` (41,861,135 bytes) | `8770cd3ae712fd791fc9370f98f6b17abb6d05d151cc5e5b67fe0494163b9376`, `92311f0c5644b703c04b7834f19bcded848c91bdcfb39c387f01024bd23b115c` |
+| Project Gutenberg eBook #15725 (public domain) | plain-text edition | 2026-10-22 | `pg15725.txt` (814,730 bytes) | `876c07627e3cca60c43f838fe38644d525b44b425c55bebcf3e0b3a9d7b29ed3` |
+| Project Gutenberg eBook #17073 (public domain) | plain-text edition | 2026-10-22 | `pg17073.txt` (1,889,429 bytes) | `29cd4c40b2a89cf643f7b3f3a53f8bbef1e67b9be204333bcb9a4dd50b61e86f` |
+| Project Gutenberg eBook #17223 (public domain) | plain-text edition | 2026-10-22 | `pg17223.txt` (346,924 bytes) | `5ac6722b1de675f7e7f9d64ed03dc5ed34565f46c86c769d6062cddf3c0ecdd4` |
+| Project Gutenberg eBook #18005 (public domain) | plain-text edition | 2026-10-22 | `pg18005.txt` (535,176 bytes) | `c42f30054c6389bcbb4a3a77de391571837f882ab198d77735551da726150450` |
+| Project Gutenberg eBook #53552 (public domain) | plain-text edition | 2026-10-22 | `pg53552.txt` (598,876 bytes) | `db72bf4d6335251432311789e9fcb5aa4f4217a35731818b9e4ed2b0850a3685` |
