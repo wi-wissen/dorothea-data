@@ -122,6 +122,14 @@ One line per entry:
  "see": null}
 ```
 
+Several missing meanings (Spanish *poner*: *ponerse la ropa* and *ponerse nervioso*):
+
+```json
+"missing": [
+  {"learner_es": "vestirse con algo", "de": ["anziehen"], "en": ["to put on"]},
+  {"learner_es": "empezar a sentirse así", "de": ["werden"], "en": ["to get", "to become"]}]
+```
+
 | Field | Meaning |
 |---|---|
 | `key` | target entry (`lang:lemma:pos:n`) |
@@ -131,7 +139,7 @@ One line per entry:
 | `senses[].learner_<lang>` | short explanation for learners in the headword language: `learner_de` for German headwords, `learner_en` for English ones (the English pilot writes it as `learner`). Stored as `learner.<lang>` |
 | `senses[].<t>_keep`, `<t>_drop`, `<t>_add` | translations into language `t` (`en` for German headwords, `de` for English ones): source glosses that are correct, source glosses that are wrong, new ones. German nouns may be added with their article (`das Haus`); the build writes them like the source (`Haus n`) |
 | `senses[].note` | optional remark of the curator; not used by the build |
-| `missing` | optional entry-level sense the source lacks: `{"learner_<lang>": "…", "<t>": ["…"]}` |
+| `missing` | optional everyday meanings the source lacks: one object `{"learner_<lang>": "…", "<t>": ["…"]}`, an array of such objects (in card order), or `null`; `[]` means none |
 | `see` | optional base word of an entry that only refers to it (an inflected form or a pure cross-reference); the lookup follows it like a `form_of` reference |
 
 How the build applies a run (all four directions):
@@ -148,8 +156,10 @@ How the build applies a run (all four directions):
   clean ones.
 - **Order.** `main` senses by `order`, then `more` senses by `order`, then senses without an edit,
   then `hide` senses.
-- **`missing`** adds a `main` sense with `src: cur` after the other `main` senses (id
-  `cur-missing-<n>`). **`see`** sets the entry's `see` field.
+- **`missing`** adds a `main` sense with `src: cur` per object after the other `main` senses,
+  in array order (ids `cur-missing-<n>`, `cur-missing-<n>-2`, `cur-missing-<n>-3`, …; a single
+  object is the same as a one-element array). Objects with neither a learner explanation nor
+  translations are skipped. **`see`** sets the entry's `see` field.
 - **Directions whose input lacks curated senses** (`de → de` is built from the German Wiktionary
   alone): a `main` or `more` sense of the other Wiktionary is carried over with its learner
   explanation as its gloss (`src: cur`); a lemma the input lacks gets an entry (`src.entry: cur`)
