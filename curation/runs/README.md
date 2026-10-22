@@ -18,3 +18,4 @@ like `de-en-gloss-2026-11-a`. See `docs/METHOD.md`, section 3.
 | [fr-level-2026-10-24-a](fr-level-2026-10-24-a.md) | level + two doubt passes (French) | 2026-10-24 |
 | [fr-level-2026-10-22-fn](fr-level-2026-10-22-fn.md) | level (French function words) | 2026-10-22 |
 | [fr-cur-2026-10-24-a](fr-cur-2026-10-24-a.md) | gloss + check + repair (French) | 2026-10-24 |
+| [de-fix-2026-10-22-a](de-fix-2026-10-22-a.md) | check (user reports) | 2026-10-22 |
