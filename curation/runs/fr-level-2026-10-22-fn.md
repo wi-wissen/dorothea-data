@@ -33,3 +33,8 @@ function words are A1.
 
 `rien` is rated C1 (pron and noun) in `fr.tsv`; for the pronoun ("nothing") A1 would fit the scale.
 Not changed here (a correction belongs to a `doubt` or `check` run).
+
+## Correction (2026-10-22)
+
+`rien` pron C1 → A1 (*ne … rien* is first-weeks vocabulary; the bulk rating followed a rare noun gloss);
+`rien` noun C1 → B2 (*un rien*, *en un rien de temps*). Set by the run owner after review.
