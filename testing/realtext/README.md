@@ -1,6 +1,6 @@
 # Real-text development set
 
-About 60 passages of text **written by people**, half German and half English, for measuring how
+About 70 passages of text **written by people** (60 German and English, 13 French), for measuring how
 well Dorothea covers real reading material: how many words it finds, how many get a CEFR level,
 which words it misses.
 
@@ -17,6 +17,7 @@ numbers will drift upward over time; confirm real progress on the held-out sets.
 | `passages.tsv` | one row per passage: `id`, `lang`, `genre`, `topic`, `source`, `title`, `url` (permalink of the exact revision or eBook), `licence`, `attribution`, `retrieved` (download date), `words` (whitespace-separated tokens) |
 | `passages/<id>.txt` | the passage, UTF-8, paragraphs separated by a blank line (Tatoeba: one sentence per line) |
 | `attribution/<id>.tsv` | Tatoeba only: sentence id, author (username), licence and URL of every sentence |
+| `build_fr.py` | selection and extraction of the French passages (the German and English ones were built the same way) |
 | `check.py` | validator (Python 3, standard library only) |
 | `measure.py` | runs `dorothea analyze --json` over every passage and reports coverage and name recognition |
 | `names.tsv` | the names in each passage (gold annotation for the name metric, see below) |
@@ -31,6 +32,10 @@ numbers will drift upward over time; confirm real progress on the held-out sets.
 | Project Gutenberg, 19th/early 20th century prose | `literature` | 4 | 4 | public domain |
 | Project Gutenberg, fairy tales | `fairy-tale` | 2 | 2 | public domain |
 | Tatoeba, short everyday sentences (~300 words per block) | `everyday` | 2 | 2 | CC BY 2.0 FR (a few CC0 1.0) |
+
+French (added 2026-10-22, 4,150 words): Wikipedia `encyclopedia` 6 (history, biography,
+geography, science, technology, food; CC BY-SA 4.0), Project Gutenberg `literature` 5 (public
+domain), Tatoeba `everyday` 2 (CC BY 2.0 FR, a few CC0 1.0).
 
 Topics of the Wikipedia passages (one article each, per language): history, biography, geography,
 science, technology, sport, culture, politics, biology, economy, medicine, food.
@@ -68,6 +73,13 @@ Passages were chosen mechanically, not by reading candidates. Every random choic
   proficiency (level 5 of 5) in the language, shuffled with the seed and taken in order until a
   block reaches 300 words; block 2 continues where block 1 stopped.
 
+- **French** (`build_fr.py`, the same rules): Wikipedia categories Traité de paix + Bataille
+  de la guerre de Cent Ans, Peintre français du XIXe siècle, Île de la mer Méditerranée + Île de la
+  mer Égée, Élément chimique, Appareil électroménager, Fromage français + Fromage au lait de vache;
+  Gutenberg: Maupassant (*Contes du jour et de la nuit*), Daudet (*Lettres de mon moulin*), Hugo
+  (*Les misérables*, tome I), Dumas (*Les trois mousquetaires*), Sand (*La Mare au Diable*);
+  Tatoeba sentences of native French speakers.
+
 Length: whole paragraphs are taken while the passage stays at most 400 words; a passage still under
 200 words is filled with whole sentences of the next paragraph. Wiki text is extracted from the
 rendered page: only `<p>` paragraphs, without tables, infoboxes, image captions, lists, footnote
@@ -98,13 +110,15 @@ CC BY-SA 4.0 licence.
 python3 testing/realtext/check.py      # validate the files
 python3 testing/realtext/measure.py    # coverage report
 python3 testing/realtext/measure.py --lang de --markdown
+python3 testing/realtext/measure.py --lang fr --fr-direction fr-fr   # fr-de (default), fr-fr, fr-en
 python3 testing/realtext/measure.py --cli path/to/dorothea --packs path/to/packs --out /tmp/realtext-out
 ```
 
 `measure.py` expects the `dorothea` CLI and a pack directory with `de-morph.pack`,
 `de-en/core.pack` + chunks, `freq-de.pack`, `en-morph.pack`, `en-de/core.pack` + chunks and
 `freq-en.pack`. German passages are analysed with the German→English packs, English passages with
-the English→German packs. Every word token the analyser returns falls into one bucket:
+the English→German packs, French passages with the packs of `--fr-direction` (`fr-morph.pack`,
+`<direction>/core.pack` + chunks, `freq-fr.pack`, French name packs `names-*-fr.pack`). Every word token the analyser returns falls into one bucket:
 
 | Bucket | Meaning |
 |---|---|
@@ -186,9 +200,28 @@ Names (added 2026-10-21; Dorothea `main` 9013317, packs `packs-v11`): German 308
 tokens marked (recall 81.1 %), 42 false alarms (precision 88.0 %); English 281 of 413 (68.0 %),
 52 false alarms (84.4 %).
 
+French (added 2026-10-22; Dorothea `main` 843ab83 with packs `packs-fr`, and branch
+`french-quality` with packs `packs-frq`, which was tuned with this set's help), shares of the
+4,442 word tokens:
+
+| direction | engine | level | no level | empty | not found | names recall / false alarms |
+|---|---|--:|--:|--:|--:|---|
+| fr → de | main | 84.6 % | 8.6 % | 4.0 % | 2.8 % | 94.0 % / 2 |
+| fr → de | french-quality | 90.1 % | 3.6 % | 3.5 % | 2.8 % | 94.0 % / 1 |
+| fr–fr | main | 84.2 % | 6.1 % | 7.7 % | 2.0 % | 94.6 % / 2 |
+| fr–fr | french-quality | 92.4 % | 5.6 % | 0.1 % | 2.0 % | 94.6 % / 1 |
+| fr → en | main | 85.7 % | 11.4 % | 0.6 % | 2.3 % | 92.2 % / 1 |
+| fr → en | french-quality | 92.3 % | 5.0 % | 0.5 % | 2.3 % | 92.2 % / 1 |
+
+Not found in French is mostly names, unit symbols and isotope notation with mass numbers, and Latin words; empty
+cards in fr → de are words whose French entry has no German translation. Encyclopedia text is
+the weakest genre (fr → de 85.7 % with a level), everyday sentences the strongest (95.8 %).
+
 ## Changes
 
 - 2026-10-21: first version, 60 passages.
 - 2026-10-21: `names.tsv` (names in every passage) and the name metric in `measure.py` (recall,
   false alarms, precision); `measure.py` passes the name list packs (`names-*.pack`) of the pack
   directory to the CLI.
+- 2026-10-22: 13 French passages (`build_fr.py`), French names in `names.tsv`, `--lang fr` and
+  `--fr-direction` in `measure.py`, French in `check.py`.

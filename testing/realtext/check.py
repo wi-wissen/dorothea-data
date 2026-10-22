@@ -11,7 +11,7 @@ import unicodedata
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 COLUMNS = ['id', 'lang', 'genre', 'topic', 'source', 'title', 'url', 'licence', 'attribution', 'retrieved', 'words']
-LANGS = {'de', 'en'}
+LANGS = {'de', 'en', 'fr'}
 GENRES = {'encyclopedia', 'encyclopedia-simple', 'news', 'literature', 'fairy-tale', 'everyday'}
 LICENCES = {'CC BY-SA 4.0', 'CC BY 2.5', 'CC BY 4.0', 'public domain', 'CC BY 2.0 FR (some CC0 1.0)'}
 SENTENCE_LICENCES = {'CC BY 2.0 FR', 'CC0 1.0'}
