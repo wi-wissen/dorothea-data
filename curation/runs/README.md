@@ -16,4 +16,5 @@ like `de-en-gloss-2026-11-a`. See `docs/METHOD.md`, section 3.
 | [en-level-2026-10-22-a](en-level-2026-10-22-a.md) | level + doubt (gap run) | 2026-10-22 |
 | [en-level-2026-10-23-a](en-level-2026-10-23-a.md) | level + doubt (phrasal verbs) | 2026-10-23 |
 | [fr-level-2026-10-24-a](fr-level-2026-10-24-a.md) | level + two doubt passes (French) | 2026-10-24 |
+| [fr-level-2026-10-22-fn](fr-level-2026-10-22-fn.md) | level (French function words) | 2026-10-22 |
 | [fr-cur-2026-10-24-a](fr-cur-2026-10-24-a.md) | gloss + check + repair (French) | 2026-10-24 |
