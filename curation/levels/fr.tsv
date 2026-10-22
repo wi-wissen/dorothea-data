@@ -412,6 +412,8 @@ afférent	adj		C1
 affût	noun		C2	
 afghan	adj		C2	
 afghan	noun		C2	
+afin de	prep		B1	
+afin que	conj		B1	
 africain	adj		A2	
 afro-américain	adj		C1	
 agacement	noun		C1	
@@ -2584,6 +2586,7 @@ bûche	noun		B2
 bûcher	noun		C2	
 bûcheron	noun		B2	
 bœuf	noun		A2	
+c'est-à-dire	phrase		B1	
 cabale	noun		C2	
 cabane	noun		B1	
 cabaret	noun		B2	
@@ -3141,6 +3144,7 @@ chapiteau	noun		C1
 chapitre	noun		B1	
 chapitrer	verb		C2	
 chapon	noun		C2	
+chaque	adj		A1	
 char	noun		B2	
 charade	noun		B2	
 charbon	noun		B1	
@@ -4902,6 +4906,7 @@ côtier	adj		B2
 côtoyer	verb		C1	
 côté	noun		A2	
 cœur	noun		A2	
+c’est-à-dire	conj		B1	
 dada	noun		C2	
 dague	noun		C2	
 daigner	verb		C1	
@@ -5402,6 +5407,7 @@ don	noun		B1
 donataire	noun		C2	
 donateur	noun		C1	
 donation	noun		C1	
+donc	adv		A2	
 donjon	noun		C1	
 donner	verb		A1	
 donneur	noun		B2	
@@ -11344,6 +11350,7 @@ microscopique	adj		C1
 midi	noun		A1	
 mie	noun		C2	
 miel	noun		A2	
+mien	adj		B1	
 miette	noun		B2	
 mieux	adv		A2	
 mignon	adj		B1	
@@ -12117,6 +12124,7 @@ naître	verb		A2
 naïf	adj		B2	
 naïvement	adv		B2	
 naïveté	noun		C1	
+ne	part		A1	
 nectar	noun		C1	
 nef	noun		C2	
 neige	noun		A1	
@@ -12380,6 +12388,7 @@ néonatal	adj		C2
 néophyte	noun		C2	
 népalais	adj		C1	
 névrose	noun		C2	
+nôtre	adj		B1	
 nœud	noun		B2	
 oasis	noun		B2	
 objecter	verb		C1	
@@ -12967,6 +12976,7 @@ paravent	noun		C2
 paraître	verb		B1	
 parbleu	intj		C2	
 parc	noun		A2	
+parce que	conj		A1	
 parcellaire	adj		C2	
 parcelle	noun		C1	
 parchemin	noun		C1	
@@ -16681,6 +16691,7 @@ sida	noun		B2
 sidéral	adj		C2	
 sidérurgie	noun		C2	
 sidérurgique	adj		C2	
+sien	adj		B1	
 sierra	noun		C2	
 sieste	noun		A2	
 sieur	noun		C2	
@@ -17732,6 +17743,7 @@ tamiser	verb		C2
 tamoul	adj		C2	
 tampon	noun		B2	
 tandem	noun		C1	
+tandis que	conj		B1	
 tangent	adj		C2	
 tangible	adj		C1	
 tango	noun		B2	
@@ -17970,6 +17982,7 @@ tibia	noun		C1
 tibétain	adj		B1	
 tic	noun		B2	
 ticket	noun		A2	
+tien	adj		B1	
 tiens	intj		A2	
 tiers	adj		C1	
 tiers	noun		C1	
@@ -19073,6 +19086,8 @@ voiler	verb		C1
 voilette	noun		C2	
 voilier	noun		B1	
 voilure	noun		C2	
+voilà	intj		A1	
+voilà	prep		A1	
 voilé	adj		C1	
 voir	verb		A1	
 voire	adv		B2	
@@ -19207,6 +19222,7 @@ vêpres	noun		C2
 vêtement	noun		A2	
 vêtir	verb		C1	
 vêtu	adj		B2	
+vôtre	adj		B1	
 vœu	noun		B1	
 wagon	noun		B1	
 wallon	adj		C1	
