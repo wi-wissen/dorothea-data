@@ -207,15 +207,15 @@ French (added 2026-10-22; Dorothea `main` 843ab83 with packs `packs-fr`, and bra
 | direction | engine | level | no level | empty | not found | names recall / false alarms |
 |---|---|--:|--:|--:|--:|---|
 | fr → de | main | 84.6 % | 8.6 % | 4.0 % | 2.8 % | 94.0 % / 2 |
-| fr → de | french-quality | 90.1 % | 3.6 % | 3.5 % | 2.8 % | 94.0 % / 1 |
+| fr → de | french-quality | 90.4 % | 3.7 % | 3.2 % | 2.7 % | 94.0 % / 1 |
 | fr–fr | main | 84.2 % | 6.1 % | 7.7 % | 2.0 % | 94.6 % / 2 |
-| fr–fr | french-quality | 92.4 % | 5.6 % | 0.1 % | 2.0 % | 94.6 % / 1 |
+| fr–fr | french-quality | 92.3 % | 5.6 % | 0.1 % | 1.9 % | 94.6 % / 1 |
 | fr → en | main | 85.7 % | 11.4 % | 0.6 % | 2.3 % | 92.2 % / 1 |
-| fr → en | french-quality | 92.3 % | 5.0 % | 0.5 % | 2.3 % | 92.2 % / 1 |
+| fr → en | french-quality | 92.3 % | 5.0 % | 0.4 % | 2.3 % | 92.2 % / 1 |
 
 Not found in French is mostly names, unit symbols and isotope notation with mass numbers, and Latin words; empty
 cards in fr → de are words whose French entry has no German translation. Encyclopedia text is
-the weakest genre (fr → de 85.7 % with a level), everyday sentences the strongest (95.8 %).
+the weakest genre (fr → de 86.1 % with a level), everyday sentences the strongest (95.8 %).
 
 ## Changes
 
