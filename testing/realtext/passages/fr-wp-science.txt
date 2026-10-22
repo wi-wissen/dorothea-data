@@ -1,0 +1,13 @@
+L'élément n'existe pas à l'état naturel sur Terre, en raison de sa demi-vie faible (900 ans ou moins selon les isotopes) par rapport à l'âge de la planète, tous les atomes qui pouvaient se trouver présents lors de la formation de la Terre se seraient désintégrés, et ne faisant pas partie des chaînes de désintégration naturelles il n'est pas renouvelé naturellement. Tous les atomes de californium présents sur Terre sont donc d'origine humaine.
+
+Des traces de californium peuvent être trouvées à proximité d'installations utilisant l'élément en prospection minière et en médecine. L'élément est difficilement soluble dans l'eau mais il adhère bien à un sol ordinaire (les concentrations de californium dans le sol peuvent être 500 fois plus importantes que dans l'eau entourant les particules de ce sol).
+
+Les retombées radioactives issues d'essais nucléaires atmosphériques antérieurs à 1980 sont à l'origine de la présence d'une petite quantité de californium dans l'environnement. Les isotopes du californium de nombres de masse 249, 252, 253 et 254 ont été observés dans la poussière radioactive récoltée dans l'air après une explosion nucléaire.
+
+Il a été supposé que le californium était produit par des supernovae, leurs désintégrations concordant avec la demi-vie de 60 jours de 254Cf. Cependant, des études ultérieures ont échoué à montrer tout spectre du californium et les courbes de lumière des supernovae sont maintenant présumées suivre la désintégration du nickel 56.
+
+Le californium se forme dans les réacteurs nucléaires par captures neutroniques successives à partir d'uranium 238. L'étape intermédiaire est le berkélium 97Bk, qui peut donner du californium autant par capture neutronique que par désintégration β (à partir de l'isotope 249Bk).
+
+L'isotope 251Cf a une section efficace de fission de 4 800 barn pour les neutrons thermiques, ce qui fait que la plupart des atomes fissionnent avant de capturer des neutrons supplémentaires, mais il en demeure néanmoins suffisamment pour que se forme du 252Cf dans le matériau nucléaire; ce 252Cf se désintègre rapidement en une série d'isotopes du curium, lesquels sont susceptibles de redonner à leur tour du californium par capture neutronique.
+
+L'isotope à la plus grande demi-vie est 251Cf avec une demi-vie d'environ 900 ans.

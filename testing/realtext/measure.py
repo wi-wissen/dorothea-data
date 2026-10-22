@@ -35,12 +35,19 @@ DEFAULT_OUT = '/home/user/dorothea-build/realtext-out'
 BUCKETS = ['level', 'no-level', 'part-gloss', 'base-gloss', 'empty', 'not-found', 'other']
 
 
+FR_DIRECTION = 'fr-de'
+
+
 def pack_args(packs, lang):
-    # Name list packs (`names-*.pack`) of the pack directory, if any.
+    # Name list packs (`names-*.pack`; French ones end in `-fr.pack`) of the pack directory, if any.
     names = []
     for f in sorted(os.listdir(packs)):
-        if f.startswith('names-') and f.endswith('.pack'):
+        if f.startswith('names-') and f.endswith('.pack') and f.endswith('-fr.pack') == (lang == 'fr'):
             names += ['--names-pack', f'{packs}/{f}']
+    if lang == 'fr':
+        d = FR_DIRECTION
+        return ['--morph-pack', f'{packs}/fr-morph.pack', '--dict-pack', f'{packs}/{d}/core.pack',
+                '--chunks', f'{packs}/{d}', '--freq-pack', f'{packs}/freq-fr.pack'] + names
     if lang == 'de':
         return ['--morph-pack', f'{packs}/de-morph.pack', '--dict-pack', f'{packs}/de-en/core.pack',
                 '--chunks', f'{packs}/de-en', '--freq-pack', f'{packs}/freq-de.pack'] + names
@@ -100,10 +107,14 @@ def main():
     ap.add_argument('--cli', default=DEFAULT_CLI)
     ap.add_argument('--packs', default=DEFAULT_PACKS)
     ap.add_argument('--out', default=DEFAULT_OUT, help='output folder (keep it outside git)')
-    ap.add_argument('--lang', choices=['de', 'en'], help='only this language')
+    ap.add_argument('--lang', choices=['de', 'en', 'fr'], help='only this language')
+    ap.add_argument('--fr-direction', default='fr-de', choices=['fr-de', 'fr-fr', 'fr-en'],
+                    help='direction for the French passages')
     ap.add_argument('--id', action='append', help='only these passage ids (repeatable)')
     ap.add_argument('--markdown', action='store_true', help='print the summary as a Markdown table')
     args = ap.parse_args()
+    global FR_DIRECTION
+    FR_DIRECTION = args.fr_direction
 
     with open(os.path.join(HERE, 'passages.tsv'), encoding='utf-8', newline='') as fh:
         rows = list(csv.DictReader(fh, delimiter='\t'))
