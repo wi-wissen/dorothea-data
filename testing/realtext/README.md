@@ -1,6 +1,6 @@
 # Real-text development set
 
-About 70 passages of text **written by people** (60 German and English, 13 French), for measuring how
+About 85 passages of text **written by people** (60 German and English, 13 French, 13 Spanish), for measuring how
 well Dorothea covers real reading material: how many words it finds, how many get a CEFR level,
 which words it misses.
 
@@ -17,7 +17,7 @@ numbers will drift upward over time; confirm real progress on the held-out sets.
 | `passages.tsv` | one row per passage: `id`, `lang`, `genre`, `topic`, `source`, `title`, `url` (permalink of the exact revision or eBook), `licence`, `attribution`, `retrieved` (download date), `words` (whitespace-separated tokens) |
 | `passages/<id>.txt` | the passage, UTF-8, paragraphs separated by a blank line (Tatoeba: one sentence per line) |
 | `attribution/<id>.tsv` | Tatoeba only: sentence id, author (username), licence and URL of every sentence |
-| `build_fr.py` | selection and extraction of the French passages (the German and English ones were built the same way) |
+| `build_fr.py`, `build_es.py` | selection and extraction of the French and the Spanish passages (the German and English ones were built the same way) |
 | `check.py` | validator (Python 3, standard library only) |
 | `measure.py` | runs `dorothea analyze --json` over every passage and reports coverage and name recognition |
 | `names.tsv` | the names in each passage (gold annotation for the name metric, see below) |
@@ -39,6 +39,10 @@ domain), Tatoeba `everyday` 2 (CC BY 2.0 FR, a few CC0 1.0).
 
 Topics of the Wikipedia passages (one article each, per language): history, biography, geography,
 science, technology, sport, culture, politics, biology, economy, medicine, food.
+
+Spanish (added 2026-10-22, 4,134 words): Wikipedia `encyclopedia` 6 (history, biography,
+geography, science, technology, food; CC BY-SA 4.0), Project Gutenberg `literature` 5 (public
+domain), Tatoeba `everyday` 2 (CC BY 2.0 FR, a few CC0 1.0).
 
 ## Selection rule
 
@@ -79,6 +83,13 @@ Passages were chosen mechanically, not by reading candidates. Every random choic
   Gutenberg: Maupassant (*Contes du jour et de la nuit*), Daudet (*Lettres de mon moulin*), Hugo
   (*Les misérables*, tome I), Dumas (*Les trois mousquetaires*), Sand (*La Mare au Diable*);
   Tatoeba sentences of native French speakers.
+- **Spanish** (`build_es.py`, the same rules): Wikipedia categories Tratados de paz, Pintores de
+  España del siglo XIX, Islas de Italia en el mar Tirreno (the first category with at least five
+  articles of a list that started with the Canary and Balearic Islands, which do not exist as
+  categories of that name), Elementos químicos, Electrodomésticos, Quesos de leche de vaca (Quesos
+  de España does not exist); Gutenberg: Pérez Galdós (*Doña Perfecta*), Clarín (*La Regenta*),
+  Pardo Bazán (*Los pazos de Ulloa*), Bécquer (*Obras escogidas*, the old spelling of the edition
+  kept: *á*, *oir*), Valera (*Pepita Jiménez*); Tatoeba sentences of native Spanish speakers.
 
 Length: whole paragraphs are taken while the passage stays at most 400 words; a passage still under
 200 words is filled with whole sentences of the next paragraph. Wiki text is extracted from the
@@ -111,6 +122,7 @@ python3 testing/realtext/check.py      # validate the files
 python3 testing/realtext/measure.py    # coverage report
 python3 testing/realtext/measure.py --lang de --markdown
 python3 testing/realtext/measure.py --lang fr --fr-direction fr-fr   # fr-de (default), fr-fr, fr-en
+python3 testing/realtext/measure.py --lang es --es-direction es-es   # es-de (default), es-es, es-en
 python3 testing/realtext/measure.py --cli path/to/dorothea --packs path/to/packs --out /tmp/realtext-out
 ```
 
@@ -118,7 +130,8 @@ python3 testing/realtext/measure.py --cli path/to/dorothea --packs path/to/packs
 `de-en/core.pack` + chunks, `freq-de.pack`, `en-morph.pack`, `en-de/core.pack` + chunks and
 `freq-en.pack`. German passages are analysed with the German→English packs, English passages with
 the English→German packs, French passages with the packs of `--fr-direction` (`fr-morph.pack`,
-`<direction>/core.pack` + chunks, `freq-fr.pack`, French name packs `names-*-fr.pack`). Every word token the analyser returns falls into one bucket:
+`<direction>/core.pack` + chunks, `freq-fr.pack`, French name packs `names-*-fr.pack`), Spanish
+passages with those of `--es-direction` (`es-morph.pack`, `freq-es.pack`, `names-*-es.pack`). Every word token the analyser returns falls into one bucket:
 
 | Bucket | Meaning |
 |---|---|
@@ -217,6 +230,21 @@ Not found in French is mostly names, unit symbols and isotope notation with mass
 cards in fr → de are words whose French entry has no German translation. Encyclopedia text is
 the weakest genre (fr → de 86.1 % with a level), everyday sentences the strongest (95.8 %).
 
+Spanish (added 2026-10-22; Dorothea branch `spanish` with packs `packs-es`, developed while
+looking at this set; no Spanish levels exist yet, so every found word is "no level"), shares of
+the 4,134 word tokens:
+
+| direction | found, with a gloss | empty | not found | names recall / false alarms |
+|---|--:|--:|--:|---|
+| es → de | 95.0 % | 0.3 % | 4.6 % | 72.4 % / 5 |
+| es–es | 95.2 % | 0.5 % | 4.3 % | 72.9 % / 5 |
+| es → en | 96.2 % | 0.0 % | 3.8 % | 77.8 % / 6 |
+
+Not found in Spanish is mostly names (`Ponza`, `Briand`, `Roomba`), product codes and foreign
+words (`Vacherin`, `d'Or`); encyclopedia text is the weakest genre (es → de 92.2 % found),
+literature the strongest (97.7 %). Missed names are mostly capitalised common words
+(`Pepita`, `Palma`, `Reino Unido`, `Naciones Unidas`).
+
 ## Changes
 
 - 2026-10-21: first version, 60 passages.
@@ -225,3 +253,5 @@ the weakest genre (fr → de 86.1 % with a level), everyday sentences the strong
   directory to the CLI.
 - 2026-10-22: 13 French passages (`build_fr.py`), French names in `names.tsv`, `--lang fr` and
   `--fr-direction` in `measure.py`, French in `check.py`.
+- 2026-10-22: 13 Spanish passages (`build_es.py`), Spanish names in `names.tsv`, `--lang es` and
+  `--es-direction` in `measure.py`, Spanish in `check.py`.
