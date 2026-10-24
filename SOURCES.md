@@ -12,6 +12,7 @@ Downloads are kept outside the repository.
 | French Wiktionary, all entries, via kaikki.org (`fr-extract.jsonl.gz`, https://kaikki.org/dictionary/downloads/fr/fr-extract.jsonl.gz) | extract of 2026-10-03 (Last-Modified) | 2026-10-21 | `fr-extract.jsonl.gz` (736,590,407 bytes) | `f3fc5417d1759188ecfd74df90cbf231b28306b150970ea89614cb8cb4668f32` |
 | English Wiktionary, Spanish entries, via kaikki.org (`kaikki.org-dictionary-Spanish.jsonl`, https://kaikki.org/dictionary/Spanish/; marked deprecated by kaikki.org, still served; stored gzipped as `en-Spanish.jsonl.gz`, 81,441,448 bytes, SHA-256 `d480a9199d54e2150c576f9b87324630e0960b7c64f91952ef9c93eb0e2ebde0`) | extract of 2026-10-03 (Last-Modified) | 2026-10-22 | `kaikki.org-dictionary-Spanish.jsonl` (1,054,565,723 bytes) | `7b23a5dc004a47b63edc2e79a34b246bbf59d1a3067a1843a5c554c0e252b97c` |
 | Spanish Wiktionary, all entries, via kaikki.org (`es-extract.jsonl.gz`, https://kaikki.org/dictionary/downloads/es/es-extract.jsonl.gz) | extract of 2026-10-03 (Last-Modified) | 2026-10-22 | `es-extract.jsonl.gz` (103,226,106 bytes) | `fb5b5b8520912d1d1a398f2b8bf2569c11911b4c26bad6b8c066a84f5e3d34ed` |
+| English Wiktionary, Latin entries, via kaikki.org (`kaikki.org-dictionary-Latin.jsonl.gz`, https://kaikki.org/dictionary/Latin/) | extract of 2026-10-21 (Last-Modified) | 2026-10-24 | `kaikki.org-dictionary-Latin.jsonl.gz` (110,190,443 bytes) | `71a71ba140868e1a64d23b4f38a84be18affab9a12fbd4fbe6076a4882b0c9bc` |
 | OdeNet (Open German WordNet), `odenet_oneline.xml` of https://github.com/hdaSprachtechnologie/odenet, CC BY-SA 4.0 | version 1.3, commit `8ba741223048c28f67d4c38560ea4c0ee89568bb` (2026-01-07) | 2026-10-21 | `odenet_oneline.xml` (24,404,316 bytes) | `ff2bd92b8758c36e80477393e220675edf4062d13e6c8f8e3eb84b9df569df83` |
 | Open English WordNet, https://github.com/globalwordnet/english-wordnet, CC BY 4.0 | 2025 edition (release `2025-edition`) | 2026-10-21 | `english-wordnet-2025.xml.gz` (11,363,503 bytes) | `9ca6d1dcb75f822fdd66617f7d9da48142ace38dd544d6ad5e2feca1674ad3fe` |
 | Wikidata lexemes, https://dumps.wikimedia.org/wikidatawiki/entities/, CC0 1.0 (evaluated, not used by the default build) | `latest-lexemes.json.gz`, Last-Modified 2026-10-21 03:55 UTC | 2026-10-21 | `latest-lexemes.json.gz` (655,273,999 bytes) | `85ebe293f2357f69776fd06edc4fb4c23f26403f3489b8ff9e1014322dc3f4c2` |
@@ -44,6 +45,9 @@ Downloads are kept outside the repository.
   (`kaikki.org-dictionary-English.jsonl` above). All CC BY-SA 4.0, like the other Wiktionary
   data. German translations reached through English for Spanish words without German
   (`pivot`) come from the same English Wiktionary data.
+- **Latin** (2026-10-24): the Latin directions (la → de, la → en) use the Latin entries of the
+  English Wiktionary (above) and of the German Wiktionary (`de-extract.jsonl.gz` above). Levels
+  (`curation/levels/la.tsv`) are school stages, see `curation/runs/la-level-2026-10-24-a.md`.
 
 ## Real-text development set (`testing/realtext/`)
 

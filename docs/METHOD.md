@@ -83,6 +83,10 @@ CEFR levels start from Dorothea's own lists (CC BY 4.0), written by agents per t
 into levels by other agents, then compared statistically with public reference lists only to measure
 the distance (no list entries were copied). Words without a level get one in `level` runs.
 
+Latin has no CEFR. Its six level slots are school stages of Latin at a German secondary school: A1
+first year, A2 second year, B1 end of the textbook phase and transition reading, B2 core vocabulary
+of the school authors, C1 wider reading and poetry, C2 rare (`curation/levels/la.tsv`).
+
 ## 4. Applying the method to a new language
 
 1. Fill in the direction table (section 1) and check every source licence (commercial use allowed;
