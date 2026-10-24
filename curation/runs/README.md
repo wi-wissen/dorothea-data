@@ -20,6 +20,7 @@ like `de-en-gloss-2026-11-a`. See `docs/METHOD.md`, section 3.
 | [fr-cur-2026-10-24-a](fr-cur-2026-10-24-a.md) | gloss + check + repair (French) | 2026-10-24 |
 | [de-fix-2026-10-22-a](de-fix-2026-10-22-a.md) | check (user reports) | 2026-10-22 |
 | [es-level-2026-10-22-a](es-level-2026-10-22-a.md) | level + two doubt passes (Spanish) | 2026-10-22 |
+| [es-level-2026-10-24-fn](es-level-2026-10-24-fn.md) | level (Spanish function words and gaps) | 2026-10-24 |
 | [es-cur-2026-10-22-a](es-cur-2026-10-22-a.md) | gloss + check + repair (Spanish) | 2026-10-22 |
 | [es-cur-2026-10-22-b](es-cur-2026-10-22-b.md) | gloss follow-up: missing lists (Spanish) | 2026-10-22 |
 | [fr-cur-2026-10-24-b](fr-cur-2026-10-24-b.md) | gloss follow-up: missing lists (French) | 2026-10-22 |
