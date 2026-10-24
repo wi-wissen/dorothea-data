@@ -23,4 +23,4 @@ like `de-en-gloss-2026-11-a`. See `docs/METHOD.md`, section 3.
 | [es-cur-2026-10-22-a](es-cur-2026-10-22-a.md) | gloss + check + repair (Spanish) | 2026-10-22 |
 | [es-cur-2026-10-22-b](es-cur-2026-10-22-b.md) | gloss follow-up: missing lists (Spanish) | 2026-10-22 |
 | [fr-cur-2026-10-24-b](fr-cur-2026-10-24-b.md) | gloss follow-up: missing lists (French) | 2026-10-22 |
-| [la-level-2026-10-24-a](la-level-2026-10-24-a.md) | level + consistency review (Latin) | 2026-10-24 |
+| [la-level-2026-10-24-a](la-level-2026-10-24-a.md) | level + two review passes (Latin) | 2026-10-24 |
