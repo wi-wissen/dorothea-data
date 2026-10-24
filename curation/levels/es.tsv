@@ -2,6 +2,7 @@
 # Columns: lemma, pos, hint (own sense label, empty = whole entry), cefr, topics (comma-separated ids of curation/topics.tsv)
 lemma	pos	hint	cefr	topics
 a	prep		A1	
+a través de	prep		B1	
 abacial	adj		C2	
 abad	noun		C1	
 abadejo	noun		C1	
@@ -2769,6 +2770,7 @@ atrasar	verb		B2
 atraso	noun		B2	
 atravesar	verb		B1	
 atrayente	adj		C1	
+atreverse	verb		B1	
 atrevidamente	adv		B2	
 atrevido	adj		B2	
 atrevimiento	noun		B2	
@@ -19593,6 +19595,7 @@ mezquita	noun		B2
 mezquite	noun		C2	
 mezzosoprano	noun		C2	
 meñique	noun		B2	
+mi	det		A1	
 miaja	noun		C2	
 miau	intj		A2	
 mica	noun		C2	
@@ -29097,6 +29100,7 @@ tríptico	noun		C1
 trófico	adj		C2	
 trópico	noun		B2	
 tsunami	noun		B2	
+tu	det		A1	
 tuba	noun		C1	
 tuberculosis	noun		B2	
 tuberoso	adj		C2	
@@ -30060,6 +30064,7 @@ vómito	noun		B2
 vórtice	noun		C1	
 wasap	noun		A2	
 waterpolo	noun		B2	
+web	noun		A2	
 western	noun		B2	
 whisky	noun		B1	
 wifi	noun		A2	
