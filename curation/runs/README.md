@@ -27,4 +27,5 @@ like `de-en-gloss-2026-11-a`. See `docs/METHOD.md`, section 3.
 | [la-level-2026-10-24-a](la-level-2026-10-24-a.md) | level + two review passes (Latin) | 2026-10-24 |
 | [fr-cur-2026-10-29-a](fr-cur-2026-10-29-a.md) | check + repair (French, ranks 1,001–2,000) | 2026-10-29 |
 | [la-cur-2026-10-24-a](la-cur-2026-10-24-a.md) | gloss + check + repair (Latin) | 2026-10-24 |
+| [la-cur-2026-10-30-a](la-cur-2026-10-30-a.md) | gloss: la → en order and missing meanings of eight entries (Latin) | 2026-10-30 |
 | [de-cur-2026-10-30-a](de-cur-2026-10-30-a.md) | check + repair (German verbs with a preposition) | 2026-10-30 |
