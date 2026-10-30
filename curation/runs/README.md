@@ -29,3 +29,4 @@ like `de-en-gloss-2026-11-a`. See `docs/METHOD.md`, section 3.
 | [la-cur-2026-10-24-a](la-cur-2026-10-24-a.md) | gloss + check + repair (Latin) | 2026-10-24 |
 | [la-cur-2026-10-30-a](la-cur-2026-10-30-a.md) | gloss: la → en order and missing meanings of eight entries (Latin) | 2026-10-30 |
 | [de-cur-2026-10-30-a](de-cur-2026-10-30-a.md) | check + repair (German verbs with a preposition) | 2026-10-30 |
+| [de-cur-2026-10-30-b](de-cur-2026-10-30-b.md) | check + repair (German prepositional idioms, Schlag, Figur) | 2026-10-30 |
