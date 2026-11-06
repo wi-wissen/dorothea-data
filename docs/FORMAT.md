@@ -139,10 +139,19 @@ Several missing meanings (Spanish *poner*: *ponerse la ropa* and *ponerse nervio
 | `senses[].learner_<lang>` | short explanation for learners in the headword language: `learner_de` for German headwords, `learner_en` for English ones (the English pilot writes it as `learner`). Stored as `learner.<lang>` |
 | `senses[].<t>_keep`, `<t>_drop`, `<t>_add` | translations into language `t` (`en` for German headwords, `de` for English ones): source glosses that are correct, source glosses that are wrong, new ones. German nouns may be added with their article (`das Haus`); the build writes them like the source (`Haus n`) |
 | `senses[].note` | optional remark of the curator; not used by the build |
+| `senses[].dirs`, `missing[].dirs` | optional list of the directions the edit or missing sense applies to (`["de-en"]`, `["de-de"]`); absent: every direction of the headword language |
 | `missing` | optional everyday meanings the source lacks: one object `{"learner_<lang>": "…", "<t>": ["…"]}`, an array of such objects (in card order), or `null`; `[]` means none |
 | `see` | optional base word of an entry that only refers to it (an inflected form or a pure cross-reference); the lookup follows it like a `form_of` reference |
 
 How the build applies a run (all four directions):
+
+- **Directions.** Sense edits and `missing` objects with a `dirs` list apply only in the
+  directions it names; the build drops the others before anything else. Use it when the two
+  Wiktionaries number a sense differently: a de-en edit of an English Wiktionary sense with
+  `"dirs": ["de-en"]` and a de-de edit of the German Wiktionary sense with `"dirs": ["de-de"]`,
+  so neither is re-attached by its anchor nor carried into the other direction. A `missing` list
+  whose objects all name other directions replaces nothing in a direction (its earlier missing
+  senses stay).
 
 - **Entry.** By `key`; if the key is missing, among the entries with the same lemma and part of
   speech the one holding most of the edit's sense ids (homograph numbers differ between sources).
