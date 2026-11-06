@@ -32,3 +32,4 @@ like `de-en-gloss-2026-11-a`. See `docs/METHOD.md`, section 3.
 | [de-cur-2026-10-30-b](de-cur-2026-10-30-b.md) | check + repair (German prepositional idioms, Schlag, Figur) | 2026-10-30 |
 | [de-cur-2026-10-31-a](de-cur-2026-10-31-a.md) | check + repair (German homographs: Brust, Ablauf, schlagen, Rückstand, Durchgang, durchziehen) | 2026-10-31 |
 | [de-cur-2026-10-31-b](de-cur-2026-10-31-b.md) | check + repair (German homographs: Schlag, frisch, klappen, strahlen, ziehen, Durchgang) | 2026-10-31 |
+| [de-cur-2026-11-06-a](de-cur-2026-11-06-a.md) | check + repair (German homographs: Schlag, schlagen, Figur, frisch, treffen, ziehen; first run with `dirs`) | 2026-11-06 |
